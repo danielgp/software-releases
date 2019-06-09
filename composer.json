@@ -1,0 +1,15 @@
+{
+    "name": "danielgp/software-releases",
+    "description": "List of selected software general information and their recent releases",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Popiniuc",
+            "email": "danielpopiniuc@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
