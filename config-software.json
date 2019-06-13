@@ -3702,6 +3702,76 @@
         ],
         "Website": "https://notepad-plus-plus.org/"
     },
+    "open_ssl": {
+        "Branches": {
+            "1.0.2": {
+                "Platform": {
+                    "Windows 32-bit": "Downloads Platform",
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://github.com/openssl/openssl/releases",
+                "Status":   "Active Support",
+                "Versions": [
+                    {
+                        "Date":    "2019-05-28",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://slproweb.com/download/Win32OpenSSL_Light-1_0_2s.exe",
+                            "Windows 64-bit": "https://slproweb.com/download/Win64OpenSSL_Light-1_0_2s.exe"
+                        },
+                        "Version": "1.0.2s"
+                    }
+                ]
+            },
+            "1.1.0": {
+                "Platform": {
+                    "Windows 32-bit": "Downloads Platform",
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://github.com/openssl/openssl/releases",
+                "Status":   "Active Support",
+                "Versions": [
+                    {
+                        "Date":    "2019-05-28",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://slproweb.com/download/Win32OpenSSL_Light-1_1_0k.exe",
+                            "Windows 64-bit": "https://slproweb.com/download/Win64OpenSSL_Light-1_1_0k.exe"
+                        },
+                        "Version": "1.1.0k"
+                    }
+                ]
+            },
+            "1.1.1": {
+                "Platform": {
+                    "Windows 32-bit": "Downloads Platform",
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://github.com/openssl/openssl/releases",
+                "Status":   "Active Support",
+                "Versions": [
+                    {
+                        "Date":    "2019-05-28",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://windows.php.net/downloads/php-sdk/deps/vs16/x86/openssl-1.1.1c-vs16-x86.zip",
+                            "Windows 64-bit": "https://windows.php.net/downloads/php-sdk/deps/vs16/x64/openssl-1.1.1c-vs16-x64.zip"
+                        },
+                        "Version": "1.1.1c"
+                    },
+                    {
+                        "Date":    "2019-02-26",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://windows.php.net/downloads/php-sdk/deps/vs16/x86/openssl-1.1.1b-vs16-x86.zip",
+                            "Windows 64-bit": "https://windows.php.net/downloads/php-sdk/deps/vs16/x64/openssl-1.1.1b-vs16-x64.zip"
+                        },
+                        "Version": "1.1.1b"
+                    }
+                ]
+            }
+        },
+        "Description": "OpenSSL is a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library. For more information about the team and community around the project, or to start making your own contributions, start with the community page. To get the latest news, download the source, and so on, please see the sidebar or the buttons at the top of every page. ",
+        "Name":        "Open SSL",
+        "Type":        "TLS/SSL and crypto library",
+        "Website":     "https://www.openssl.org/"
+    },
     "oracle_instant_client": {
         "Branches": {
             "12.x": {
