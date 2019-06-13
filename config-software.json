@@ -1614,6 +1614,13 @@
         "Type": "MD editor",
         "Versions": [
             {
+                "Date": "2019-06-08",
+                "Downloads Platform": {
+                    "Windows 32-bit Portable": "http://tomeko.net/software/JSONedit/bin/JSONedit_0_9_32_2.zip"
+                },
+                "Version": "0.9.32.3"
+            },
+            {
                 "Date": "2019-03-21",
                 "Downloads Platform": {
                     "Windows 32-bit Portable": "http://tomeko.net/software/JSONedit/bin/JSONedit_0_9_32.zip"
