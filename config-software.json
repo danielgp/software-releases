@@ -10,6 +10,14 @@
         "Type": "Web Server",
         "Versions": [
             {
+                "Date": "2019-05-28",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://home.apache.org/~steffenal/VS16/binaries/httpd-2.4.39-win32-VS16.zip",
+                    "Windows 64-bit": "https://home.apache.org/~steffenal/VS16/binaries/httpd-2.4.39-win64-VS16.zip"
+                },
+                "Version": "2.4.39"
+            },
+            {
                 "Date": "2019-03-31",
                 "Downloads Platform": {
                     "Windows 32-bit": "https://home.apache.org/~steffenal/VC15/binaries/httpd-2.4.39-win32-VC15.zip",
@@ -84,6 +92,14 @@
         "Type": "Web Server Module",
         "Versions": [
             {
+                "Date": "2019-05-06",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://www.apachelounge.com/download/VS16/modules/mod_fcgid-2.3.10-win32-VS16.zip",
+                    "Windows 64-bit": "https://www.apachelounge.com/download/VS16/modules/mod_fcgid-2.3.10-win64-VS16.zip"
+                },
+                "Version": "2.3.10"
+            },
+            {
                 "Date": "2017-04-25",
                 "Downloads Platform": {
                     "Windows 32-bit": "https://www.apachelounge.com/download/VC15/modules/mod_fcgid-2.3.9-win32-VC15.zip",
@@ -105,6 +121,14 @@
         "Type": "Web Server Module",
         "Versions": [
             {
+                "Date": "2019-06-17",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://www.apachelounge.com/download/VS16/modules/mod_log_rotate-1.0.2-win32-VS16.zip",
+                    "Windows 64-bit": "https://www.apachelounge.com/download/VS16/modules/mod_log_rotate-1.0.2-win64-VS16.zip"
+                },
+                "Version": "1.0.2"
+            }m
+            {
                 "Date": "2017-04-25",
                 "Downloads Platform": {
                     "Windows 32-bit": "https://www.apachelounge.com/download/VC15/modules/mod_log_rotate-1.00a-win32-VC15.zip",
@@ -125,6 +149,14 @@
         "Releases": "https://www.apachelounge.com/download/",
         "Type": "Web Server Module",
         "Versions": [
+            {
+                "Date": "2017-06-16",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://www.apachelounge.com/download/VS16/modules/mod_security-2.9.3-win32-VS16.zip",
+                    "Windows 64-bit": "https://www.apachelounge.com/download/VS16/modules/mod_security-2.9.3-win64-VS16.zip"
+                },
+                "Version": "2.9.3"
+            },
             {
                 "Date": "2018-12-09",
                 "Downloads Platform": {
@@ -1618,7 +1650,7 @@
                 "Downloads Platform": {
                     "Windows 32-bit Portable": "http://tomeko.net/software/JSONedit/bin/JSONedit_0_9_32_2.zip"
                 },
-                "Version": "0.9.32.3"
+                "Version": "0.9.32.2"
             },
             {
                 "Date": "2019-03-21",
@@ -3892,6 +3924,16 @@
         "Type": "Archiver",
         "Versions": [
             {
+                "Date": "2019-06-14",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/giorgiotani/PeaZip/releases/download/6.8.1/peazip-6.8.1.WINDOWS.exe",
+                    "Windows 32-bit Portable": "https://github.com/giorgiotani/PeaZip/releases/download/6.8.1/peazip_portable-6.8.1.WINDOWS.zip",
+                    "Windows 64-bit":          "https://github.com/giorgiotani/PeaZip/releases/download/6.8.1/peazip-6.8.1.WIN64.exe",
+                    "Windows 64-bit Portable": "https://github.com/giorgiotani/PeaZip/releases/download/6.8.1/peazip_portable-6.8.1.WIN64.zip"
+                },
+                "Version": "6.8.1"
+            },
+            {
                 "Date": "2019-05-05",
                 "Downloads Platform": {
                     "Windows 32-bit":          "https://github.com/giorgiotani/PeaZip/releases/download/6.8.0/peazip-6.8.0.WINDOWS.exe",
@@ -4472,6 +4514,13 @@
                 "Status": "Active",
                 "Support until": "2021-02-05",
                 "Versions": [
+                    {
+                        "Date": "2019-06-15",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.2.2"
+                        },
+                        "Version": "8.2.2"
+                    },
                     {
                         "Date": "2019-06-07",
                         "Downloads Platform": {
