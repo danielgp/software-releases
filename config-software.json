@@ -787,6 +787,21 @@
                     }
                 ]
             }
+            "4.12.x (2019-06 R)": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date": "2019-06-05",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "http://ftp.halifax.rwth-aachen.de/eclipse//eclipse/downloads/drops4/R-4.12-201906051800/eclipse-platform-4.12-win32-x86_64.zip"
+                        },
+                        "Version": "4.12.0"
+                    }
+                ]
+            }
         },
         "Description": "Eclipse is an integrated development environment (IDE) used in computer programming, and is the most widely used Java IDE. It contains a base workspace and an extensible plug-in system for customizing the environment. Eclipse is written mostly in Java and its primary use is for developing Java applications, but it may also be used to develop applications in other programming languages via plug-ins, including Ada, ABAP, C, C++, C#, COBOL, D, Fortran, Haskell, JavaScript, Julia, Lasso, Lua, NATURAL, Perl, PHP, Prolog, Python, R, Ruby (including Ruby on Rails framework), Rust, Scala, Clojure, Groovy, Scheme, and Erlang. It can also be used to develop documents with LaTeX (via a TeXlipse plug-in) and packages for the software Mathematica. Development environments include the Eclipse Java development tools (JDT) for Java and Scala, Eclipse CDT for C/C++, and Eclipse PDT for PHP, among others.",
         "Name": "Eclipse",
@@ -2867,6 +2882,14 @@
         "Type": "Internet Browser",
         "Versions": [
             {
+                "Date": "2019-06-19",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/67.0.3/win32-EME-free/en-US/Firefox%20Setup%2067.0.3.exe",
+                    "Windows 64-bit": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/67.0.3/win64-EME-free/en-US/Firefox%20Setup%2067.0.3.exe"
+                },
+                "Version": "67.0.3"
+            },
+            {
                 "Date": "2019-06-11",
                 "Downloads Platform": {
                     "Windows 32-bit": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/67.0.2/win32-EME-free/en-US/Firefox%20Setup%2067.0.2.exe",
@@ -4366,6 +4389,13 @@
                 "Support until": "2020-02-07",
                 "Versions": [
                     {
+                        "Date": "2019-06-19",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/7.5.13"
+                        },
+                        "Version": "7.5.13"
+                    },
+                    {
                         "Date": "2019-05-28",
                         "Downloads Platform": {
                             "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/7.5.12"
@@ -4514,6 +4544,13 @@
                 "Status": "Active",
                 "Support until": "2021-02-05",
                 "Versions": [
+                    {
+                        "Date": "2019-06-19",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.2.3"
+                        },
+                        "Version": "8.2.3"
+                    },
                     {
                         "Date": "2019-06-15",
                         "Downloads Platform": {
