@@ -5171,6 +5171,40 @@
         ],
         "Website": "https://www.virtualbox.org"
     },
+    "vlc": {
+        "Branches": {
+            "3.0.x": {
+                "Platform": {
+                    "Windows 32-bit": "Downloads Platform",
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://www.videolan.org/vlc/releases/",
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date": "2019-06-12",
+                        "Downloads Platform": {
+                            "Extension Pack": "https://get.videolan.org/vlc/3.0.7.1/win32/vlc-3.0.7.1-win32.exe",
+                            "Windows 64-bit": "https://get.videolan.org/vlc/3.0.7.1/win64/vlc-3.0.7.1-win64.exe"
+                        },
+                        "Version": "3.0.7.1"
+                    },
+                    {
+                        "Date": "2019-06-06",
+                        "Downloads Platform": {
+                            "Extension Pack": "https://get.videolan.org/vlc/3.0.7/win32/vlc-3.0.7-win32.exe",
+                            "Windows 64-bit": "https://get.videolan.org/vlc/3.0.7/win64/vlc-3.0.7-win64.exe"
+                        },
+                        "Version": "3.0.7"
+                    }
+                ]
+            }
+        },
+        "Description": "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.",
+        "Name": "VLC media player",
+        "Type": "Media player",
+        "Website": "https://www.videolan.org/vlc/"
+    },
     "xdebug": {
         "Description": "Xdebug is an extension for PHP to assist with debugging and development. It contains a single step debugger to use with IDEs; it upgrades PHP's var_dump() function; it adds stack traces for Notices, Warnings, Errors and Exceptions; it features functionality for recording every function call and variable assignment to disk; it contains a profiler; and it provides code coverage functionality for use with PHPUnit.",
         "Name": "XDebug",
