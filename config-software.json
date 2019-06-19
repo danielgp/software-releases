@@ -786,7 +786,7 @@
                         "Version": "4.11.0"
                     }
                 ]
-            }
+            },
             "4.12.x (2019-06 R)": {
                 "Platform": {
                     "Windows 64-bit": "Downloads Platform"
