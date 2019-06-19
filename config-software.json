@@ -71,6 +71,14 @@
         "Type": "Web Server Module",
         "Versions": [
             {
+                "Date": "2019-06-16",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://www.apachelounge.com/download/VS16/modules/mod_evasive2-1.10.2-win32-VS16.zip",
+                    "Windows 64-bit": "https://www.apachelounge.com/download/VS16/modules/mod_evasive2-1.10.2-win64-VS16.zip"
+                },
+                "Version": "1.10.2"
+            },
+            {
                 "Date": "2017-05-30",
                 "Downloads Platform": {
                     "Windows 32-bit": "https://www.apachelounge.com/download/VC15/modules/mod_evasive2-1.10.2-win32-VC15.zip",
@@ -150,7 +158,7 @@
         "Type": "Web Server Module",
         "Versions": [
             {
-                "Date": "2017-06-16",
+                "Date": "2019-06-16",
                 "Downloads Platform": {
                     "Windows 32-bit": "https://www.apachelounge.com/download/VS16/modules/mod_security-2.9.3-win32-VS16.zip",
                     "Windows 64-bit": "https://www.apachelounge.com/download/VS16/modules/mod_security-2.9.3-win64-VS16.zip"
