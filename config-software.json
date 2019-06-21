@@ -3867,7 +3867,7 @@
                     "Windows 64-bit": "https://www.oracle.com/technetwork/topics/winx64soft-089540.html"
                 },
                 "Releases": "https://www.oracle.com/technetwork/topics/winx64soft-089540.html",
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date": "2019-02-26",
@@ -4897,6 +4897,13 @@
         "Releases": "https://tools.hana.ondemand.com/",
         "Type": "Eclipse add-on",
         "Versions": [
+            {
+                "Date": "2019-06-20",
+                "Downloads Platform": {
+                    "Windows 32-bit/64-bit": "https://tools.hana.ondemand.com/2018-03"
+                },
+                "Version": "2.3.44"
+            },
             {
                 "Date": "2019-03-06",
                 "Downloads Platform": {
