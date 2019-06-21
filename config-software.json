@@ -3663,6 +3663,16 @@
         "Type": "Advanced Editor",
         "Versions": [
             {
+                "Date": "2019-06-20",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.Installer.exe",
+                    "Windows 32-bit Portable": "https://notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.bin.7z",
+                    "Windows 64-bit":          "https://notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.Installer.x64.exe",
+                    "Windows 64-bit Portable": "https://notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.bin.x64.7z"
+                },
+                "Version": "7.7.1"
+            },
+            {
                 "Date": "2019-04-02",
                 "Downloads Platform": {
                     "Windows 32-bit":          "https://notepad-plus-plus.org/repository/7.x/7.7.0/npp.7.7.0.Installer.exe",
