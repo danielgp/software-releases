@@ -266,6 +266,31 @@
         "Type": "Web Java Server",
         "Website": "https://tomcat.apache.org/"
     },
+    "atom   ": {
+        "Description": "Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in Node.js, and embedded Git Control, developed by GitHub. Atom is a desktop application built using web technologies. Most of the extending packages have free software licenses and are community-built and maintained. Atom is based on Electron (formerly known as Atom Shell), a framework that enables cross-platform desktop applications using Chromium and Node.js. It is written in CoffeeScript and Less. It was able to be used as an integrated development environment (IDE), until that feature was 'retired' in December 2018. Atom was released from beta, as version 1.0, on 25 June 2015. Its developers call it a `hackable text editor for the 21st Century`.",
+        "Name": "Atom",
+        "Platform": {
+            "Windows 32-bit":          "Downloads Platform",
+            "Windows 32-bit Portable": "Downloads Platform",
+            "Windows 64-bit":          "Downloads Platform",
+            "Windows 64-bit Portable": "Downloads Platform"
+        },
+        "Releases": "https://atom.io/releases",
+        "Type": "Advanced Text Editor",
+        "Versions": [
+            {
+                "Date": "2019-06-17",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/atom/atom/releases/download/v1.38.2/AtomSetup.exe",
+                    "Windows 32-bit Portable": "https://github.com/atom/atom/releases/download/v1.38.2/atom-windows.zip",
+                    "Windows 64-bit":          "https://github.com/atom/atom/releases/download/v1.38.2/AtomSetup-x64.exe",
+                    "Windows 64-bit Portable": "https://github.com/atom/atom/releases/download/v1.38.2/atom-x64-windows.zip"
+                },
+                "Version": "1.38.2"
+            }
+        ],
+        "Website": "https://atom.io/"
+    },
     "composer": {
         "Description": "Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.",
         "Name": "Composer",
@@ -3660,7 +3685,7 @@
             "Windows 64-bit Portable": "Downloads Platform"
         },
         "Releases": "https://notepad-plus-plus.org/download/",
-        "Type": "Advanced Editor",
+        "Type": "Advanced Text Editor",
         "Versions": [
             {
                 "Date": "2019-06-20",
