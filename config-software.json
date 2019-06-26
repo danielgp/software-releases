@@ -1267,16 +1267,23 @@
         "Status": "Active",
         "Versions": [
             {
+                "Date": "2019-06-24",
+                "Downloads Platform": {
+                    "Multi-Platform": "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%25206.9.0/jasperreports-6.9.0-project.zip"
+                },
+                "Version": "6.9.0"
+            },
+            {
                 "Date": "2019-05-23",
                 "Downloads Platform": {
-                    "Multi-Platform": "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%25206.8.1/Fjasperreports-6.8.1-project.zip"
+                    "Multi-Platform": "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%25206.8.1/jasperreports-6.8.1-project.zip"
                 },
                 "Version": "6.8.1"
             },
             {
                 "Date": "2019-03-26",
                 "Downloads Platform": {
-                    "Multi-Platform": "https%3A%2F%2Fsourceforge.net%2Fprojects%2Fjasperreports%2Ffiles%2Fjasperreports%2FJasperReports%25206.8.0%2Fjasperreports-6.8.0-project.zip"
+                    "Multi-Platform": "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%25206.8.0/jasperreports-6.8.0-project.zip"
                 },
                 "Version": "6.8.0"
             }
@@ -1294,9 +1301,16 @@
         "Status": "Active",
         "Versions": [
             {
+                "Date": "2019-06-25",
+                "Downloads Platform": {
+                    "Windows 64-bit": "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.9.0/TIB_js-studiocomm_6.9.0_windows_x86_64.zip"
+                },
+                "Version": "6.9.0"
+            },
+            {
                 "Date": "2019-04-11",
                 "Downloads Platform": {
-                    "Windows 64-bit": "https%3A%2F%2Fsourceforge.net%2Fprojects%2Fjasperstudio%2Ffiles%2FJaspersoftStudio-6.8.0%2FTIB_js-studiocomm_6.8.0_windows_x86_64.zip"
+                    "Windows 64-bit": "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.8.0/TIB_js-studiocomm_6.8.0_windows_x86_64.zip"
                 },
                 "Version": "6.8.0"
             },
@@ -2914,6 +2928,14 @@
         "Releases": "https://wiki.mozilla.org/Release_Management/Calendar",
         "Type": "Internet Browser",
         "Versions": [
+            {
+                "Date": "2019-06-20",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/67.0.4/win32-EME-free/en-US/Firefox%20Setup%2067.0.4.exe",
+                    "Windows 64-bit": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/67.0.4/win64-EME-free/en-US/Firefox%20Setup%2067.0.4.exe"
+                },
+                "Version": "67.0.4"
+            },
             {
                 "Date": "2019-06-19",
                 "Downloads Platform": {
@@ -5029,6 +5051,13 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-06-25",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://downloads.tableau.com/esdalt/10.5.17/TableauDesktop-64bit-10-5-17.exe"
+                        },
+                        "Version": "10.5.17"
+                    },
                     {
                         "Date": "2019-05-21",
                         "Downloads Platform": {
