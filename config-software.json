@@ -4649,6 +4649,13 @@
                 "Support until": "2021-02-05",
                 "Versions": [
                     {
+                        "Date": "2019-07-03",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.2.4"
+                        },
+                        "Version": "8.2.4"
+                    },
+                    {
                         "Date": "2019-06-19",
                         "Downloads Platform": {
                             "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.2.3"
