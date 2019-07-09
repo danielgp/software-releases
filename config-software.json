@@ -645,6 +645,26 @@
         "Type": "File Manager",
         "Versions": [
             {
+                "Date": "2019-07-07",
+                "Downloads Platform": {
+                    "Windows 32-bit":     "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.5%20beta/doublecmd-0.9.5.i386-win32.exe/download",
+                    "Windows 32-bit ZIP": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.5%20beta/doublecmd-0.9.5.i386-win32.zip/download",
+                    "Windows 64-bit":     "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.5%20beta/doublecmd-0.9.5.x86_64-win64.exe/download",
+                    "Windows 64-bit ZIP": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.5%20beta/doublecmd-0.9.5.x86_64-win64.zip/download"
+                },
+                "Version": "0.9.5"
+            },
+            {
+                "Date": "2019-07-07",
+                "Downloads Platform": {
+                    "Windows 32-bit":     "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.4%20beta/doublecmd-0.9.4.i386-win32.exe/download",
+                    "Windows 32-bit ZIP": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.4%20beta/doublecmd-0.9.4.i386-win32.zip/download",
+                    "Windows 64-bit":     "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.4%20beta/doublecmd-0.9.4.x86_64-win64.exe/download",
+                    "Windows 64-bit ZIP": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.4%20beta/doublecmd-0.9.4.x86_64-win64.zip/download"
+                },
+                "Version": "0.9.4"
+            },
+            {
                 "Date": "2019-05-18",
                 "Downloads Platform": {
                     "Windows 32-bit":     "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.3%20beta/doublecmd-0.9.3.i386-win32.exe/download",
@@ -2948,6 +2968,14 @@
         "Releases": "https://wiki.mozilla.org/Release_Management/Calendar",
         "Type": "Internet Browser",
         "Versions": [
+            {
+                "Date": "2019-07-09",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/68.0/win32-EME-free/en-US/Firefox%20Setup%2068.0.exe",
+                    "Windows 64-bit": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/68.0/win64-EME-free/en-US/Firefox%20Setup%2068.0.exe"
+                },
+                "Version": "68.0.0"
+            },
             {
                 "Date": "2019-06-20",
                 "Downloads Platform": {
