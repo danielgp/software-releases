@@ -2888,7 +2888,7 @@
                     "Windows 32-bit": "https://aka.ms/vs/15/release/VC_redist.x86.exe",
                     "Windows 64-bit": "https://aka.ms/vs/15/release/VC_redist.x64.exe"
                 },
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date": "2019-01-10",
@@ -2944,18 +2944,8 @@
         },
         "Description": "Visual C++ Redistributable Packages install runtime components of Visual C++ Libraries on a computer that does not have Visual C++ installed. The libraries are required to run applications that are developed by using the corresponding version of Visual C++.",
         "Name": "Microsoft Visual C++ Redistributable",
-        "Platform": {
-            "Windows 32-bit": "http://download.microsoft.com/download/0/5/6/056dcda9-d667-4e27-8001-8a0c6971d6b1/vcredist_x86.exe",
-            "Windows 64-bit": "http://download.microsoft.com/download/0/5/6/056dcda9-d667-4e27-8001-8a0c6971d6b1/vcredist_x64.exe"
-        },
         "Releases": "https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads",
         "Type": "Library",
-        "Versions": [
-            {
-                "Date": "2017-01-07",
-                "Version": "12.0.40660.0"
-            }
-        ],
         "Website": "https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads"
     },
     "mozilla_firefox": {
@@ -4927,13 +4917,24 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-07-08",
+                        "Downloads Platform": {
+                            "Windows 32-bit":         "https://www.python.org/ftp/python/3.7.4/python-3.7.4.exe",
+                            "Windows 32-bit archive": "https://www.python.org/ftp/python/3.7.4/python-3.7.4.post1-embed-win32.zip",
+                            "Windows 64-bit":         "https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe",
+                            "Windows 64-bit archive": "https://www.python.org/ftp/python/3.7.4/python-3.7.4.post1-embed-amd64.zip",
+                            "Windows Help File":      "https://www.python.org/ftp/python/3.7.4/python374.chm"
+                        },
+                        "Version": "3.7.4"
+                    },
+                    {
                         "Date": "2019-03-25",
                         "Downloads Platform": {
-                            "Windows 32-bit": "https://www.python.org/ftp/python/3.7.3/python-3.7.3.exe",
+                            "Windows 32-bit":         "https://www.python.org/ftp/python/3.7.3/python-3.7.3.exe",
                             "Windows 32-bit archive": "https://www.python.org/ftp/python/3.7.3/python-3.7.3.post1-embed-win32.zip",
-                            "Windows 64-bit": "https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe",
+                            "Windows 64-bit":         "https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe",
                             "Windows 64-bit archive": "https://www.python.org/ftp/python/3.7.3/python-3.7.3.post1-embed-amd64.zip",
-                            "Windows Help File": "https://www.python.org/ftp/python/3.7.3/python373.chm"
+                            "Windows Help File":      "https://www.python.org/ftp/python/3.7.3/python373.chm"
                         },
                         "Version": "3.7.3"
                     },
