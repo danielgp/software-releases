@@ -1368,6 +1368,14 @@
                 "Status": "Active",
                 "Versions": [
                     {
+                        "Date": "2019-07-16",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://download.oracle.com/otn/java/jdk/8u221-b11/230deb18db3e4014bb8e3e8324f81b43/jdk-8u221-windows-i586.exe",
+                            "Windows 64-bit": "https://download.oracle.com/otn/java/jdk/8u221-b11/230deb18db3e4014bb8e3e8324f81b43/jdk-8u221-windows-x64.exe"
+                        },
+                        "Version": "8.0.221"
+                    },
+                    {
                         "Date": "2019-04-16",
                         "Downloads Platform": {
                             "Windows 32-bit": "https://download.oracle.com/otn/java/jdk/8u212-b10/59066701cf1a433da9770636fbc4c9aa/jdk-8u212-windows-i586.exe",
@@ -1493,6 +1501,13 @@
                 "Status": "Long Term Support",
                 "Versions": [
                     {
+                        "Date": "2019-07-16",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://download.oracle.com/otn/java/jdk/11.0.4+10/cf1bbcbf431a474eb9fc550051f4ee78/jdk-11.0.4_windows-x64_bin.exe"
+                        },
+                        "Version": "11.0.4"
+                    },
+                    {
                         "Date": "2019-04-16",
                         "Downloads Platform": {
                             "Windows 64-bit": "https://download.oracle.com/otn/java/jdk/11.0.3+12/37f5e150db5247ab9333b11c1dddcd30/jdk-11.0.3_windows-x64_bin.exe"
@@ -1529,6 +1544,13 @@
                 "Releases": "https://www.oracle.com/technetwork/java/javase/12u-relnotes-5211424.html",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-07-16",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://download.oracle.com/otn-pub/java/jdk/12.0.2+10/e482c34c86bd4bf8b56c0b35558996b9/jdk-12.0.2_windows-x64_bin.exe"
+                        },
+                        "Version": "12.0.2"
+                    },
                     {
                         "Date": "2019-04-16",
                         "Downloads Platform": {
@@ -1583,6 +1605,13 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-07-16",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://download.java.net/java/GA/jdk12.0.2/e482c34c86bd4bf8b56c0b35558996b9/10/GPL/openjdk-12.0.2_windows-x64_bin.zip"
+                        },
+                        "Version": "12.0.2"
+                    },
+                    {
                         "Date": "2019-04-16",
                         "Downloads Platform": {
                             "Windows 64-bit": "https://download.java.net/java/GA/jdk12.0.1/69cfe15208a647278a19ef0990eea691/12/GPL/openjdk-12.0.1_windows-x64_bin.zip"
@@ -1606,6 +1635,14 @@
                 "Releases": "https://www.oracle.com/technetwork/java/javase/documentation/8u-relnotes-2225394.html",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-07-16",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://download.oracle.com/otn/java/jdk/8u221-b11/230deb18db3e4014bb8e3e8324f81b43/jre-8u221-windows-i586.exe",
+                            "Windows 64-bit": "https://download.oracle.com/otn/java/jdk/8u221-b11/230deb18db3e4014bb8e3e8324f81b43/jre-8u221-windows-x64.exe"
+                        },
+                        "Version": "8.0.221"
+                    },
                     {
                         "Date": "2019-04-16",
                         "Downloads Platform": {
@@ -2241,6 +2278,16 @@
                 "Releases": "https://www.microsoft.com/net/download/dotnet-core/2.2",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-07-09",
+                        "Downloads Platform": {
+                            "Windows 32-bit Develop": "https://download.visualstudio.microsoft.com/download/pr/ffea64d6-9050-406a-a9a7-00abcbbac35d/d3f943d449982b552cc35ed279e24edb/dotnet-sdk-2.2.301-win-x86.exe",
+                            "Windows 32-bit Runtime": "https://download.visualstudio.microsoft.com/download/pr/f9b622df-fc7d-4ec6-8996-b03ad7553c93/910152992719bfee5011c722ae82c680/dotnet-runtime-2.2.6-win-x86.exe",
+                            "Windows 64-bit Develop": "https://download.visualstudio.microsoft.com/download/pr/15e45d59-071a-448f-9ebe-361fa8d7b55c/e028b3bc38bb96e982cfab90003683dc/dotnet-sdk-2.2.301-win-x64.exe",
+                            "Windows 64-bit Runtime": "https://download.visualstudio.microsoft.com/download/pr/e65be1d4-dbe3-460c-8517-3fafb26b3dc4/e7760a9dbb9135e3b0b0150f36ef0f05/dotnet-runtime-2.2.6-win-x64.exe"
+                        },
+                        "Version": "2.2.6"
+                    },
                     {
                         "Date": "2019-05-14",
                         "Downloads Platform": {
@@ -4550,6 +4597,13 @@
                 "Support until": "2020-02-07",
                 "Versions": [
                     {
+                        "Date": "2019-07-15",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/7.5.14"
+                        },
+                        "Version": "7.5.14"
+                    },
+                    {
                         "Date": "2019-06-19",
                         "Downloads Platform": {
                             "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/7.5.13"
@@ -4705,6 +4759,13 @@
                 "Status": "Active",
                 "Support until": "2021-02-05",
                 "Versions": [
+                    {
+                        "Date": "2019-07-15",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.2.5"
+                        },
+                        "Version": "8.2.5"
+                    },
                     {
                         "Date": "2019-07-03",
                         "Downloads Platform": {
