@@ -3022,6 +3022,14 @@
         "Type": "Internet Browser",
         "Versions": [
             {
+                "Date": "2019-07-18",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/68.0.1/win32-EME-free/en-US/Firefox%20Setup%2068.0.1.exe",
+                    "Windows 64-bit": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/68.0.1/win64-EME-free/en-US/Firefox%20Setup%2068.0.1.exe"
+                },
+                "Version": "68.0.1"
+            },
+            {
                 "Date": "2019-07-09",
                 "Downloads Platform": {
                     "Windows 32-bit": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/68.0/win32-EME-free/en-US/Firefox%20Setup%2068.0.exe",
@@ -5390,6 +5398,14 @@
         "Releases": "https://www.virtualbox.org/wiki/Changelog",
         "Type": "Utility",
         "Versions": [
+            {
+                "Date": "2019-07-16",
+                "Downloads Platform": {
+                    "Extension Pack": "https://download.virtualbox.org/virtualbox/6.0.10/Oracle_VM_VirtualBox_Extension_Pack-6.0.10.vbox-extpack",
+                    "Windows 64-bit": "https://download.virtualbox.org/virtualbox/6.0.10/VirtualBox-6.0.10-132072-Win.exe"
+                },
+                "Version": "6.0.10"
+            },
             {
                 "Date": "2019-05-13",
                 "Downloads Platform": {
