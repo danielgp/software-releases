@@ -3163,6 +3163,14 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-07-22",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.45-win32.zip",
+                            "Windows 64-bit": "https://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.45-winx64.zip"
+                        },
+                        "Version": "5.6.45"
+                    },
+                    {
                         "Date": "2019-04-25",
                         "Downloads Platform": {
                             "Windows 32-bit": "https://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.44-win32.zip",
@@ -3204,6 +3212,14 @@
                 "Releases": "https://dev.mysql.com/doc/relnotes/mysql/5.7/en/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-07-22",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.27-win32.zip",
+                            "Windows 64-bit": "https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.27-winx64.zip"
+                        },
+                        "Version": "5.7.27"
+                    },
                     {
                         "Date": "2019-04-25",
                         "Downloads Platform": {
@@ -3253,6 +3269,13 @@
                 "Releases": "https://dev.mysql.com/doc/relnotes/mysql/8.0/en/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-07-22",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.17-winx64.zip"
+                        },
+                        "Version": "8.0.17"
+                    },
                     {
                         "Date": "2019-04-25",
                         "Downloads Platform": {
@@ -3328,6 +3351,13 @@
                 "Releases": "https://dev.mysql.com/doc/relnotes/workbench/en/news-8-0.html",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-07-22",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.17-winx64.msi"
+                        },
+                        "Version": "8.0.17"
+                    },
                     {
                         "Date": "2019-04-25",
                         "Downloads Platform": {
