@@ -3445,6 +3445,17 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-07-23",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://nodejs.org/dist/v12.7.0/node-v12.7.0-x86.msi",
+                            "Windows 64-bit": "https://nodejs.org/dist/v12.7.0/node-v12.7.0-x64.msi"
+                        },
+                        "Includes": {
+                            "npm": "6.10.0"
+                        },
+                        "Version": "12.7.0"
+                    },
+                    {
                         "Date": "2019-07-03",
                         "Downloads Platform": {
                             "Windows 32-bit": "https://nodejs.org/dist/v12.6.0/node-v12.6.0-x86.msi",
@@ -5083,6 +5094,13 @@
         "Type": "Driver",
         "Versions": [
             {
+                "Date": "2019-06-04",
+                "Downloads Platform": {
+                    "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.4.142-windows-x64.zip"
+                },
+                "Version": "2.4.142.1559148247"
+            },
+            {
                 "Date": "2019-04-26",
                 "Downloads Platform": {
                     "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.4.139-windows-x64.zip"
@@ -5264,6 +5282,13 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-07-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://downloads.tableau.com/esdalt/10.5.18/TableauDesktop-64bit-10-5-18.exe"
+                        },
+                        "Version": "10.5.18"
+                    },
                     {
                         "Date": "2019-06-25",
                         "Downloads Platform": {
