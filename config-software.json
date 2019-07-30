@@ -287,6 +287,16 @@
         "Type": "Advanced Text Editor",
         "Versions": [
             {
+                "Date": "2019-07-25",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/atom/atom/releases/download/v1.39.1/AtomSetup.exe",
+                    "Windows 32-bit Portable": "https://github.com/atom/atom/releases/download/v1.39.1/atom-windows.zip",
+                    "Windows 64-bit":          "https://github.com/atom/atom/releases/download/v1.39.1/AtomSetup-x64.exe",
+                    "Windows 64-bit Portable": "https://github.com/atom/atom/releases/download/v1.39.1/atom-x64-windows.zip"
+                },
+                "Version": "1.39.1"
+            },
+            {
                 "Date": "2019-06-17",
                 "Downloads Platform": {
                     "Windows 32-bit":          "https://github.com/atom/atom/releases/download/v1.38.2/AtomSetup.exe",
@@ -2511,6 +2521,13 @@
         "Type": "Database Management Tool",
         "Versions": [
             {
+                "Date": "2019-07-25",
+                "Downloads Platform": {
+                    "Windows 64-bit": "https://go.microsoft.com/fwlink/?linkid=2099720"
+                },
+                "Version": "18.2.0 build 15.0.18142.0"
+            },
+            {
                 "Date": "2019-06-11",
                 "Downloads Platform": {
                     "Windows 64-bit": "https://go.microsoft.com/fwlink/?linkid=2094583"
@@ -2883,6 +2900,10 @@
                 "Releases": "https://docs.microsoft.com/visualstudio/releases/2019/release-notes",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-07-24",
+                        "Version": "16.2.0"
+                    },
                     {
                         "Date": "2019-07-02",
                         "Version": "16.1.5"
@@ -3410,6 +3431,13 @@
         "Releases": "https://netbeans.apache.org/download/index.html",
         "Type": "IDE",
         "Versions": [
+            {
+                "Date": "2019-07-22",
+                "Downloads Platform": {
+                    "Windows 32-bit/64-bit": "http://apache.javapipe.com/incubator/netbeans/incubating-netbeans/incubating-11.1/incubating-netbeans-11.1-bin.zip"
+                },
+                "Version": "11.1"
+            },
             {
                 "Date": "2019-04-04",
                 "Downloads Platform": {
