@@ -1228,37 +1228,29 @@
         "Description": "In computing, gettext is an internationalization and localization (i18n) system commonly used for writing multilingual programs on Unix-like computer operating systems. The most commonly used implementation of gettext is GNU gettext,[citation needed] released by the GNU Project in 1995.",
         "Name": "Google Chrome",
         "Platform": {
-            "Windows 64-bit": "Downloads Platform"
+            "Windows 64-bit": "https://www.google.com/chrome/?system=true&standalone=1&platform=win64"
         },
         "Releases": "https://en.wikipedia.org/wiki/Google_Chrome_version_history",
         "Type": "Internet Browser",
         "Versions": [
             {
+                "Date": "2019-07-30",
+                "Version": "76.0.3809"
+            },
+            {
                 "Date": "2019-06-04",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://www.google.com/chrome/?system=true&standalone=1&platform=win64"
-                },
                 "Version": "75.0.3770"
             },
             {
                 "Date": "2019-04-23",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BE33B8C70-460E-8CB4-38AB-DE96807A4E42%7D%26lang%3Den%26browser%3D3%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dtrue%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/chrome/install/ChromeStandaloneSetup64.exe"
-                },
                 "Version": "74.0.3729"
             },
             {
                 "Date": "2019-03-12",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B4DC6FAF7-376E-A796-5FAA-AA8B7C2B96E2%7D%26lang%3Den%26browser%3D3%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dtrue%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/chrome/install/ChromeStandaloneSetup64.exe"
-                },
                 "Version": "73.0.3683"
             },
             {
                 "Date": "2019-01-29",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BD378F1AF-795A-78FC-2CDF-AADF9E2D17EF%7D%26lang%3Den%26browser%3D3%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dtrue%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/chrome/install/ChromeStandaloneSetup64.exe"
-                },
                 "Version": "72.0.3626"
             }
         ],
@@ -2495,6 +2487,10 @@
                 "Releases": "https://docs.microsoft.com/en-us/sql/connect/odbc/windows/microsoft-odbc-driver-for-sql-server-on-windows?view=sql-server-2017",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-07-31",
+                        "Version": "17.4.1.1"
+                    },
                     {
                         "Date": "2019-02-21",
                         "Version": "17.3.1.1"
@@ -3784,6 +3780,17 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-07-31",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://nodejs.org/dist/v10.16.1/node-v10.16.1-x86.msi",
+                            "Windows 64-bit": "https://nodejs.org/dist/v10.16.1/node-v10.16.1-x64.msi"
+                        },
+                        "Includes": {
+                            "npm": "6.9.0"
+                        },
+                        "Version": "10.16.1"
+                    },
+                    {
                         "Date": "2019-05-28",
                         "Downloads Platform": {
                             "Windows 32-bit": "https://nodejs.org/dist/v10.16.0/node-v10.16.0-x86.msi",
@@ -4322,6 +4329,16 @@
                 "Status": "Security fixes only",
                 "Versions": [
                     {
+                        "Date": "2019-08-31",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.1.31-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.1.31-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.1.31-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.1.31-Win32-VC15-x64.zip"
+                        },
+                        "Version": "7.1.31"
+                    },
+                    {
                         "Date": "2019-05-29",
                         "Downloads Platform": {
                             "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.1.30-nts-Win32-VC15-x86.zip",
@@ -4386,6 +4403,16 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-08-01",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.21-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.21-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.21-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.21-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version": "7.2.21"
+                    },
                     {
                         "Date": "2019-07-02",
                         "Downloads Platform": {
@@ -4585,6 +4612,16 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2018-08-01",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.8-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.8-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.8-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.8-Win32-VC15-x64.zip"
+                        },
+                        "Version": "7.3.8"
+                    },
                     {
                         "Date": "2018-07-02",
                         "Downloads Platform": {
