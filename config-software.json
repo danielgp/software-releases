@@ -4878,6 +4878,27 @@
                 "Support until": "2021-02-05",
                 "Versions": [
                     {
+                        "Date": "2019-08-02",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.3.2"
+                        },
+                        "Version": "8.3.2"
+                    },
+                    {
+                        "Date": "2019-08-02",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.3.1"
+                        },
+                        "Version": "8.3.1"
+                    },
+                    {
+                        "Date": "2019-08-02",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.3.0"
+                        },
+                        "Version": "8.3.0"
+                    },
+                    {
                         "Date": "2019-07-15",
                         "Downloads Platform": {
                             "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.2.5"
