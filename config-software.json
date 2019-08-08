@@ -319,6 +319,13 @@
         "Type": "Dependency Manager for PHP",
         "Versions": [
             {
+                "Date": "2019-08-02",
+                "Downloads Platform": {
+                    "based on PHP": "https://github.com/composer/composer/releases/download/1.8.6/composer.phar"
+                },
+                "Version": "1.9.0"
+            },
+            {
                 "Date": "2019-06-11",
                 "Downloads Platform": {
                     "based on PHP": "https://github.com/composer/composer/releases/download/1.8.6/composer.phar"
@@ -393,6 +400,10 @@
                 "Releases": "https://docs.docker.com/docker-for-windows/edge-release-notes/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-07-30",
+                        "Version": "2.1.0.0"
+                    },
                     {
                         "Date": "2019-06-12",
                         "Version": "2.0.5.0"
@@ -538,6 +549,10 @@
                 "Releases": "https://docs.docker.com/docker-for-windows/release-notes/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-08-07",
+                        "Version": "2.1.0.1"
+                    },
                     {
                         "Date": "2019-02-15",
                         "Version": "2.0.0.3"
@@ -2792,6 +2807,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-07-09",
+                        "Version": "15.9.14"
+                    },
+                    {
                         "Date": "2019-06-11",
                         "Version": "15.9.13"
                     },
@@ -2896,6 +2915,10 @@
                 "Releases": "https://docs.microsoft.com/visualstudio/releases/2019/release-notes",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-08-06",
+                        "Version": "16.2.1"
+                    },
                     {
                         "Date": "2019-07-24",
                         "Version": "16.2.0"
@@ -3473,6 +3496,17 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-08-06",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://nodejs.org/dist/v12.8.0/node-v12.8.0-x86.msi",
+                            "Windows 64-bit": "https://nodejs.org/dist/v12.8.0/node-v12.8.0-x64.msi"
+                        },
+                        "Includes": {
+                            "npm": "6.10.2"
+                        },
+                        "Version": "12.8.0"
+                    },
+                    {
                         "Date": "2019-07-23",
                         "Downloads Platform": {
                             "Windows 32-bit": "https://nodejs.org/dist/v12.7.0/node-v12.7.0-x86.msi",
@@ -3779,6 +3813,17 @@
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-08-06",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://nodejs.org/dist/v10.16.2/node-v10.16.2-x86.msi",
+                            "Windows 64-bit": "https://nodejs.org/dist/v10.16.2/node-v10.16.2-x64.msi"
+                        },
+                        "Includes": {
+                            "npm": "6.9.0"
+                        },
+                        "Version": "10.16.2"
+                    },
                     {
                         "Date": "2019-07-31",
                         "Downloads Platform": {
@@ -4167,6 +4212,14 @@
         "Releases": "https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html",
         "Type": "Driver",
         "Versions": [
+            {
+                "Date": "2019-08-01",
+                "Downloads Platform": {
+                    "Windows 32-bit/64-bit w. JRE": "http://download.oracle.com/otn/java/sqldeveloper/sqldeveloper-19.2.0.206.2117-x64.zip",
+                    "Windows 32-bit/64-bit no JRE included": "http://download.oracle.com/otn/java/sqldeveloper/sqldeveloper-19.2.0.206.2117-no-jre.zip"
+                },
+                "Version": "19.2.0.206.2117"
+            },
             {
                 "Date": "2019-04-10",
                 "Downloads Platform": {
@@ -4878,6 +4931,13 @@
                 "Support until": "2021-02-05",
                 "Versions": [
                     {
+                        "Date": "2019-08-03",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.3.3"
+                        },
+                        "Version": "8.3.3"
+                    },
+                    {
                         "Date": "2019-08-02",
                         "Downloads Platform": {
                             "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.3.2"
@@ -5185,7 +5245,7 @@
             }
         },
         "Description": "The Python IDE for Professional Developers",
-        "Name": "PHP",
+        "Name": "PyCharm",
         "Releases": "https://www.jetbrains.com/pycharm/download/other.html",
         "Type": "IDE",
         "Website": "https://www.jetbrains.com/pycharm/"
@@ -5263,87 +5323,112 @@
         "Website": "https://www.python.org/"
     },
     "sap_hana_database_client": {
-        "Description": "Open Database Connectivity (ODBC) is a standard application programming interface (API) that provides a set of functions that enable applications to access a data model in a database. The SAP HANA client includes a dedicated ODBC interface.",
-        "Name": "SAP HANA Database Client ODBC",
-        "Platform": {
-            "Windows 32-bit": "http://160.221.78.69/validations/Drivers/SAP_HANA_Database_Client/hdb_client_windows_x86_32.zip",
-            "Windows 64-bit": "Downloads Platform"
+        "Branch": {
+            "with Crypto": {
+                "Platform": {
+                    "Windows 32-bit": "http://lugoj2.honeywell.com/validations/Drivers/SAP_HANA_Database_Client/hdb_client_windows_x86_32.zip",
+                    "Windows 64-bit": "http://lugoj2.honeywell.com/validations/Drivers/SAP_HANA_Database_Client/hdb_client_windows_x86_64.zip"
+                },
+                "Status": "Active",
+                "Versions": [
+                    {
+                        "Date": "2019-03-06",
+                        "Version": "2.4.126.1551801496"
+                    },
+                    {
+                        "Date": "2019-01-07",
+                        "Version": "2.3.134.1546872976"
+                    },
+                    {
+                        "Date": "2018-05-27",
+                        "Version": "2.3.106.1527360551"
+                    }
+                ]
+            },
+            "without Crypto": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Status": "Active",
+                "Versions": [
+                    {
+                        "Date": "2019-06-19",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.4.144-windows-x64.zip"
+                        },
+                        "Version": "2.4.144.1560778641"
+                    },
+                    {
+                        "Date": "2019-06-04",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.4.142-windows-x64.zip"
+                        },
+                        "Version": "2.4.142.1559148247"
+                    },
+                    {
+                        "Date": "2019-04-26",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.4.139-windows-x64.zip"
+                        },
+                        "Version": "2.4.139.1555958557"
+                    },
+                    {
+                        "Date": "2019-03-06",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.4.126-windows-x64.zip"
+                        },
+                        "Version": "2.4.126.1551801496"
+                    },
+                    {
+                        "Date": "2019-02-26",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.3.144-windows-x64.zip"
+                        },
+                        "Version": "2.3.144.1551205008"
+                    },
+                    {
+                        "Date": "2019-01-09",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.3.134-windows-x64.zip"
+                        },
+                        "Version": "2.3.134.1546872976"
+                    },
+                    {
+                        "Date": "2018-11-22",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.3.130-windows-x64.tar.gz"
+                        },
+                        "Version": "2.3.130.1542919958"
+                    },
+                    {
+                        "Date": "2018-11-05",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.3.123-windows-x64.tar.gz"
+                        },
+                        "Version": "2.3.123.1537559908"
+                    },
+                    {
+                        "Date": "2018-09-05",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.3.119-windows-x64.tar.gz"
+                        },
+                        "Version": "2.3.119.1535661774"
+                    },
+                    {
+                        "Date": "2018-08-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.3.112-windows-x64.tar.gz"
+                        },
+                        "Version": "2.3.112.1532025331"
+                    }
+                ]
+            }
         },
+        "Description": "Open Database Connectivity (ODBC) is a standard application programming interface (API) that provides a set of functions that enable applications to access a data model in a database. The SAP HANA client includes a dedicated ODBC interface.",
+        "Name": "SAP HANA Database Client",
         "Releases": "https://tools.hana.ondemand.com/#hanatools",
         "Type": "Driver",
-        "Versions": [
-            {
-                "Date": "2019-06-04",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.4.142-windows-x64.zip"
-                },
-                "Version": "2.4.142.1559148247"
-            },
-            {
-                "Date": "2019-04-26",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.4.139-windows-x64.zip"
-                },
-                "Version": "2.4.139.1555958557"
-            },
-            {
-                "Date": "2019-03-06",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.4.126-windows-x64.zip"
-                },
-                "Version": "2.4.126.1551801496"
-            },
-            {
-                "Date": "2019-02-26",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.3.144-windows-x64.zip"
-                },
-                "Version": "2.3.144.1551205008"
-            },
-            {
-                "Date": "2019-01-09",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.3.134-windows-x64.zip"
-                },
-                "Version": "2.3.134.1546872976"
-            },
-            {
-                "Date": "2018-11-22",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.3.130-windows-x64.tar.gz"
-                },
-                "Version": "2.3.130.1542919958"
-            },
-            {
-                "Date": "2018-11-05",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.3.123-windows-x64.tar.gz"
-                },
-                "Version": "2.3.123.1537559908"
-            },
-            {
-                "Date": "2018-09-05",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.3.119-windows-x64.tar.gz"
-                },
-                "Version": "2.3.119.1535661774"
-            },
-            {
-                "Date": "2018-08-14",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.3.112-windows-x64.tar.gz"
-                },
-                "Version": "2.3.112.1532025331"
-            },
-            {
-                "Date": "2018-05-27",
-                "Downloads Platform": {
-                    "Windows 64-bit": "http://160.221.78.69/validations/Drivers/SAP_HANA_Database_Client/hdb_client_windows_x86_64.zip"
-                },
-                "Version": "2.3.106.1527360551"
-            }
-        ],
-        "Website": "https://help.sap.com/viewer/0eec0d68141541d1b07893a39944924e/2.0.03/en-US/73f03d62240f435880ade3bc1242cc05.html"
+        "Website": "https://help.sap.com/viewer/0eec0d68141541d1b07893a39944924e/2.0.04/en-US/73f03d62240f435880ade3bc1242cc05.html"
     },
     "sap_hana_development_tools": {
         "Description": "Open Database Connectivity (ODBC) is a standard application programming interface (API) that provides a set of functions that enable applications to access a data model in a database. The SAP HANA client includes a dedicated ODBC interface.",
