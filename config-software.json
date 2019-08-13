@@ -10,6 +10,14 @@
         "Type": "Web Server",
         "Versions": [
             {
+                "Date": "2019-08-13",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://home.apache.org/~steffenal/VS16/binaries/httpd-2.4.41-win32-VS16.zip",
+                    "Windows 64-bit": "https://home.apache.org/~steffenal/VS16/binaries/httpd-2.4.41-win64-VS16.zip"
+                },
+                "Version": "2.4.41"
+            },
+            {
                 "Date": "2019-05-28",
                 "Downloads Platform": {
                     "Windows 32-bit": "https://home.apache.org/~steffenal/VS16/binaries/httpd-2.4.39-win32-VS16.zip",
@@ -286,6 +294,16 @@
         "Releases": "https://atom.io/releases",
         "Type": "Advanced Text Editor",
         "Versions": [
+            {
+                "Date": "2019-08-13",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/atom/atom/releases/download/v1.40.0/AtomSetup.exe",
+                    "Windows 32-bit Portable": "https://github.com/atom/atom/releases/download/v1.40.0/atom-windows.zip",
+                    "Windows 64-bit":          "https://github.com/atom/atom/releases/download/v1.40.0/AtomSetup-x64.exe",
+                    "Windows 64-bit Portable": "https://github.com/atom/atom/releases/download/v1.40.0/atom-x64-windows.zip"
+                },
+                "Version": "1.40.0"
+            },
             {
                 "Date": "2019-07-25",
                 "Downloads Platform": {
@@ -4930,6 +4948,13 @@
                 "Status": "Active",
                 "Support until": "2021-02-05",
                 "Versions": [
+                    {
+                        "Date": "2019-08-11",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.3.4"
+                        },
+                        "Version": "8.3.4"
+                    },
                     {
                         "Date": "2019-08-03",
                         "Downloads Platform": {
