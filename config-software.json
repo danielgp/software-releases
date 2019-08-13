@@ -2621,6 +2621,14 @@
         "Type": "Developement IDE",
         "Versions": [
             {
+                "Date": "2019-08-07",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://vscode-update.azurewebsites.net/1.37.2/win32-user/stable",
+                    "Windows 64-bit": "https://vscode-update.azurewebsites.net/1.37.2/win32-x64-user/stable"
+                },
+                "Version": "1.37.0"
+            },
+            {
                 "Date": "2019-07-08",
                 "Downloads Platform": {
                     "Windows 32-bit": "https://vscode-update.azurewebsites.net/1.36.1/win32-user/stable",
