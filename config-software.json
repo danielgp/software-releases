@@ -419,6 +419,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-08-12",
+                        "Version": "2.1.1.0"
+                    },
+                    {
                         "Date": "2019-07-30",
                         "Version": "2.1.0.0"
                     },
@@ -2621,10 +2625,18 @@
         "Type": "Developement IDE",
         "Versions": [
             {
+                "Date": "2019-08-15",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://vscode-update.azurewebsites.net/1.37.1/win32-user/stable",
+                    "Windows 64-bit": "https://vscode-update.azurewebsites.net/1.37.1/win32-x64-user/stable"
+                },
+                "Version": "1.37.1"
+            },
+            {
                 "Date": "2019-08-07",
                 "Downloads Platform": {
-                    "Windows 32-bit": "https://vscode-update.azurewebsites.net/1.37.2/win32-user/stable",
-                    "Windows 64-bit": "https://vscode-update.azurewebsites.net/1.37.2/win32-x64-user/stable"
+                    "Windows 32-bit": "https://vscode-update.azurewebsites.net/1.37.0/win32-user/stable",
+                    "Windows 64-bit": "https://vscode-update.azurewebsites.net/1.37.0/win32-x64-user/stable"
                 },
                 "Version": "1.37.0"
             },
@@ -2833,6 +2845,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-08-13",
+                        "Version": "15.9.15"
+                    },
+                    {
                         "Date": "2019-07-09",
                         "Version": "15.9.14"
                     },
@@ -2941,6 +2957,10 @@
                 "Releases": "https://docs.microsoft.com/visualstudio/releases/2019/release-notes",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-08-13",
+                        "Version": "16.2.2"
+                    },
                     {
                         "Date": "2019-08-06",
                         "Version": "16.2.1"
@@ -3091,6 +3111,14 @@
         "Releases": "https://wiki.mozilla.org/Release_Management/Calendar",
         "Type": "Internet Browser",
         "Versions": [
+            {
+                "Date": "2019-08-14",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/68.0.2/win32-EME-free/en-US/Firefox%20Setup%2068.0.2.exe",
+                    "Windows 64-bit": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/68.0.2/win64-EME-free/en-US/Firefox%20Setup%2068.0.2.exe"
+                },
+                "Version": "68.0.2"
+            },
             {
                 "Date": "2019-07-18",
                 "Downloads Platform": {
@@ -3522,6 +3550,17 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-08-15",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://nodejs.org/dist/v12.8.1/node-v12.8.1-x86.msi",
+                            "Windows 64-bit": "https://nodejs.org/dist/v12.8.1/node-v12.8.1-x64.msi"
+                        },
+                        "Includes": {
+                            "npm": "6.10.2"
+                        },
+                        "Version": "12.8.1"
+                    },
+                    {
                         "Date": "2019-08-06",
                         "Downloads Platform": {
                             "Windows 32-bit": "https://nodejs.org/dist/v12.8.0/node-v12.8.0-x86.msi",
@@ -3839,6 +3878,17 @@
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-08-15",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://nodejs.org/dist/v10.16.3/node-v10.16.3-x86.msi",
+                            "Windows 64-bit": "https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi"
+                        },
+                        "Includes": {
+                            "npm": "6.9.0"
+                        },
+                        "Version": "10.16.3"
+                    },
                     {
                         "Date": "2019-08-06",
                         "Downloads Platform": {
@@ -5356,7 +5406,7 @@
         "Website": "https://www.python.org/"
     },
     "sap_hana_database_client": {
-        "Branch": {
+        "Branches": {
             "with Crypto": {
                 "Platform": {
                     "Windows 32-bit": "http://lugoj2.honeywell.com/validations/Drivers/SAP_HANA_Database_Client/hdb_client_windows_x86_32.zip",
