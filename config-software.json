@@ -853,7 +853,7 @@
                     "Windows 32-bit": "Downloads Platform",
                     "Windows 64-bit": "Downloads Platform"
                 },
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date": "2018-09-19",
@@ -870,7 +870,7 @@
                     "Windows 32-bit": "Downloads Platform",
                     "Windows 64-bit": "Downloads Platform"
                 },
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date": "2018-12-06",
@@ -887,7 +887,7 @@
                     "Windows 32-bit": "Downloads Platform",
                     "Windows 64-bit": "Downloads Platform"
                 },
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date": "2019-03-20",
