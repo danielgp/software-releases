@@ -203,6 +203,14 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-08-17",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.24/bin/apache-tomcat-9.0.24-windows-x86.zip",
+                            "Windows 64-bit": "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.24/bin/apache-tomcat-9.0.24-windows-x64.zip"
+                        },
+                        "Version": "9.0.24"
+                    },
+                    {
                         "Date": "2019-07-09",
                         "Downloads Platform": {
                             "Windows 32-bit": "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.22/bin/apache-tomcat-9.0.22-windows-x86.zip",
@@ -4362,6 +4370,16 @@
         "Type": "Archiver",
         "Versions": [
             {
+                "Date": "2019-08-19",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/giorgiotani/PeaZip/releases/download/6.9.0/peazip-6.9.0.WINDOWS.exe",
+                    "Windows 32-bit Portable": "https://github.com/giorgiotani/PeaZip/releases/download/6.9.0/peazip_portable-6.9.0.WINDOWS.zip",
+                    "Windows 64-bit":          "https://github.com/giorgiotani/PeaZip/releases/download/6.9.0/peazip-6.9.0.WIN64.exe",
+                    "Windows 64-bit Portable": "https://github.com/giorgiotani/PeaZip/releases/download/6.9.0/peazip_portable-6.9.0.WIN64.zip"
+                },
+                "Version": "6.9.0"
+            },
+            {
                 "Date": "2019-06-14",
                 "Downloads Platform": {
                     "Windows 32-bit":          "https://github.com/giorgiotani/PeaZip/releases/download/6.8.1/peazip-6.8.1.WINDOWS.exe",
@@ -5856,9 +5874,17 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-09-19",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "http://ftp.videolan.org/vlc/3.0.8/win32/vlc-3.0.8-win32.exe",
+                            "Windows 64-bit": "http://ftp.videolan.org/vlc/3.0.8/win64/vlc-3.0.8-win64.exe"
+                        },
+                        "Version": "3.0.8"
+                    },
+                    {
                         "Date": "2019-06-12",
                         "Downloads Platform": {
-                            "Extension Pack": "https://get.videolan.org/vlc/3.0.7.1/win32/vlc-3.0.7.1-win32.exe",
+                            "Windows 32-bit": "https://get.videolan.org/vlc/3.0.7.1/win32/vlc-3.0.7.1-win32.exe",
                             "Windows 64-bit": "https://get.videolan.org/vlc/3.0.7.1/win64/vlc-3.0.7.1-win64.exe"
                         },
                         "Version": "3.0.7.1"
@@ -5866,7 +5892,7 @@
                     {
                         "Date": "2019-06-06",
                         "Downloads Platform": {
-                            "Extension Pack": "https://get.videolan.org/vlc/3.0.7/win32/vlc-3.0.7-win32.exe",
+                            "Windows 32-bit": "https://get.videolan.org/vlc/3.0.7/win32/vlc-3.0.7-win32.exe",
                             "Windows 64-bit": "https://get.videolan.org/vlc/3.0.7/win64/vlc-3.0.7-win64.exe"
                         },
                         "Version": "3.0.7"
