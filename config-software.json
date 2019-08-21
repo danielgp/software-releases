@@ -303,6 +303,16 @@
         "Type": "Advanced Text Editor",
         "Versions": [
             {
+                "Date": "2019-08-20",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/atom/atom/releases/download/v1.40.1/AtomSetup.exe",
+                    "Windows 32-bit Portable": "https://github.com/atom/atom/releases/download/v1.40.1/atom-windows.zip",
+                    "Windows 64-bit":          "https://github.com/atom/atom/releases/download/v1.40.1/AtomSetup-x64.exe",
+                    "Windows 64-bit Portable": "https://github.com/atom/atom/releases/download/v1.40.1/atom-x64-windows.zip"
+                },
+                "Version": "1.40.1"
+            },
+            {
                 "Date": "2019-08-13",
                 "Downloads Platform": {
                     "Windows 32-bit":          "https://github.com/atom/atom/releases/download/v1.40.0/AtomSetup.exe",
@@ -2976,6 +2986,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-08-20",
+                        "Version": "16.2.3"
+                    },
+                    {
                         "Date": "2019-08-13",
                         "Version": "16.2.2"
                     },
@@ -3567,6 +3581,17 @@
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-08-20",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://nodejs.org/dist/v12.9.0/node-v12.9.0-x86.msi",
+                            "Windows 64-bit": "https://nodejs.org/dist/v12.9.0/node-v12.9.0-x64.msi"
+                        },
+                        "Includes": {
+                            "npm": "6.10.2"
+                        },
+                        "Version": "12.9.0"
+                    },
                     {
                         "Date": "2019-08-15",
                         "Downloads Platform": {
@@ -4871,6 +4896,13 @@
                 "Status": "Supported",
                 "Support until": "2020-02-07",
                 "Versions": [
+                    {
+                        "Date": "2019-08-21",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/7.5.15"
+                        },
+                        "Version": "7.5.15"
+                    },
                     {
                         "Date": "2019-07-15",
                         "Downloads Platform": {
