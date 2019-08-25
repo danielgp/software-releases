@@ -4395,6 +4395,16 @@
         "Type": "Archiver",
         "Versions": [
             {
+                "Date": "2019-08-25",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/giorgiotani/PeaZip/releases/download/6.9.1/peazip-6.9.1.WINDOWS.exe",
+                    "Windows 32-bit Portable": "https://github.com/giorgiotani/PeaZip/releases/download/6.9.1/peazip_portable-6.9.1.WINDOWS.zip",
+                    "Windows 64-bit":          "https://github.com/giorgiotani/PeaZip/releases/download/6.9.1/peazip-6.9.1.WIN64.exe",
+                    "Windows 64-bit Portable": "https://github.com/giorgiotani/PeaZip/releases/download/6.9.1/peazip_portable-6.9.1.WIN64.zip"
+                },
+                "Version": "6.9.1"
+            },
+            {
                 "Date": "2019-08-19",
                 "Downloads Platform": {
                     "Windows 32-bit":          "https://github.com/giorgiotani/PeaZip/releases/download/6.9.0/peazip-6.9.0.WINDOWS.exe",
@@ -5375,6 +5385,16 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-08-23",
+                        "Downloads Platform": {
+                            "Community Windows":                  "https://download.jetbrains.com/python/pycharm-community-2019.2.1.exe",
+                            "Community Windows with Anaconda":    "https://download.jetbrains.com/python/pycharm-community-anaconda-2019.2.1.exe",
+                            "Professional Windows":               "https://download.jetbrains.com/python/pycharm-professional-2019.2.1.exe",
+                            "Professional Windows with Anaconda": "https://download.jetbrains.com/python/pycharm-professional-anaconda-2019.2.1.exe"
+                        },
+                        "Version": "2019.2.1.192.6262.63"
+                    },
+                    {
                         "Date": "2019-07-24",
                         "Downloads Platform": {
                             "Community Windows":                  "https://download.jetbrains.com/python/pycharm-community-2019.2.exe",
@@ -5650,7 +5670,7 @@
                     "Windows 64-bit": "Downloads Platform"
                 },
                 "Releases": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/ReleaseNotes_3.1.3.html",
-                "Status": "Active support (early adopters)",
+                "Status": "Active support",
                 "Versions": [
                     {
                         "Date": "2019-04-25",
@@ -5674,6 +5694,22 @@
                         "Version": "3.1.1"
                     }
                 ]
+            },
+            "3.2.x": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/ReleaseNotes_3.2.6.html",
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date": "2019-08-16",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.2.6.exe"
+                        },
+                        "Version": "3.2.6"
+                    }
+                ]
             }
         },
         "Description": "Sourcetree simplifies how you interact with your Git repositories so you can focus on coding. Visualize and manage your repositories through Sourcetree's simple Git GUI.",
@@ -5689,6 +5725,13 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-08-22",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://downloads.tableau.com/esdalt/10.5.19/TableauDesktop-64bit-10-5-19.exe"
+                        },
+                        "Version": "10.5.19"
+                    },
                     {
                         "Date": "2019-07-23",
                         "Downloads Platform": {
@@ -5906,7 +5949,7 @@
                 "Status": "Active support",
                 "Versions": [
                     {
-                        "Date": "2019-09-19",
+                        "Date": "2019-08-19",
                         "Downloads Platform": {
                             "Windows 32-bit": "http://ftp.videolan.org/vlc/3.0.8/win32/vlc-3.0.8-win32.exe",
                             "Windows 64-bit": "http://ftp.videolan.org/vlc/3.0.8/win64/vlc-3.0.8-win64.exe"
