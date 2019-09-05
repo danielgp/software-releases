@@ -2671,6 +2671,14 @@
         "Type": "Developement IDE",
         "Versions": [
             {
+                "Date": "2019-09-03",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://vscode-update.azurewebsites.net/1.38.0/win32-user/stable",
+                    "Windows 64-bit": "https://vscode-update.azurewebsites.net/1.38.0/win32-x64-user/stable"
+                },
+                "Version": "1.38.0"
+            },
+            {
                 "Date": "2019-08-15",
                 "Downloads Platform": {
                     "Windows 32-bit": "https://vscode-update.azurewebsites.net/1.37.1/win32-user/stable",
@@ -3607,6 +3615,17 @@
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date": "2019-09-03",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://nodejs.org/dist/v12.10.0/node-v12.10.0-x86.msi",
+                            "Windows 64-bit": "https://nodejs.org/dist/v12.10.0/node-v12.10.0-x64.msi"
+                        },
+                        "Includes": {
+                            "npm": "6.10.3"
+                        },
+                        "Version": "12.10.0"
+                    },
                     {
                         "Date": "2019-08-26",
                         "Downloads Platform": {
@@ -5592,6 +5611,13 @@
                 "Status": "Active",
                 "Versions": [
                     {
+                        "Date": "2019-07-25",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.4.151-windows-x64.zip"
+                        },
+                        "Version": "2.4.151.1563996265"
+                    },
+                    {
                         "Date": "2019-06-19",
                         "Downloads Platform": {
                             "Windows 64-bit": "https://tools.hana.ondemand.com/additional/hanaclient-2.4.144-windows-x64.zip"
@@ -5980,6 +6006,14 @@
         "Releases": "https://www.virtualbox.org/wiki/Changelog",
         "Type": "Utility",
         "Versions": [
+            {
+                "Date": "2019-09-03",
+                "Downloads Platform": {
+                    "Extension Pack": "https://download.virtualbox.org/virtualbox/6.0.12/Oracle_VM_VirtualBox_Extension_Pack-6.0.12.vbox-extpack",
+                    "Windows 64-bit": "https://download.virtualbox.org/virtualbox/6.0.12/VirtualBox-6.0.12-133076-Win.exe"
+                },
+                "Version": "6.0.12"
+            },
             {
                 "Date": "2019-07-16",
                 "Downloads Platform": {
