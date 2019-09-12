@@ -445,6 +445,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-09-09",
+                        "Version": "2.1.2.0"
+                    },
+                    {
                         "Date": "2019-08-12",
                         "Version": "2.1.1.0"
                     },
@@ -598,8 +602,12 @@
                 "Status": "Active support",
                 "Versions": [
                     {
-                        "Date": "2019-08-07",
-                        "Version": "2.1.0.1"
+                        "Date":     "2019-09-04",
+                        "Version":  "2.1.0.2"
+                    },
+                    {
+                        "Date":     "2019-08-07",
+                        "Version":  "2.1.0.1"
                     },
                     {
                         "Date": "2019-02-15",
@@ -1317,8 +1325,12 @@
         "Type": "Internet Browser",
         "Versions": [
             {
-                "Date": "2019-07-30",
-                "Version": "76.0.3809"
+                "Date":     "2019-09-10",
+                "Version":  "77.0.3865"
+            },
+            {
+                "Date":     "2019-07-30",
+                "Version":  "76.0.3809"
             },
             {
                 "Date": "2019-06-04",
@@ -2364,6 +2376,16 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-09-10",
+                        "Downloads Platform": {
+                            "Windows 32-bit Develop": "https://download.visualstudio.microsoft.com/download/pr/40d62e77-4049-4500-9bdb-bfcad7ade5a6/a26e70ec74e41554d4a20df907b20e55/dotnet-sdk-2.2.402-win-x86.exe",
+                            "Windows 32-bit Runtime": "https://download.visualstudio.microsoft.com/download/pr/2b9e6f98-53ba-412d-8a4e-cb4092d8a293/602c597f378f5c5d527e91e1fa1ebb55/dotnet-runtime-2.2.7-win-x86.exe",
+                            "Windows 64-bit Develop": "https://download.visualstudio.microsoft.com/download/pr/40c1dd82-671c-4974-919d-ac8a61ef5a91/49ab67c335878f4a5bdd84e14c76708f/dotnet-sdk-2.2.402-win-x64.exe",
+                            "Windows 64-bit Runtime": "https://download.visualstudio.microsoft.com/download/pr/a803822b-178b-4d21-bb7c-aaa1d209c341/e77c5ca1d0ea9963346655e2ec2733f2/dotnet-runtime-2.2.7-win-x64.exe"
+                        },
+                        "Version": "2.2.7"
+                    },
+                    {
                         "Date": "2019-07-09",
                         "Downloads Platform": {
                             "Windows 32-bit Develop": "https://download.visualstudio.microsoft.com/download/pr/ffea64d6-9050-406a-a9a7-00abcbbac35d/d3f943d449982b552cc35ed279e24edb/dotnet-sdk-2.2.301-win-x86.exe",
@@ -2671,6 +2693,14 @@
         "Type": "Developement IDE",
         "Versions": [
             {
+                "Date": "2019-09-11",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://vscode-update.azurewebsites.net/1.38.1/win32-user/stable",
+                    "Windows 64-bit": "https://vscode-update.azurewebsites.net/1.38.1/win32-x64-user/stable"
+                },
+                "Version": "1.38.1"
+            },
+            {
                 "Date": "2019-09-03",
                 "Downloads Platform": {
                     "Windows 32-bit": "https://vscode-update.azurewebsites.net/1.38.0/win32-user/stable",
@@ -2899,8 +2929,12 @@
                 "Status": "Active support",
                 "Versions": [
                     {
-                        "Date": "2019-08-13",
-                        "Version": "15.9.15"
+                        "Date":     "2019-09-10",
+                        "Version":  "15.9.16"
+                    },
+                    {
+                        "Date":     "2019-08-13",
+                        "Version":  "15.9.15"
                     },
                     {
                         "Date": "2019-07-09",
@@ -3012,8 +3046,16 @@
                 "Status": "Active support",
                 "Versions": [
                     {
-                        "Date": "2019-08-20",
-                        "Version": "16.2.3"
+                        "Date":     "2019-09-10",
+                        "Version":  "16.2.5"
+                    },
+                    {
+                        "Date":     "2019-09-05",
+                        "Version":  "16.2.4"
+                    },
+                    {
+                        "Date":     "2019-08-20",
+                        "Version":  "16.2.3"
                     },
                     {
                         "Date": "2019-08-13",
@@ -4264,6 +4306,14 @@
                 "Status":   "Active Support",
                 "Versions": [
                     {
+                        "Date":    "2019-09-11",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://slproweb.com/download/Win32OpenSSL_Light-1_0_2t.exe",
+                            "Windows 64-bit": "https://slproweb.com/download/Win64OpenSSL_Light-1_0_2t.exe"
+                        },
+                        "Version": "1.0.2t"
+                    },
+                    {
                         "Date":    "2019-05-28",
                         "Downloads Platform": {
                             "Windows 32-bit": "https://slproweb.com/download/Win32OpenSSL_Light-1_0_2s.exe",
@@ -4282,6 +4332,14 @@
                 "Status":   "Active Support",
                 "Versions": [
                     {
+                        "Date":    "2019-09-11",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://slproweb.com/download/Win32OpenSSL_Light-1_1_0L.exe",
+                            "Windows 64-bit": "https://slproweb.com/download/Win64OpenSSL_Light-1_1_0L.exe"
+                        },
+                        "Version": "1.1.0L"
+                    },
+                    {
                         "Date":    "2019-05-28",
                         "Downloads Platform": {
                             "Windows 32-bit": "https://slproweb.com/download/Win32OpenSSL_Light-1_1_0k.exe",
@@ -4299,6 +4357,14 @@
                 "Releases": "https://github.com/openssl/openssl/releases",
                 "Status":   "Active Support",
                 "Versions": [
+                    {
+                        "Date":    "2019-09-11",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://windows.php.net/downloads/php-sdk/deps/vs16/x86/openssl-1.1.1d-vs16-x86.zip",
+                            "Windows 64-bit": "https://windows.php.net/downloads/php-sdk/deps/vs16/x64/openssl-1.1.1d-vs16-x64.zip"
+                        },
+                        "Version": "1.1.1d"
+                    },
                     {
                         "Date":    "2019-05-28",
                         "Downloads Platform": {
@@ -5481,6 +5547,16 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-09-11",
+                        "Downloads Platform": {
+                            "Community Windows":                  "https://download.jetbrains.com/python/pycharm-community-2019.2.2.exe",
+                            "Community Windows with Anaconda":    "https://download.jetbrains.com/python/pycharm-community-anaconda-2019.2.2.exe",
+                            "Professional Windows":               "https://download.jetbrains.com/python/pycharm-professional-2019.2.2.exe",
+                            "Professional Windows with Anaconda": "https://download.jetbrains.com/python/pycharm-professional-anaconda-2019.2.2.exe"
+                        },
+                        "Version": "2019.2.2.192.6603.34"
+                    },
+                    {
                         "Date": "2019-08-23",
                         "Downloads Platform": {
                             "Community Windows":                  "https://download.jetbrains.com/python/pycharm-community-2019.2.1.exe",
@@ -5706,6 +5782,13 @@
         "Type": "Eclipse add-on",
         "Versions": [
             {
+                "Date": "2019-09-11",
+                "Downloads Platform": {
+                    "Windows 32-bit/64-bit": "https://tools.hana.ondemand.com/2018-06"
+                },
+                "Version": "2.3.46"
+            },
+            {
                 "Date": "2019-06-20",
                 "Downloads Platform": {
                     "Windows 32-bit/64-bit": "https://tools.hana.ondemand.com/2018-03"
@@ -5816,6 +5899,7 @@
             }
         },
         "Description": "Sourcetree simplifies how you interact with your Git repositories so you can focus on coding. Visualize and manage your repositories through Sourcetree's simple Git GUI.",
+        "Download Archives": "https://www.sourcetreeapp.com/download-archives",
         "Name": "Sourcetree",
         "Type": "Git Client",
         "Website": "https://www.sourcetreeapp.com/"
