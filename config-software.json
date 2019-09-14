@@ -4599,6 +4599,93 @@
         ],
         "Website": "http://www.peazip.org/"
     },
+    "pgadmin": {
+        "Branches": {
+            "4.x": {
+                "Platform": {
+                    "Windows 32-bit Installer": "Downloads Platform"
+                },
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date":                         "2019-08-22",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.12/windows/"
+                        },
+                        "Version":                      "4.12"
+                    },
+                    {
+                        "Date":                         "2019-07-25",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.11/windows/"
+                        },
+                        "Version":                      "4.11"
+                    },
+                    {
+                        "Date":                         "2019-07-04",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.10/windows/"
+                        },
+                        "Version":                      "4.10"
+                    },
+                    {
+                        "Date":                         "2019-06-27",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.9/windows/"
+                        },
+                        "Version":                      "4.9"
+                    },
+                    {
+                        "Date":                         "2019-06-03",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.8/windows/"
+                        },
+                        "Version":                      "4.8"
+                    },
+                    {
+                        "Date":                         "2019-05-30",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.7/windows/"
+                        },
+                        "Version":                      "4.7"
+                    },
+                    {
+                        "Date":                         "2019-05-02",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.6/windows/"
+                        },
+                        "Version":                      "4.6"
+                    },
+                    {
+                        "Date":                         "2019-04-10",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.5/windows/"
+                        },
+                        "Version":                      "4.5"
+                    },
+                    {
+                        "Date":                         "2019-04-04",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.4/windows/"
+                        },
+                        "Version":                      "4.4"
+                    },
+                    {
+                        "Date":                         "2019-03-07",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.3/windows/"
+                        },
+                        "Version":                      "4.3"
+                    }
+                ]
+            }
+        },
+        "Description":  "pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world. pgAdmin may be used on Linux, Unix, Mac OS X and Windows to manage PostgreSQL 9.2 and above.",
+        "Name":         "pgAdmin",
+        "Releases":     "https://www.pgadmin.org/docs/pgadmin4/latest/release_notes.html",
+        "Type":         "Relational Database Management",
+        "Website":      "https://www.pgadmin.org/"
+    },
     "php": {
         "Branches": {
             "5.6.x": {
@@ -5475,6 +5562,110 @@
             }
         ],
         "Website": "https://poedit.net/"
+    },
+    "postgre_odbc": {
+        "Branches": {
+            "11.x": {
+                "Platform": {
+                    "Windows 32-bit Installer":         "Downloads Platform",
+                    "Windows 64-bit Installer":         "Downloads Platform"
+                },
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date":                         "2019-05-24",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://ftp.postgresql.org/pub/odbc/versions/msi/psqlodbc_11_01_0000-x86.zip",
+                            "Windows 64-bit Installer": "https://ftp.postgresql.org/pub/odbc/versions/msi/psqlodbc_11_01_0000-x64.zip"
+                        },
+                        "Version":                      "11.0.1"
+                    },
+                    {
+                        "Date":                         "2018-11-17",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://ftp.postgresql.org/pub/odbc/versions/msi/psqlodbc_11_00_0000-x86.zip",
+                            "Windows 64-bit Installer": "https://ftp.postgresql.org/pub/odbc/versions/msi/psqlodbc_11_00_0000-x64.zip"
+                        },
+                        "Version":                      "11.0.0"
+                    }
+                ]
+            }
+        },
+        "Description":  "PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.",
+        "Name":         "PostgreSQL ODBC",
+        "Releases":     "https://www.postgresql.org/ftp/odbc/versions/",
+        "Type":         "Driver",
+        "Website":      "https://www.postgresql.org/"
+    },
+    "postgre_sql": {
+        "Branches": {
+            "11.x": {
+                "Platform": {
+                    "Windows 64-bit Archive":           "Downloads Platform",
+                    "Windows 64-bit Installer":         "Downloads Platform"
+                },
+                "Status": "Active support",
+                "Support Policy": {
+                    "First Date":   "2018-10-18",
+                    "Final Date":   "2023-11-09"
+                },
+                "Versions": [
+                    {
+                        "Date":                         "2019-08-08",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-11.5-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-11.5-1-windows-x64.exe"
+                        },
+                        "Version":                      "11.5"
+                    },
+                    {
+                        "Date":                         "2019-06-20",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-11.4-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-11.4-1-windows-x64.exe"
+                        },
+                        "Version":                      "11.4"
+                    },
+                    {
+                        "Date":                         "2019-05-09",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-11.3-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-11.3-1-windows-x64.exe"
+                        },
+                        "Version":                      "11.3"
+                    },
+                    {
+                        "Date":                         "2019-02-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-11.2-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-11.2-1-windows-x64.exe"
+                        },
+                        "Version":                      "11.2"
+                    },
+                    {
+                        "Date":                         "2018-11-08",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-11.1-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-11.1-1-windows-x64.exe"
+                        },
+                        "Version":                      "11.1"
+                    },
+                    {
+                        "Date":                         "2018-10-18",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-11.0-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-11.0-1-windows-x64.exe"
+                        },
+                        "Version":                      "11.0"
+                    }
+                ]
+            }
+        },
+        "Description":  "PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.",
+        "Name":         "PostgreSQL",
+        "Releases":     "https://www.postgresql.org/docs/release/",
+        "Type":         "Relational Database Server",
+        "Website":      "https://www.postgresql.org/"
     },
     "py_charm": {
         "Branches": {
