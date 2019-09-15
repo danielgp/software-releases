@@ -1997,6 +1997,48 @@
         ],
         "Website": "https://markdownedit.com/"
     },
+    "maria_db": {
+        "Branches": {
+            "10.4.x": {
+                "Platform": {
+                    "Windows 32-bit": "Downloads Platform",
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases":     "https://downloads.mariadb.org/mariadb/+releases/",
+                "Status":       "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2019-09-11",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.8/win32-packages/mariadb-10.4.8-win32.zip",
+                            "Windows 64-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.8/winx64-packages/mariadb-10.4.8-winx64.zip"
+                        },
+                        "Version":              "10.4.8"
+                    },
+                    {
+                        "Date":                 "2019-07-31",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.7/win32-packages/mariadb-10.4.7-win32.zip",
+                            "Windows 64-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.7/winx64-packages/mariadb-10.4.7-winx64.zip"
+                        },
+                        "Version":              "10.4.7"
+                    },
+                    {
+                        "Date":                 "2019-06-18",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.6/win32-packages/mariadb-10.4.6-win32.zip",
+                            "Windows 64-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.6/winx64-packages/mariadb-10.4.6-winx64.zip"
+                        },
+                        "Version":              "10.4.6"
+                    }
+                ]
+            }
+        },
+        "Description":  "One of the most popular database servers. Made by the original developers of MySQL. Guaranteed to stay open source.",
+        "Name":         "MariaDB",
+        "Type":         "Database Management System (DBMS)",
+        "Website":      "https://mariadb.org/"
+    },
     "microsoft_.net_core": {
         "Branches": {
             "1.0.x": {
@@ -3527,10 +3569,10 @@
                 ]
             }
         },
-        "Description": "MySQL Community Edition is the freely downloadable version of the world's most popular open source database. It is available under the GPL license and is supported by a huge and active community of open source developers.",
-        "Name": "MySQL Server Community Edition",
-        "Type": "Relational Database Server",
-        "Website": "https://www.mysql.com/products/community/"
+        "Description":  "MySQL Community Edition is the freely downloadable version of the world's most popular open source database. It is available under the GPL license and is supported by a huge and active community of open source developers.",
+        "Name":         "MySQL Server Community Edition",
+        "Type":         "Database Management System (DBMS)",
+        "Website":      "https://www.mysql.com/products/community/"
     },
     "mysql_workbench": {
         "Branches": {
@@ -5664,7 +5706,7 @@
         "Description":  "PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.",
         "Name":         "PostgreSQL",
         "Releases":     "https://www.postgresql.org/docs/release/",
-        "Type":         "Relational Database Server",
+        "Type":         "Database Management System (DBMS)",
         "Website":      "https://www.postgresql.org/"
     },
     "py_charm": {
