@@ -445,6 +445,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2019-09-16",
+                        "Version":  "2.1.3.0"
+                    },
+                    {
                         "Date": "2019-09-09",
                         "Version": "2.1.2.0"
                     },
@@ -601,6 +605,10 @@
                 "Releases": "https://docs.docker.com/docker-for-windows/release-notes/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2019-09-16",
+                        "Version":  "2.1.0.3"
+                    },
                     {
                         "Date":     "2019-09-04",
                         "Version":  "2.1.0.2"
@@ -914,7 +922,7 @@
                     "Windows 32-bit": "Downloads Platform",
                     "Windows 64-bit": "Downloads Platform"
                 },
-                "Status": "End of life",
+                "Status": "Active support",
                 "Versions": [
                     {
                         "Date": "2018-12-06",
@@ -931,7 +939,7 @@
                     "Windows 32-bit": "Downloads Platform",
                     "Windows 64-bit": "Downloads Platform"
                 },
-                "Status": "End of life",
+                "Status": "Active support",
                 "Versions": [
                     {
                         "Date": "2019-03-20",
@@ -952,18 +960,18 @@
                     {
                         "Date": "2019-06-05",
                         "Downloads Platform": {
-                            "Windows 64-bit": "http://ftp.halifax.rwth-aachen.de/eclipse//eclipse/downloads/drops4/R-4.12-201906051800/eclipse-platform-4.12-win32-x86_64.zip"
+                            "Windows 64-bit": "http://ftp.halifax.rwth-aachen.de/eclipse/eclipse/downloads/drops4/R-4.12-201906051800/eclipse-platform-4.12-win32-x86_64.zip"
                         },
                         "Version": "4.12.0"
                     }
                 ]
             }
         },
-        "Description": "Eclipse is an integrated development environment (IDE) used in computer programming, and is the most widely used Java IDE. It contains a base workspace and an extensible plug-in system for customizing the environment. Eclipse is written mostly in Java and its primary use is for developing Java applications, but it may also be used to develop applications in other programming languages via plug-ins, including Ada, ABAP, C, C++, C#, COBOL, D, Fortran, Haskell, JavaScript, Julia, Lasso, Lua, NATURAL, Perl, PHP, Prolog, Python, R, Ruby (including Ruby on Rails framework), Rust, Scala, Clojure, Groovy, Scheme, and Erlang. It can also be used to develop documents with LaTeX (via a TeXlipse plug-in) and packages for the software Mathematica. Development environments include the Eclipse Java development tools (JDT) for Java and Scala, Eclipse CDT for C/C++, and Eclipse PDT for PHP, among others.",
-        "Name": "Eclipse",
-        "Releases": "https://en.wikipedia.org/wiki/Eclipse_(software)",
-        "Type": "IDE",
-        "Website": "https://wiki.eclipse.org/"
+        "Description":  "Eclipse is an integrated development environment (IDE) used in computer programming, and is the most widely used Java IDE. It contains a base workspace and an extensible plug-in system for customizing the environment. Eclipse is written mostly in Java and its primary use is for developing Java applications, but it may also be used to develop applications in other programming languages via plug-ins, including Ada, ABAP, C, C++, C#, COBOL, D, Fortran, Haskell, JavaScript, Julia, Lasso, Lua, NATURAL, Perl, PHP, Prolog, Python, R, Ruby (including Ruby on Rails framework), Rust, Scala, Clojure, Groovy, Scheme, and Erlang. It can also be used to develop documents with LaTeX (via a TeXlipse plug-in) and packages for the software Mathematica. Development environments include the Eclipse Java development tools (JDT) for Java and Scala, Eclipse CDT for C/C++, and Eclipse PDT for PHP, among others.",
+        "Name":         "Eclipse",
+        "Releases":     "https://download.eclipse.org/eclipse/downloads/",
+        "Type":         "IDE",
+        "Website":      "https://www.eclipse.org/"
     },
     "gettext": {
         "Description": "In computing, gettext is an internationalization and localization (i18n) system commonly used for writing multilingual programs on Unix-like computer operating systems. The most commonly used implementation of gettext is GNU gettext,[citation needed] released by the GNU Project in 1995.",
@@ -2006,6 +2014,10 @@
                 },
                 "Releases":     "https://downloads.mariadb.org/mariadb/+releases/",
                 "Status":       "Active support",
+                "Support Policy": {
+                    "First Date":   "2019-06-18",
+                    "Final Date":   "2024-06-18"
+                },
                 "Versions": [
                     {
                         "Date":                 "2019-09-11",
@@ -4453,7 +4465,7 @@
                     "Windows 64-bit": "https://www.oracle.com/technetwork/topics/winx64soft-089540.html"
                 },
                 "Releases": "https://www.oracle.com/technetwork/topics/winx64soft-089540.html",
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date": "2019-02-26",
@@ -4470,7 +4482,7 @@
                     "Windows 32-bit": "https://www.oracle.com/technetwork/topics/winsoft-085727.html",
                     "Windows 64-bit": "https://www.oracle.com/technetwork/topics/winx64soft-089540.html"
                 },
-                "Releases": "https://www.oracle.com/technetwork/topics/winx64soft-089540.html",
+                "Releases": "https://www.oracle.com/database/technologies/instant-client/downloads.html",
                 "Status": "Active support",
                 "Versions": [
                     {
@@ -4495,6 +4507,22 @@
         "Releases": "https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html",
         "Type": "Driver",
         "Versions": [
+            {
+                "Date":                                         "2019-09-12",
+                "Downloads Platform": {
+                    "Windows 64-bit with JDK 8 included":       "https://download.oracle.com/otn/java/sqldeveloper/sqldeveloper-19.2.1.247.2212-x64.zip",
+                    "Windows 32-bit/64-bit no JRE included":    "https://download.oracle.com/otn/java/sqldeveloper/sqldeveloper-19.2.1.247.2212-no-jre.zip"
+                },
+                "Version":                                      "19.2.1.247.2212"
+            },
+            {
+                "Date":                                         "2019-08-01",
+                "Downloads Platform": {
+                    "Windows 32-bit/64-bit w. JRE":             "http://download.oracle.com/otn/java/sqldeveloper/sqldeveloper-19.2.0.206.2117-x64.zip",
+                    "Windows 32-bit/64-bit no JRE included":    "http://download.oracle.com/otn/java/sqldeveloper/sqldeveloper-19.2.0.206.2117-no-jre.zip"
+                },
+                "Version":                                      "19.2.0.206.2117"
+            },
             {
                 "Date": "2019-08-01",
                 "Downloads Platform": {
@@ -5198,6 +5226,13 @@
                 "Support until": "2020-02-07",
                 "Versions": [
                     {
+                        "Date":             "2019-09-14",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/7.5.16"
+                        },
+                        "Version":          "7.5.16"
+                    },
+                    {
                         "Date": "2019-08-21",
                         "Downloads Platform": {
                             "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/7.5.15"
@@ -5367,6 +5402,13 @@
                 "Status": "Active",
                 "Support until": "2021-02-05",
                 "Versions": [
+                    {
+                        "Date":             "2019-09-14",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.3.5"
+                        },
+                        "Version":          "8.3.5"
+                    },
                     {
                         "Date": "2019-08-11",
                         "Downloads Platform": {
@@ -5545,11 +5587,11 @@
                 ]
             }
         },
-        "Description": "PHPUnit is a programmer-oriented testing framework for PHP. It is an instance of the xUnit architecture for unit testing frameworks.",
-        "Name": "PHPUnit",
-        "Releases": "https://github.com/sebastianbergmann/phpunit/releases",
-        "Type": "Dependency Manager for PHP",
-        "Website": "https://phpunit.de/"
+        "Description":  "PHPUnit is a programmer-oriented testing framework for PHP. It is an instance of the xUnit architecture for unit testing frameworks.",
+        "Name":         "PHPUnit",
+        "Releases":     "https://github.com/sebastianbergmann/phpunit/releases",
+        "Type":         "Dependency Manager for PHP",
+        "Website":      "https://phpunit.de/"
     },
     "po_editor": {
         "Description": "Free. Cross-platform. Open source. A developer platform for building all your apps.",
