@@ -4733,6 +4733,13 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                         "2019-09-19",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.13/windows/"
+                        },
+                        "Version":                      "4.13"
+                    },
+                    {
                         "Date":                         "2019-08-22",
                         "Downloads Platform": {
                             "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.12/windows/"
