@@ -211,6 +211,14 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-09-16",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.26/bin/apache-tomcat-9.0.26-windows-x86.zip",
+                            "Windows 64-bit": "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.26/bin/apache-tomcat-9.0.26-windows-x64.zip"
+                        },
+                        "Version": "9.0.26"
+                    },
+                    {
                         "Date": "2019-08-17",
                         "Downloads Platform": {
                             "Windows 32-bit": "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.24/bin/apache-tomcat-9.0.24-windows-x86.zip",
@@ -922,7 +930,7 @@
                     "Windows 32-bit": "Downloads Platform",
                     "Windows 64-bit": "Downloads Platform"
                 },
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date": "2018-12-06",
@@ -963,6 +971,21 @@
                             "Windows 64-bit": "http://ftp.halifax.rwth-aachen.de/eclipse/eclipse/downloads/drops4/R-4.12-201906051800/eclipse-platform-4.12-win32-x86_64.zip"
                         },
                         "Version": "4.12.0"
+                    }
+                ]
+            },
+            "4.13.x (2019-09 R)": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date": "2019-09-16",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "http://eclipse.mirror.garr.it/mirrors/eclipse//eclipse/downloads/drops4/R-4.13-201909161045/eclipse-platform-4.13-win32-x86_64.zip"
+                        },
+                        "Version": "4.13.0"
                     }
                 ]
             }
@@ -1672,6 +1695,22 @@
                     }
                 ]
             },
+            "Development Kit 13.x": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://www.oracle.com/technetwork/java/javase/13all-relnotes-5461743.html",
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2019-07-16",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://download.oracle.com/otn-pub/java/jdk/13+33/5b8a42f3905b406298b72d750b6919f6/jdk-13_windows-x64_bin.exe"
+                        },
+                        "Version":              "13.0.0"
+                    }
+                ]
+            },
             "Open Development Kit 11.x": {
                 "Platform": {
                     "Windows 64-bit": "Downloads Platform"
@@ -1729,6 +1768,22 @@
                             "Windows 64-bit": "https://download.java.net/java/GA/jdk12/33/GPL/openjdk-12_windows-x64_bin.zip"
                         },
                         "Version": "12.0.0"
+                    }
+                ]
+            },
+            "Open Development Kit 13.x": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "http://jdk.java.net/13/",
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2019-09-16",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://download.java.net/java/GA/jdk13/5b8a42f3905b406298b72d750b6919f6/33/GPL/openjdk-13_windows-x64_bin.zip"
+                        },
+                        "Version":              "12.0.2"
                     }
                 ]
             },
