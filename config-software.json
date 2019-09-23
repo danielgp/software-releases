@@ -1703,7 +1703,7 @@
                 "Status": "Active support",
                 "Versions": [
                     {
-                        "Date":                 "2019-07-16",
+                        "Date":                 "2019-09-17",
                         "Downloads Platform": {
                             "Windows 64-bit":   "https://download.oracle.com/otn-pub/java/jdk/13+33/5b8a42f3905b406298b72d750b6919f6/jdk-13_windows-x64_bin.exe"
                         },
@@ -3320,6 +3320,14 @@
         "Releases": "https://wiki.mozilla.org/Release_Management/Calendar",
         "Type": "Internet Browser",
         "Versions": [
+            {
+                "Date":                 "2019-09-18",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/69.0.1/win32-EME-free/en-US/Firefox%20Setup%2069.0.1.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/69.0.1/win64-EME-free/en-US/Firefox%20Setup%2069.0.1.exe"
+                },
+                "Version":              "69.0.1"
+            },
             {
                 "Date": "2019-09-02",
                 "Downloads Platform": {
