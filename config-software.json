@@ -2535,6 +2535,28 @@
                         "Version": "2.2.3"
                     }
                 ]
+            },
+            "3.0.x": {
+                "Platform": {
+                    "Windows 32-bit Develop":           "Downloads Platform",
+                    "Windows 32-bit Runtime":           "Downloads Platform",
+                    "Windows 64-bit Develop":           "Downloads Platform",
+                    "Windows 64-bit Runtime":           "Downloads Platform"
+                },
+                "Releases":                             "https://www.microsoft.com/net/download/dotnet-core/3.0",
+                "Status":                               "Active support",
+                "Versions": [
+                    {
+                        "Date":                         "2019-09-23",
+                        "Downloads Platform": {
+                            "Windows 32-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/16378a9f-1291-4c34-8625-ab4dfebfb74a/096945940a346e326368c070b8ecc050/dotnet-sdk-3.0.100-win-x86.exe",
+                            "Windows 32-bit Runtime":   "https://download.visualstudio.microsoft.com/download/pr/ffc76eb1-6293-46e9-8d31-ad804995f870/ccf2eeafb0bdf336a092bfdd52a0dfca/dotnet-runtime-3.0.0-win-x86.exe",
+                            "Windows 64-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/53f250a1-318f-4350-8bda-3c6e49f40e76/e8cbbd98b08edd6222125268166cfc43/dotnet-sdk-3.0.100-win-x64.exe",
+                            "Windows 64-bit Runtime":   "https://download.visualstudio.microsoft.com/download/pr/b3b81103-619a-48d8-ac1b-e03bbe153b7c/566b0f50872164abd1478a5b3ec38ffa/dotnet-runtime-3.0.0-win-x64.exe"
+                        },
+                        "Version":                      "3.0.0"
+                    }
+                ]
             }
         },
         "Description": "Free. Cross-platform. Open source. A developer platform for building all your apps.",
@@ -2730,6 +2752,13 @@
         "Releases": "https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-changelog-ssms?view=sql-server-2017",
         "Type": "Database Management Tool",
         "Versions": [
+            {
+                "Date":                 "2019-09-23",
+                "Downloads Platform": {
+                    "Windows 64-bit":   "https://go.microsoft.com/fwlink/?linkid=2104251"
+                },
+                "Version":              "18.3.0 build 15.0.18178.0"
+            },
             {
                 "Date": "2019-07-25",
                 "Downloads Platform": {
@@ -3155,6 +3184,14 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2019-09-25",
+                        "Version":  "16.3.1"
+                    },
+                    {
+                        "Date":     "2019-09-23",
+                        "Version":  "16.3.0"
+                    },
+                    {
                         "Date":     "2019-09-10",
                         "Version":  "16.2.5"
                     },
@@ -3290,12 +3327,16 @@
                 "Status": "Active support",
                 "Versions": [
                     {
-                        "Date": "2019-07-09",
-                        "Version": "14.22.27821"
+                        "Date":     "2019-09-23",
+                        "Version":  "14.23.27820"
                     },
                     {
-                        "Date": "2019-05-07",
-                        "Version": "14.21.27702.2"
+                        "Date":     "2019-07-09",
+                        "Version":  "14.22.27821"
+                    },
+                    {
+                        "Date":     "2019-05-07",
+                        "Version":  "14.21.27702.2"
                     },
                     {
                         "Date": "2019-01-10",
@@ -4891,7 +4932,7 @@
                 "Status": "Security fixes only",
                 "Versions": [
                     {
-                        "Date": "2019-08-28",
+                        "Date": "2019-09-26",
                         "Downloads Platform": {
                             "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.1.32-nts-Win32-VC15-x86.zip",
                             "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.1.32-Win32-VC15-x86.zip",
@@ -4969,19 +5010,29 @@
                 },
                 "Platform": {
                     "Windows 32-bit: VC14 Non Thread Safe": "Downloads Platform",
-                    "Windows 32-bit: VC14 Thread Safe": "Downloads Platform",
+                    "Windows 32-bit: VC14 Thread Safe":     "Downloads Platform",
                     "Windows 64-bit: VC14 Non Thread Safe": "Downloads Platform",
-                    "Windows 64-bit: VC14 Thread Safe": "Downloads Platform"
+                    "Windows 64-bit: VC14 Thread Safe":     "Downloads Platform"
                 },
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2019-09-26",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.23-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.23-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.23-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.23-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.2.23"
+                    },
+                    {
                         "Date": "2019-08-28",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.22-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.22-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.22-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.22-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.22-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.22-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.22-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.22-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.22"
                     },
@@ -5188,19 +5239,29 @@
                 },
                 "Platform": {
                     "Windows 32-bit: VC14 Non Thread Safe": "Downloads Platform",
-                    "Windows 32-bit: VC14 Thread Safe": "Downloads Platform",
+                    "Windows 32-bit: VC14 Thread Safe":     "Downloads Platform",
                     "Windows 64-bit: VC14 Non Thread Safe": "Downloads Platform",
-                    "Windows 64-bit: VC14 Thread Safe": "Downloads Platform"
+                    "Windows 64-bit: VC14 Thread Safe":     "Downloads Platform"
                 },
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2018-09-26",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.10-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.10-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.10-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.10-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.3.10"
+                    },
+                    {
                         "Date": "2018-08-28",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.9-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.9-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.9-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.9-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.9-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.9-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.9-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.9-Win32-VC15-x64.zip"
                         },
                         "Version": "7.3.9"
                     },
@@ -6469,7 +6530,7 @@
                     "Professional Windows":               "Downloads Platform",
                     "Professional Windows with Anaconda": "Downloads Platform"
                 },
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date": "2019-07-30",
@@ -6530,6 +6591,16 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                                     "2019-09-25",
+                        "Downloads Platform": {
+                            "Community Windows":                    "https://download.jetbrains.com/python/pycharm-community-2019.2.3.exe",
+                            "Community Windows with Anaconda":      "https://download.jetbrains.com/python/pycharm-community-anaconda-2019.2.3.exe",
+                            "Professional Windows":                 "https://download.jetbrains.com/python/pycharm-professional-2019.2.3.exe",
+                            "Professional Windows with Anaconda":   "https://download.jetbrains.com/python/pycharm-professional-anaconda-2019.2.3.exe"
+                        },
+                        "Version":                                  "2019.2.3.192.6817.19"
+                    },
                     {
                         "Date": "2019-09-11",
                         "Downloads Platform": {
@@ -6670,6 +6741,13 @@
                 },
                 "Status": "Active",
                 "Versions": [
+                    {
+                        "Date":                 "2019-07-25",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://tools.hana.ondemand.com/additional/hanaclient-2.4.155-windows-x64.zip"
+                        },
+                        "Version":              "2.4.155.1563996265"
+                    },
                     {
                         "Date": "2019-07-25",
                         "Downloads Platform": {
@@ -6896,6 +6974,13 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2019-09-24",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/10.5.20/TableauDesktop-64bit-10-5-20.exe"
+                        },
+                        "Version":              "10.5.20"
+                    },
                     {
                         "Date": "2019-08-22",
                         "Downloads Platform": {
