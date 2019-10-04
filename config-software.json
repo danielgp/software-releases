@@ -1427,6 +1427,13 @@
         "Status": "Active",
         "Versions": [
             {
+                "Date":                 "2019-09-29",
+                "Downloads Platform": {
+                    "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%25206.10.0/jasperreports-6.10.0-project.zip"
+                },
+                "Version":              "6.10.0"
+            },
+            {
                 "Date": "2019-06-24",
                 "Downloads Platform": {
                     "Multi-Platform": "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%25206.9.0/jasperreports-6.9.0-project.zip"
@@ -1460,6 +1467,13 @@
         "Releases": "https://sourceforge.net/projects/jasperstudio/files/",
         "Status": "Active",
         "Versions": [
+            {
+                "Date":                 "2019-10-01",
+                "Downloads Platform": {
+                    "Windows 64-bit":   "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.10.0/TIB_js-studiocomm_6.10.0_windows_x86_64.zip"
+                },
+                "Version":              "6.10.0"
+            },
             {
                 "Date": "2019-06-25",
                 "Downloads Platform": {
@@ -2724,6 +2738,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-10-04",
+                        "Version": "17.4.2.1"
+                    },
+                    {
                         "Date": "2019-07-31",
                         "Version": "17.4.1.1"
                     },
@@ -2752,6 +2770,13 @@
         "Releases": "https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-changelog-ssms?view=sql-server-2017",
         "Type": "Database Management Tool",
         "Versions": [
+            {
+                "Date":                 "2019-10-02",
+                "Downloads Platform": {
+                    "Windows 64-bit":   "https://go.microsoft.com/fwlink/?linkid=2105412"
+                },
+                "Version":              "18.3.1 build 15.0.18183.0"
+            },
             {
                 "Date":                 "2019-09-23",
                 "Downloads Platform": {
@@ -3184,6 +3209,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2019-10-01",
+                        "Version":  "16.3.2"
+                    },
+                    {
                         "Date":     "2019-09-25",
                         "Version":  "16.3.1"
                     },
@@ -3361,6 +3390,14 @@
         "Releases": "https://wiki.mozilla.org/Release_Management/Calendar",
         "Type": "Internet Browser",
         "Versions": [
+            {
+                "Date":                 "2019-10-03",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/69.0.2/win32-EME-free/en-US/Firefox%20Setup%2069.0.2.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/69.0.2/win64-EME-free/en-US/Firefox%20Setup%2069.0.2.exe"
+                },
+                "Version":              "69.0.2"
+            },
             {
                 "Date":                 "2019-09-18",
                 "Downloads Platform": {
@@ -3815,6 +3852,17 @@
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2019-10-25",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "https://nodejs.org/dist/v12.11.1/node-v12.11.1-x86.msi",
+                            "Windows 64-bit":   "https://nodejs.org/dist/v12.11.1/node-v12.11.1-x64.msi"
+                        },
+                        "Includes": {
+                            "npm":              "6.11.3"
+                        },
+                        "Version":              "12.11.1"
+                    },
                     {
                         "Date": "2019-09-25",
                         "Downloads Platform": {
@@ -5545,6 +5593,13 @@
                 "Support until": "2021-02-05",
                 "Versions": [
                     {
+                        "Date":             "2019-10-04",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.4.0"
+                        },
+                        "Version":          "8.4.0"
+                    },
+                    {
                         "Date":             "2019-09-14",
                         "Downloads Platform": {
                             "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.3.5"
@@ -5744,6 +5799,13 @@
         "Releases": "https://poedit.net/download",
         "Type": "Localization Editor",
         "Versions": [
+            {
+                "Date":                 "2019-09-29",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download.poedit.net/Poedit-2.2.4-setup.exe"
+                },
+                "Version":              "2.2.4"
+            },
             {
                 "Date": "2019-05-08",
                 "Downloads Platform": {
@@ -6511,6 +6573,27 @@
                             "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-11.0-1-windows-x64.exe"
                         },
                         "Version":                      "11.0"
+                    }
+                ]
+            },
+            "12.x": {
+                "Platform": {
+                    "Windows 64-bit Archive":           "Downloads Platform",
+                    "Windows 64-bit Installer":         "Downloads Platform"
+                },
+                "Status": "Active support",
+                "Support Policy": {
+                    "First Date":   "2019-10-03",
+                    "Final Date":   "2024-11-09"
+                },
+                "Versions": [
+                    {
+                        "Date":                         "2019-10-03",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-12.0-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-12.0-1-windows-x64.exe"
+                        },
+                        "Version":                      "12.0"
                     }
                 ]
             }
