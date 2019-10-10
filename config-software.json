@@ -2858,6 +2858,14 @@
             {
                 "Date": "2019-09-11",
                 "Downloads Platform": {
+                    "Windows 32-bit": "https://vscode-update.azurewebsites.net/1.39.0/win32-user/stable",
+                    "Windows 64-bit": "https://vscode-update.azurewebsites.net/1.39.0/win32-x64-user/stable"
+                },
+                "Version": "1.39.0"
+            },
+            {
+                "Date": "2019-09-11",
+                "Downloads Platform": {
                     "Windows 32-bit": "https://vscode-update.azurewebsites.net/1.38.1/win32-user/stable",
                     "Windows 64-bit": "https://vscode-update.azurewebsites.net/1.38.1/win32-x64-user/stable"
                 },
@@ -3208,6 +3216,10 @@
                 "Releases": "https://docs.microsoft.com/visualstudio/releases/2019/release-notes",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2019-10-08",
+                        "Version":  "16.3.3"
+                    },
                     {
                         "Date":     "2019-10-01",
                         "Version":  "16.3.2"
@@ -5592,6 +5604,13 @@
                 "Status": "Active",
                 "Support until": "2021-02-05",
                 "Versions": [
+                    {
+                        "Date":             "2019-10-07",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.4.1"
+                        },
+                        "Version":          "8.4.1"
+                    },
                     {
                         "Date":             "2019-10-04",
                         "Downloads Platform": {
