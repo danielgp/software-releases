@@ -3403,6 +3403,14 @@
         "Type": "Internet Browser",
         "Versions": [
             {
+                "Date":                 "2019-10-10",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/69.0.3/win32-EME-free/en-US/Firefox%20Setup%2069.0.3.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/69.0.3/win64-EME-free/en-US/Firefox%20Setup%2069.0.3.exe"
+                },
+                "Version":              "69.0.3"
+            },
+            {
                 "Date":                 "2019-10-03",
                 "Downloads Platform": {
                     "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/69.0.2/win32-EME-free/en-US/Firefox%20Setup%2069.0.2.exe",
@@ -4411,6 +4419,16 @@
         "Releases": "https://notepad-plus-plus.org/download/",
         "Type": "Advanced Text Editor",
         "Versions": [
+            {
+                "Date":                         "2019-06-20",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8/npp.7.8.Installer.exe",
+                    "Windows 32-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.8/npp.7.8.bin.7z",
+                    "Windows 64-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8/npp.7.8.Installer.x64.exe",
+                    "Windows 64-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.8/npp.7.8.bin.x64.7z"
+                },
+                "Version":                      "7.8.0"
+            },
             {
                 "Date": "2019-06-20",
                 "Downloads Platform": {
