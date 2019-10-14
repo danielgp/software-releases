@@ -2856,6 +2856,14 @@
         "Type": "Developement IDE",
         "Versions": [
             {
+                "Date":                 "2019-10-11",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.39.1/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.39.1/win32-x64-user/stable"
+                },
+                "Version":              "1.39.1"
+            },
+            {
                 "Date": "2019-09-11",
                 "Downloads Platform": {
                     "Windows 32-bit": "https://vscode-update.azurewebsites.net/1.39.0/win32-user/stable",
@@ -3216,6 +3224,10 @@
                 "Releases": "https://docs.microsoft.com/visualstudio/releases/2019/release-notes",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2019-10-10",
+                        "Version":  "16.3.4"
+                    },
                     {
                         "Date":     "2019-10-08",
                         "Version":  "16.3.3"
@@ -3584,6 +3596,14 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2019-10-14",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "https://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.46-win32.zip",
+                            "Windows 64-bit":   "https://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.46-winx64.zip"
+                        },
+                        "Version":              "5.6.46"
+                    },
+                    {
                         "Date": "2019-07-22",
                         "Downloads Platform": {
                             "Windows 32-bit": "https://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.45-win32.zip",
@@ -3633,6 +3653,14 @@
                 "Releases": "https://dev.mysql.com/doc/relnotes/mysql/5.7/en/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2019-10-14",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.28-win32.zip",
+                            "Windows 64-bit":   "https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.28-winx64.zip"
+                        },
+                        "Version":              "5.7.28"
+                    },
                     {
                         "Date": "2019-07-22",
                         "Downloads Platform": {
@@ -3690,6 +3718,13 @@
                 "Releases": "https://dev.mysql.com/doc/relnotes/mysql/8.0/en/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2019-10-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.18-winx64.zip"
+                        },
+                        "Version":              "8.0.18"
+                    },
                     {
                         "Date": "2019-07-22",
                         "Downloads Platform": {
@@ -3773,6 +3808,13 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2019-10-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.18-winx64.msi"
+                        },
+                        "Version":              "8.0.18"
+                    },
+                    {
                         "Date": "2019-07-22",
                         "Downloads Platform": {
                             "Windows 64-bit": "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.17-winx64.msi"
@@ -3817,7 +3859,7 @@
                 ]
             }
         },
-        "Description": "MySQL Workbench provides DBAs and developers an integrated tools environment for [Database Design & Modeling[ and [SQL Development] and [Database Administration] and [Database Migration]",
+        "Description": "MySQL Workbench provides DBAs and developers an integrated tools environment for [Database Design & Modeling] and [SQL Development] and [Database Administration] and [Database Migration]",
         "Name": "MySQL Workbench",
         "Type": "Relational Database Management",
         "Website": "https://dev.mysql.com/downloads/workbench/"
@@ -3866,12 +3908,27 @@
         "Branches": {
             "Current": {
                 "Platform": {
-                    "Windows 32-bit": "Downloads Platform",
-                    "Windows 64-bit": "Downloads Platform"
+                    "Windows 32-bit":           "Downloads Platform",
+                    "Windows 32-bit Portable":  "Downloads Platform",
+                    "Windows 64-bit":           "Downloads Platform",
+                    "Windows 64-bit Portable":  "Downloads Platform"
                 },
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2019-10-11",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v12.12.0/node-v12.12.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v12.12.0/node-v12.12.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v12.12.0/node-v12.12.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v12.12.0/node-v12.12.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "6.11.3"
+                        },
+                        "Version":                      "12.12.0"
+                    },
                     {
                         "Date":                 "2019-10-25",
                         "Downloads Platform": {
@@ -5912,6 +5969,23 @@
                             "Windows 64-bit Installer": "https://ftp.postgresql.org/pub/odbc/versions/msi/psqlodbc_11_00_0000-x64.zip"
                         },
                         "Version":                      "11.0.0"
+                    }
+                ]
+            },
+            "12.x": {
+                "Platform": {
+                    "Windows 32-bit Installer":         "Downloads Platform",
+                    "Windows 64-bit Installer":         "Downloads Platform"
+                },
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date":                         "2019-10-11",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://ftp.postgresql.org/pub/odbc/versions/msi/psqlodbc_12_00_0000-x86.zip",
+                            "Windows 64-bit Installer": "https://ftp.postgresql.org/pub/odbc/versions/msi/psqlodbc_12_00_0000-x64.zip"
+                        },
+                        "Version":                      "12.0.0"
                     }
                 ]
             }
