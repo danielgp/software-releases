@@ -211,6 +211,14 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2019-10-07",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27-windows-x86.zip",
+                            "Windows 64-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27-windows-x64.zip"
+                        },
+                        "Version":              "9.0.27"
+                    },
+                    {
                         "Date": "2019-09-16",
                         "Downloads Platform": {
                             "Windows 32-bit": "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.26/bin/apache-tomcat-9.0.26-windows-x86.zip",
@@ -452,6 +460,10 @@
                 "Releases": "https://docs.docker.com/docker-for-windows/edge-release-notes/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2019-10-15",
+                        "Version":  "2.1.4.0"
+                    },
                     {
                         "Date":     "2019-09-16",
                         "Version":  "2.1.3.0"
@@ -1510,6 +1522,14 @@
                 "Status": "Active",
                 "Versions": [
                     {
+                        "Date":                 "2019-10-15",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "https://download.oracle.com/otn/java/jdk/8u231-b11/5b13a193868b4bf28bcb45c792fce896/jdk-8u231-windows-i586.exe",
+                            "Windows 64-bit":   "https://download.oracle.com/otn/java/jdk/8u231-b11/5b13a193868b4bf28bcb45c792fce896/jdk-8u231-windows-x64.exe"
+                        },
+                        "Version":              "8.0.231"
+                    },
+                    {
                         "Date": "2019-07-16",
                         "Downloads Platform": {
                             "Windows 32-bit": "https://download.oracle.com/otn/java/jdk/8u221-b11/230deb18db3e4014bb8e3e8324f81b43/jdk-8u221-windows-i586.exe",
@@ -1643,6 +1663,13 @@
                 "Status": "Long Term Support",
                 "Versions": [
                     {
+                        "Date":                 "2019-10-16",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://download.oracle.com/otn/java/jdk/11.0.5+10/e51269e04165492b90fa15af5b4eb1a5/jdk-11.0.5_windows-x64_bin.exe"
+                        },
+                        "Version":              "11.0.5"
+                    },
+                    {
                         "Date": "2019-07-16",
                         "Downloads Platform": {
                             "Windows 64-bit": "https://download.oracle.com/otn/java/jdk/11.0.4+10/cf1bbcbf431a474eb9fc550051f4ee78/jdk-11.0.4_windows-x64_bin.exe"
@@ -1716,6 +1743,13 @@
                 "Releases": "https://www.oracle.com/technetwork/java/javase/13all-relnotes-5461743.html",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2019-10-15",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://download.oracle.com/otn-pub/java/jdk/13.0.1+9/cec27d702aa74d5a8630c65ae61e4305/jdk-13.0.1_windows-x64_bin.exe"
+                        },
+                        "Version":              "13.0.1"
+                    },
                     {
                         "Date":                 "2019-09-17",
                         "Downloads Platform": {
@@ -1793,11 +1827,18 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2019-10-16",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://download.java.net/java/GA/jdk13.0.1/cec27d702aa74d5a8630c65ae61e4305/9/GPL/openjdk-13.0.1_windows-x64_bin.zip"
+                        },
+                        "Version":              "13.0.1"
+                    },
+                    {
                         "Date":                 "2019-09-16",
                         "Downloads Platform": {
                             "Windows 64-bit":   "https://download.java.net/java/GA/jdk13/5b8a42f3905b406298b72d750b6919f6/33/GPL/openjdk-13_windows-x64_bin.zip"
                         },
-                        "Version":              "12.0.2"
+                        "Version":              "13.0.0"
                     }
                 ]
             },
@@ -1809,6 +1850,14 @@
                 "Releases": "https://www.oracle.com/technetwork/java/javase/documentation/8u-relnotes-2225394.html",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2019-10-15",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "https://download.oracle.com/otn/java/jdk/8u231-b11/5b13a193868b4bf28bcb45c792fce896/jre-8u231-windows-i586.exe",
+                            "Windows 64-bit":   "https://download.oracle.com/otn/java/jdk/8u231-b11/5b13a193868b4bf28bcb45c792fce896/jre-8u231-windows-x64.exe"
+                        },
+                        "Version":              "8.0.231"
+                    },
                     {
                         "Date": "2019-07-16",
                         "Downloads Platform": {
@@ -2848,13 +2897,23 @@
         "Name": "Microsoft Visual Code",
         "Platform": {
             "Windows 32-bit":          "Downloads Platform",
-            "Windows 32-bit Portable": "https://go.microsoft.com/fwlink/?LinkID=623231",
+            "Windows 32-bit Portable": "Downloads Platform",
             "Windows 64-bit":          "Downloads Platform",
-            "Windows 64-bit Portable": "https://go.microsoft.com/fwlink/?Linkid=850641"
+            "Windows 64-bit Portable": "Downloads Platform"
         },
         "Releases": "https://github.com/Microsoft/vscode/releases",
         "Type": "Developement IDE",
         "Versions": [
+            {
+                "Date":                 "2019-10-15",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://vscode-update.azurewebsites.net/1.39.2/win32-user/stable",
+                    "Windows 32-bit Portable":  "https://go.microsoft.com/fwlink/?LinkID=623231",
+                    "Windows 64-bit":           "https://vscode-update.azurewebsites.net/1.39.2/win32-x64-user/stable",
+                    "Windows 64-bit Portable":  "https://go.microsoft.com/fwlink/?Linkid=850641"
+                },
+                "Version":              "1.39.2"
+            },
             {
                 "Date":                 "2019-10-11",
                 "Downloads Platform": {
@@ -3108,6 +3167,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2019-10-15",
+                        "Version":  "15.9.17"
+                    },
+                    {
                         "Date":     "2019-09-10",
                         "Version":  "15.9.16"
                     },
@@ -3224,6 +3287,10 @@
                 "Releases": "https://docs.microsoft.com/visualstudio/releases/2019/release-notes",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2019-10-15",
+                        "Version":  "16.3.5"
+                    },
                     {
                         "Date":     "2019-10-10",
                         "Version":  "16.3.4"
@@ -4307,12 +4374,27 @@
             },
             "LTS (Long Term Support)": {
                 "Platform": {
-                    "Windows 32-bit": "Downloads Platform",
-                    "Windows 64-bit": "Downloads Platform"
+                    "Windows 32-bit":           "Downloads Platform",
+                    "Windows 32-bit Portable":  "Downloads Platform",
+                    "Windows 64-bit":           "Downloads Platform",
+                    "Windows 64-bit Portable":  "Downloads Platform"
                 },
-                "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md",
+                "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2019-10-15",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v12.13.0/node-v12.13.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v12.13.0/node-v12.13.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v12.13.0/node-v12.13.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v12.13.0/node-v12.13.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":              "6.12.0"
+                        },
+                        "Version":              "12.13.0"
+                    },
                     {
                         "Date": "2019-08-15",
                         "Downloads Platform": {
@@ -4927,6 +5009,13 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2019-10-17",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.14/windows/"
+                        },
+                        "Version":                      "4.14"
+                    },
                     {
                         "Date":                         "2019-09-19",
                         "Downloads Platform": {
@@ -6836,7 +6925,7 @@
     },
     "python": {
         "Branches": {
-            "2.x": {
+            "2.7.x": {
                 "Platform": {
                     "Windows 32-bit": "Downloads Platform",
                     "Windows 64-bit": "Downloads Platform",
@@ -6845,6 +6934,15 @@
                 "Releases": "https://docs.python.org/2.7/whatsnew/2.7.html",
                 "Status": "Legacy",
                 "Versions": [
+                    {
+                        "Date":                     "2019-10-19",
+                        "Downloads Platform": {
+                            "Windows 32-bit":       "https://www.python.org/ftp/python/2.7.17/python-2.7.17.msi",
+                            "Windows 64-bit":       "https://www.python.org/ftp/python/2.7.17/python-2.7.17.amd64.msi",
+                            "Windows Help File":    "https://www.python.org/ftp/python/2.7.17/python2717.chm"
+                        },
+                        "Version":                  "2.7.17"
+                    },
                     {
                         "Date": "2019-03-04",
                         "Downloads Platform": {
@@ -6856,15 +6954,28 @@
                     }
                 ]
             },
-            "3.x": {
+            "3.7.x": {
                 "Platform": {
-                    "Windows 32-bit": "Downloads Platform",
-                    "Windows 64-bit": "Downloads Platform",
-                    "Windows Help File": "Downloads Platform"
+                    "Windows 32-bit":           "Downloads Platform",
+                    "Windows 32-bit Portable":  "Downloads Platform",
+                    "Windows 64-bit":           "Downloads Platform",
+                    "Windows 64-bit Portable":  "Downloads Platform",
+                    "Windows Help File":        "Downloads Platform"
                 },
                 "Releases": "https://docs.python.org/3.7/whatsnew/changelog.html",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2019-10-15",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://www.python.org/ftp/python/3.7.5/python-3.7.5.exe",
+                            "Windows 32-bit Portable":  "https://www.python.org/ftp/python/3.7.5/python-3.7.5-embed-win32.zip",
+                            "Windows 64-bit":           "https://www.python.org/ftp/python/3.7.5/python-3.7.5-amd64.exe",
+                            "Windows 64-bit Portable":  "https://www.python.org/ftp/python/3.7.5/python-3.7.5-embed-amd64.zip",
+                            "Windows Help File":        "https://www.python.org/ftp/python/3.7.5/python375.chm"
+                        },
+                        "Version":                      "3.7.5"
+                    },
                     {
                         "Date": "2019-07-08",
                         "Downloads Platform": {
@@ -6897,6 +7008,30 @@
                             "Windows Help File": "https://www.python.org/ftp/python/3.7.2/python372.chm"
                         },
                         "Version": "3.7.2"
+                    }
+                ]
+            },
+            "3.8.x": {
+                "Platform": {
+                    "Windows 32-bit":           "Downloads Platform",
+                    "Windows 32-bit Portable":  "Downloads Platform",
+                    "Windows 64-bit":           "Downloads Platform",
+                    "Windows 64-bit Portable":  "Downloads Platform",
+                    "Windows Help File":        "Downloads Platform"
+                },
+                "Releases": "https://docs.python.org/3.8/whatsnew/changelog.html",
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date":                         "2019-10-14",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://www.python.org/ftp/python/3.8.0/python-3.8.0.exe",
+                            "Windows 32-bit Portable":  "https://www.python.org/ftp/python/3.8.0/python-3.8.0-embed-win32.zip",
+                            "Windows 64-bit":           "https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe",
+                            "Windows 64-bit Portable":  "https://www.python.org/ftp/python/3.8.0/python-3.8.0-embed-amd64.zip",
+                            "Windows Help File":        "https://www.python.org/ftp/python/3.8.0/python380.chm"
+                        },
+                        "Version":                      "3.8.0"
                     }
                 ]
             }
@@ -7353,6 +7488,14 @@
         "Releases": "https://www.virtualbox.org/wiki/Changelog",
         "Type": "Utility",
         "Versions": [
+            {
+                "Date":                 "2019-10-15",
+                "Downloads Platform": {
+                    "Extension Pack":   "https://download.virtualbox.org/virtualbox/6.0.14/Oracle_VM_VirtualBox_Extension_Pack-6.0.14.vbox-extpack",
+                    "Windows 64-bit":   "https://download.virtualbox.org/virtualbox/6.0.14/VirtualBox-6.0.14-133895-Win.exe"
+                },
+                "Version":              "6.0.14"
+            },
             {
                 "Date": "2019-09-03",
                 "Downloads Platform": {
