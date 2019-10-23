@@ -327,6 +327,16 @@
         "Type": "Advanced Text Editor",
         "Versions": [
             {
+                "Date":                         "2019-10-23",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://github.com/atom/atom/releases/download/v1.41.0/AtomSetup.exe",
+                    "Windows 32-bit Portable":  "https://github.com/atom/atom/releases/download/v1.41.0/atom-windows.zip",
+                    "Windows 64-bit":           "https://github.com/atom/atom/releases/download/v1.41.0/AtomSetup-x64.exe",
+                    "Windows 64-bit Portable":  "https://github.com/atom/atom/releases/download/v1.41.0/atom-x64-windows.zip"
+                },
+                "Version":                      "1.41.0"
+            },
+            {
                 "Date": "2019-08-20",
                 "Downloads Platform": {
                     "Windows 32-bit":          "https://github.com/atom/atom/releases/download/v1.40.1/AtomSetup.exe",
@@ -3291,6 +3301,10 @@
                 "Releases": "https://docs.microsoft.com/visualstudio/releases/2019/release-notes",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2019-10-22",
+                        "Version":  "16.3.6"
+                    },
                     {
                         "Date":     "2019-10-15",
                         "Version":  "16.3.5"
