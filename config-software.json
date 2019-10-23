@@ -1368,6 +1368,10 @@
         "Type": "Internet Browser",
         "Versions": [
             {
+                "Date":     "2019-10-23",
+                "Version":  "78.0.3904"
+            },
+            {
                 "Date":     "2019-09-10",
                 "Version":  "77.0.3865"
             },
@@ -3482,6 +3486,14 @@
         "Type": "Internet Browser",
         "Versions": [
             {
+                "Date":                 "2019-10-23",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/70.0/win32-EME-free/en-US/Firefox%20Setup%2070.0.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/70.0/win64-EME-free/en-US/Firefox%20Setup%2070.0.exe"
+                },
+                "Version":              "70.0.0"
+            },
+            {
                 "Date":                 "2019-10-10",
                 "Downloads Platform": {
                     "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/69.0.3/win32-EME-free/en-US/Firefox%20Setup%2069.0.3.exe",
@@ -3983,6 +3995,19 @@
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2019-10-23",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v13.0.1/node-v13.0.1-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v13.0.1/node-v13.0.1-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v13.0.1/node-v13.0.1-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v13.0.1/node-v13.0.1-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "6.12.0"
+                        },
+                        "Version":                      "13.0.1"
+                    },
                     {
                         "Date":                         "2019-10-11",
                         "Downloads Platform": {
