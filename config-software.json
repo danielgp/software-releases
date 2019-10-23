@@ -6354,7 +6354,7 @@
             }
         ],
         "Website": "https://xdebug.org/"
-    }
+    },
     "php__library__phpunit": {
         "Branches": {
             "7.x": {
@@ -8353,5 +8353,5 @@
         "Name": "VLC media player",
         "Type": "Media player",
         "Website": "https://www.videolan.org/vlc/"
-    },
+    }
 }
