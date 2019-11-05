@@ -389,9 +389,16 @@
         "Type": "Dependency Manager for PHP",
         "Versions": [
             {
+                "Date":             "2019-11-02",
+                "Downloads Platform": {
+                    "based on PHP": "https://github.com/composer/composer/releases/download/1.9.1/composer.phar"
+                },
+                "Version":          "1.9.1"
+            },
+            {
                 "Date": "2019-08-02",
                 "Downloads Platform": {
-                    "based on PHP": "https://github.com/composer/composer/releases/download/1.8.6/composer.phar"
+                    "based on PHP": "https://github.com/composer/composer/releases/download/1.9.0/composer.phar"
                 },
                 "Version": "1.9.0"
             },
@@ -470,6 +477,10 @@
                 "Releases": "https://docs.docker.com/docker-for-windows/edge-release-notes/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2019-11-04",
+                        "Version":  "2.1.5.0"
+                    },
                     {
                         "Date":     "2019-10-15",
                         "Version":  "2.1.4.0"
@@ -635,6 +646,10 @@
                 "Releases": "https://docs.docker.com/docker-for-windows/release-notes/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2019-10-25",
+                        "Version":  "2.1.0.4"
+                    },
                     {
                         "Date":     "2019-09-16",
                         "Version":  "2.1.0.3"
@@ -1075,6 +1090,16 @@
         "Releases": "https://github.com/git-for-windows/git/releases/",
         "Type": "Version Control",
         "Versions": [
+            {
+                "Date":                         "2019-11-05",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.1/Git-2.24.0-32-bit.exe",
+                    "Windows 32-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.1/PortableGit-2.24.0-32-bit.7z.exe",
+                    "Windows 64-bit":          "https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.1/Git-2.24.0-64-bit.exe",
+                    "Windows 64-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.1/PortableGit-2.24.0-64-bit.7z.exe"
+                },
+                "Version":                      "2.24.0"
+            },
             {
                 "Date": "2019-08-17",
                 "Downloads Platform": {
@@ -2841,6 +2866,13 @@
         "Type": "Database Management Tool",
         "Versions": [
             {
+                "Date":                 "2019-11-04",
+                "Downloads Platform": {
+                    "Windows 64-bit":   "https://aka.ms/ssmsfullsetup"
+                },
+                "Version":              "18.4 build 15.0.18206.0"
+            },
+            {
                 "Date":                 "2019-10-02",
                 "Downloads Platform": {
                     "Windows 64-bit":   "https://go.microsoft.com/fwlink/?linkid=2105412"
@@ -3511,6 +3543,14 @@
         "Type": "Internet Browser",
         "Versions": [
             {
+                "Date":                 "2019-10-31",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/70.0.1/win32-EME-free/en-US/Firefox%20Setup%2070.0.1.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/70.0.1/win64-EME-free/en-US/Firefox%20Setup%2070.0.1.exe"
+                },
+                "Version":              "70.0.1"
+            },
+            {
                 "Date":                 "2019-10-23",
                 "Downloads Platform": {
                     "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/70.0/win32-EME-free/en-US/Firefox%20Setup%2070.0.exe",
@@ -3977,6 +4017,13 @@
         "Releases": "https://netbeans.apache.org/download/index.html",
         "Type": "IDE",
         "Versions": [
+            {
+                "Date":                         "2019-10-25",
+                "Downloads Platform": {
+                    "Windows 32-bit/64-bit":    "https://www.apache.org/dyn/closer.cgi/netbeans/netbeans/11.2/netbeans-11.2-bin.zip"
+                },
+                "Version":                      "11.2"
+            },
             {
                 "Date": "2019-07-22",
                 "Downloads Platform": {
@@ -5216,12 +5263,22 @@
                 "Status": "Security fixes only",
                 "Versions": [
                     {
+                        "Date":                                     "2019-10-24",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.1.33-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.1.33-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.1.33-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.1.33-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.1.33"
+                    },
+                    {
                         "Date": "2019-09-26",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.1.32-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.1.32-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.1.32-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.1.32-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.1.32-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.1.32-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.1.32-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.1.32-Win32-VC15-x64.zip"
                         },
                         "Version": "7.1.32"
                     },
@@ -5301,12 +5358,22 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2019-10-24",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.24-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.24-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.24-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.24-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.2.24"
+                    },
+                    {
                         "Date":                                     "2019-09-26",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.23-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.23-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.23-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.23-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.23-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.23-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.23-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.23-nts-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.2.23"
                     },
@@ -5530,12 +5597,22 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2018-10-24",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.11-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.11-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.11-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.11-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.3.11"
+                    },
+                    {
                         "Date":                                     "2018-09-26",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.10-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.10-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.10-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.10-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.10-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.10-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.10-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.10-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.3.10"
                     },
@@ -7709,6 +7786,16 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2019-11-01",
+                        "Downloads Platform": {
+                            "Community Windows":                    "https://download.jetbrains.com/python/pycharm-community-2019.2.4.exe",
+                            "Community Windows with Anaconda":      "https://download.jetbrains.com/python/pycharm-community-anaconda-2019.2.4.exe",
+                            "Professional Windows":                 "https://download.jetbrains.com/python/pycharm-professional-2019.2.4.exe",
+                            "Professional Windows with Anaconda":   "https://download.jetbrains.com/python/pycharm-professional-anaconda-2019.2.4.exe"
+                        },
+                        "Version":                                  "2019.2.4.192.7142.42"
+                    },
+                    {
                         "Date":                                     "2019-09-25",
                         "Downloads Platform": {
                             "Community Windows":                    "https://download.jetbrains.com/python/pycharm-community-2019.2.3.exe",
@@ -7904,6 +7991,13 @@
                 },
                 "Status": "Active",
                 "Versions": [
+                    {
+                        "Date":                 "2019-09-17",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://tools.hana.ondemand.com/additional/hanaclient-2.4.162-windows-x64.zip"
+                        },
+                        "Version":              "2.4.162.1568407618"
+                    },
                     {
                         "Date":                 "2019-07-25",
                         "Downloads Platform": {
