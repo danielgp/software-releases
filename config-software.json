@@ -1091,6 +1091,16 @@
         "Type": "Version Control",
         "Versions": [
             {
+                "Date":                         "2019-11-06",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.2/Git-2.24.0.2-32-bit.exe",
+                    "Windows 32-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.2/PortableGit-2.24.0.2-32-bit.7z.exe",
+                    "Windows 64-bit":          "https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.2/Git-2.24.0.2-64-bit.exe",
+                    "Windows 64-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.2/PortableGit-2.24.0.2-64-bit.7z.exe"
+                },
+                "Version":                      "2.24.0.2"
+            },
+            {
                 "Date":                         "2019-11-05",
                 "Downloads Platform": {
                     "Windows 32-bit":          "https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.1/Git-2.24.0-32-bit.exe",
@@ -2183,6 +2193,14 @@
                     "Final Date":   "2024-06-18"
                 },
                 "Versions": [
+                    {
+                        "Date":                 "2019-11-08",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.10/win32-packages/mariadb-10.4.10-win32.zip",
+                            "Windows 64-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.10/winx64-packages/mariadb-10.4.10-winx64.zip"
+                        },
+                        "Version":              "10.4.10"
+                    },
                     {
                         "Date":                 "2019-09-11",
                         "Downloads Platform": {
@@ -4067,6 +4085,19 @@
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2019-11-05",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v13.1.0/node-v13.1.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v13.1.0/node-v13.1.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v13.1.0/node-v13.1.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v13.1.0/node-v13.1.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "6.12.0"
+                        },
+                        "Version":                      "13.0.1"
+                    },
                     {
                         "Date":                         "2019-10-23",
                         "Downloads Platform": {
