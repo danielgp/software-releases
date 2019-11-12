@@ -2976,6 +2976,16 @@
         "Type": "Developement IDE",
         "Versions": [
             {
+                "Date":                 "2019-11-05",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://vscode-update.azurewebsites.net/1.40.0/win32-user/stable",
+                    "Windows 32-bit Portable":  "https://go.microsoft.com/fwlink/?LinkID=623231",
+                    "Windows 64-bit":           "https://vscode-update.azurewebsites.net/1.40.0/win32-x64-user/stable",
+                    "Windows 64-bit Portable":  "https://go.microsoft.com/fwlink/?Linkid=850641"
+                },
+                "Version":              "1.40.0"
+            },
+            {
                 "Date":                 "2019-10-15",
                 "Downloads Platform": {
                     "Windows 32-bit":           "https://vscode-update.azurewebsites.net/1.39.2/win32-user/stable",
