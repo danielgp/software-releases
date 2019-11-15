@@ -2967,31 +2967,35 @@
         "Description": "Full-featured integrated development environment (IDE) for Android, iOS, Windows, web, and cloud",
         "Name": "Microsoft Visual Code",
         "Platform": {
-            "Windows 32-bit":          "Downloads Platform",
-            "Windows 32-bit Portable": "Downloads Platform",
-            "Windows 64-bit":          "Downloads Platform",
-            "Windows 64-bit Portable": "Downloads Platform"
+            "Windows 32-bit":           "Downloads Platform",
+            "Windows 32-bit Portable":  "https://go.microsoft.com/fwlink/?LinkID=623231",
+            "Windows 64-bit":           "Downloads Platform",
+            "Windows 64-bit Portable":  "https://go.microsoft.com/fwlink/?Linkid=850641"
         },
         "Releases": "https://github.com/Microsoft/vscode/releases",
         "Type": "Developement IDE",
         "Versions": [
             {
+                "Date":                 "2019-11-13",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.40.1/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.40.0/win32-x64-user/stable"
+                },
+                "Version":              "1.40.1"
+            },
+            {
                 "Date":                 "2019-11-05",
                 "Downloads Platform": {
-                    "Windows 32-bit":           "https://vscode-update.azurewebsites.net/1.40.0/win32-user/stable",
-                    "Windows 32-bit Portable":  "https://go.microsoft.com/fwlink/?LinkID=623231",
-                    "Windows 64-bit":           "https://vscode-update.azurewebsites.net/1.40.0/win32-x64-user/stable",
-                    "Windows 64-bit Portable":  "https://go.microsoft.com/fwlink/?Linkid=850641"
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.40.0/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.40.0/win32-x64-user/stable"
                 },
                 "Version":              "1.40.0"
             },
             {
                 "Date":                 "2019-10-15",
                 "Downloads Platform": {
-                    "Windows 32-bit":           "https://vscode-update.azurewebsites.net/1.39.2/win32-user/stable",
-                    "Windows 32-bit Portable":  "https://go.microsoft.com/fwlink/?LinkID=623231",
-                    "Windows 64-bit":           "https://vscode-update.azurewebsites.net/1.39.2/win32-x64-user/stable",
-                    "Windows 64-bit Portable":  "https://go.microsoft.com/fwlink/?Linkid=850641"
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.39.2/win32-user/stable"
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.39.2/win32-x64-user/stable"
                 },
                 "Version":              "1.39.2"
             },
@@ -4114,7 +4118,7 @@
                         "Includes": {
                             "npm":                      "6.12.0"
                         },
-                        "Version":                      "13.0.1"
+                        "Version":                      "13.1.0"
                     },
                     {
                         "Date":                         "2019-10-23",
@@ -5166,6 +5170,13 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                         "2019-11-14",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.15/windows/"
+                        },
+                        "Version":                      "4.15"
+                    },
+                    {
                         "Date":                         "2019-10-17",
                         "Downloads Platform": {
                             "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.14/windows/"
@@ -5788,6 +5799,24 @@
         "Releases": "https://windows.php.net/downloads/pecl/releases/ast/",
         "Type": "PHP Extension",
         "Versions": [
+            {
+                "Date":                         "2019-11-12",
+                "Downloads Platform": {
+                    "PHP 7.1 VC14 (32-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.1-nts-vc14-x86.zip",
+                    "PHP 7.1 VC14 (64-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.1-nts-vc14-x86.zip",
+                    "PHP 7.1 VC14 TS (32-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.1-ts-vc14-x86.zip",
+                    "PHP 7.1 VC14 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.1-ts-vc14-x64.zip",
+                    "PHP 7.2 VC15 (32-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.2-nts-vc15-x86.zip",
+                    "PHP 7.2 VC15 (64-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.2-nts-vc15-x64.zip",
+                    "PHP 7.2 VC15 TS (32-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.2-ts-vc15-x86.zip",
+                    "PHP 7.2 VC15 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.2-ts-vc15-x64.zip",
+                    "PHP 7.3 VC15 (32-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.3-nts-vc15-x86.zip",
+                    "PHP 7.3 VC15 (64-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.3-nts-vc15-x64.zip",
+                    "PHP 7.3 VC15 TS (32-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.3-ts-vc15-x86.zip",
+                    "PHP 7.3 VC15 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.3-ts-vc15-x64.zip"
+                },
+                "Version":                      "1.0.4"
+            },
             {
                 "Date":                         "2019-07-28",
                 "Downloads Platform": {
@@ -7066,6 +7095,14 @@
                 },
                 "Versions": [
                     {
+                        "Date":                         "2019-11-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-9.4.25-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-9.4.25-1-windows-x64.exe"
+                        },
+                        "Version":                      "9.4.25"
+                    },
+                    {
                         "Date":                         "2019-08-08",
                         "Downloads Platform": {
                             "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-9.4.24-1-windows-x64-binaries.zip",
@@ -7279,6 +7316,14 @@
                 },
                 "Versions": [
                     {
+                        "Date":                         "2019-11-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-9.5.20-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-9.5.20-1-windows-x64.exe"
+                        },
+                        "Version":                      "9.5.20"
+                    },
+                    {
                         "Date":                         "2019-08-08",
                         "Downloads Platform": {
                             "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-9.5.19-1-windows-x64-binaries.zip",
@@ -7452,6 +7497,14 @@
                 },
                 "Versions": [
                     {
+                        "Date":                         "2019-11-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-9.6.16-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-9.6.16-1-windows-x64.exe"
+                        },
+                        "Version":                      "9.6.16"
+                    },
+                    {
                         "Date":                         "2019-08-08",
                         "Downloads Platform": {
                             "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-9.6.15-1-windows-x64-binaries.zip",
@@ -7593,6 +7646,14 @@
                 },
                 "Versions": [
                     {
+                        "Date":                         "2019-11-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-10.11-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-10.11-1-windows-x64.exe"
+                        },
+                        "Version":                      "10.11"
+                    },
+                    {
                         "Date":                         "2019-08-08",
                         "Downloads Platform": {
                             "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-10.10-1-windows-x64-binaries.zip",
@@ -7694,6 +7755,14 @@
                 },
                 "Versions": [
                     {
+                        "Date":                         "2019-11-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-11.6-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-11.6-1-windows-x64.exe"
+                        },
+                        "Version":                      "11.6"
+                    },
+                    {
                         "Date":                         "2019-08-08",
                         "Downloads Platform": {
                             "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-11.5-1-windows-x64-binaries.zip",
@@ -7754,6 +7823,14 @@
                     "Final Date":   "2024-11-09"
                 },
                 "Versions": [
+                    {
+                        "Date":                         "2019-11-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-12.1-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-12.1-1-windows-x64.exe"
+                        },
+                        "Version":                      "12.1"
+                    },
                     {
                         "Date":                         "2019-10-03",
                         "Downloads Platform": {
