@@ -3369,6 +3369,14 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2019-11-12",
+                        "Version":  "16.3.9"
+                    },
+                    {
+                        "Date":     "2019-11-05",
+                        "Version":  "16.3.8"
+                    },
+                    {
                         "Date":     "2019-10-29",
                         "Version":  "16.3.7"
                     },
