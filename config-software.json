@@ -211,6 +211,14 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2019-11-21",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29-windows-x86.zip",
+                            "Windows 64-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29-windows-x64.zip"
+                        },
+                        "Version":              "9.0.29"
+                    },
+                    {
                         "Date":                 "2019-10-07",
                         "Downloads Platform": {
                             "Windows 32-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27-windows-x86.zip",
@@ -478,6 +486,14 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2019-11-18",
+                        "Version":  "2.1.6.1"
+                    },
+                    {
+                        "Date":     "2019-11-18",
+                        "Version":  "2.1.6.0"
+                    },
+                    {
                         "Date":     "2019-11-04",
                         "Version":  "2.1.5.0"
                     },
@@ -646,6 +662,10 @@
                 "Releases": "https://docs.docker.com/docker-for-windows/release-notes/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2019-11-18",
+                        "Version":  "2.1.0.5"
+                    },
                     {
                         "Date":     "2019-10-25",
                         "Version":  "2.1.0.4"
@@ -2674,6 +2694,16 @@
                 "Status":                               "Active support",
                 "Versions": [
                     {
+                        "Date":                         "2019-11-19",
+                        "Downloads Platform": {
+                            "Windows 32-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/9a8b141c-a157-48df-af71-4ce922ad7ee4/0d24f68cb8e404cff90d0e0a39d4b86e/dotnet-sdk-3.0.101-win-x86.exe",
+                            "Windows 32-bit Runtime":   "https://download.visualstudio.microsoft.com/download/pr/69e24078-d75b-4f5a-b043-c0a5d518bccf/82596a43ad0f0eca21915cba4cea250d/windowsdesktop-runtime-3.0.1-win-x86.exe",
+                            "Windows 64-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/66adfd75-9c1d-4e44-8d9c-cdc0cbc41104/5288b628601e30b0fa10d64fdaf64287/dotnet-sdk-3.0.101-win-x64.exe",
+                            "Windows 64-bit Runtime":   "https://download.visualstudio.microsoft.com/download/pr/856eeb1c-3b2a-4165-b248-b88082cffaf2/c6ad73da23e82a7db7177c5b39c3f825/windowsdesktop-runtime-3.0.1-win-x64.exe"
+                        },
+                        "Version":                      "3.0.1"
+                    },
+                    {
                         "Date":                         "2019-09-23",
                         "Downloads Platform": {
                             "Windows 32-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/16378a9f-1291-4c34-8625-ab4dfebfb74a/096945940a346e326368c070b8ecc050/dotnet-sdk-3.0.100-win-x86.exe",
@@ -4108,6 +4138,19 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                         "2019-11-21",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v13.2.0/node-v13.2.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v13.2.0/node-v13.2.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v13.2.0/node-v13.2.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v13.2.0/node-v13.2.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "6.13.1"
+                        },
+                        "Version":                      "13.2.0"
+                    },
+                    {
                         "Date":                         "2019-11-05",
                         "Downloads Platform": {
                             "Windows 32-bit":           "https://nodejs.org/dist/v13.1.0/node-v13.1.0-x86.msi",
@@ -4116,7 +4159,7 @@
                             "Windows 64-bit Portable":  "https://nodejs.org/dist/v13.1.0/node-v13.1.0-win-x64.zip"
                         },
                         "Includes": {
-                            "npm":                      "6.12.0"
+                            "npm":                      "6.13.0"
                         },
                         "Version":                      "13.1.0"
                     },
@@ -4532,6 +4575,19 @@
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2019-11-19",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v12.13.1/node-v12.13.1-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v12.13.1/node-v12.13.1-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v12.13.1/node-v12.13.1-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v12.13.1/node-v12.13.1-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":              "6.12.1"
+                        },
+                        "Version":              "12.13.1"
+                    },
                     {
                         "Date":                 "2019-10-15",
                         "Downloads Platform": {
@@ -5418,12 +5474,22 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2019-11-25",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.25-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.25-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.25-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.25-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.2.25"
+                    },
+                    {
                         "Date":                                     "2019-10-24",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.24-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.24-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.24-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.24-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.24-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.24-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.24-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.24-nts-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.2.24"
                     },
@@ -5657,12 +5723,22 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2018-11-21",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.12-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.12-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.12-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.12-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.3.12"
+                    },
+                    {
                         "Date":                                     "2018-10-24",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.11-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.11-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.11-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.11-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.11-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.11-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.11-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.11-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.3.11"
                     },
@@ -7918,6 +7994,16 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                                     "2019-11-19",
+                        "Downloads Platform": {
+                            "Community Windows":                    "https://download.jetbrains.com/python/pycharm-community-2019.2.5.exe",
+                            "Community Windows with Anaconda":      "https://download.jetbrains.com/python/pycharm-community-anaconda-2019.2.5.exe",
+                            "Professional Windows":                 "https://download.jetbrains.com/python/pycharm-professional-2019.2.5.exe",
+                            "Professional Windows with Anaconda":   "https://download.jetbrains.com/python/pycharm-professional-anaconda-2019.2.5.exe"
+                        },
+                        "Version":                                  "2019.2.5.192.7142.56"
+                    },
                     {
                         "Date":                                     "2019-11-01",
                         "Downloads Platform": {
