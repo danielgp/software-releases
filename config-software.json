@@ -3006,10 +3006,18 @@
         "Type": "Developement IDE",
         "Versions": [
             {
+                "Date":                 "2019-11-25",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.40.2/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.40.2/win32-x64-user/stable"
+                },
+                "Version":              "1.40.2"
+            },
+            {
                 "Date":                 "2019-11-13",
                 "Downloads Platform": {
                     "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.40.1/win32-user/stable",
-                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.40.0/win32-x64-user/stable"
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.40.1/win32-x64-user/stable"
                 },
                 "Version":              "1.40.1"
             },
@@ -3403,6 +3411,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2019-11-20",
+                        "Version":  "16.3.10"
+                    },
+                    {
                         "Date":     "2019-11-12",
                         "Version":  "16.3.9"
                     },
@@ -3612,6 +3624,14 @@
         "Releases": "https://wiki.mozilla.org/Release_Management/Calendar",
         "Type": "Internet Browser",
         "Versions": [
+            {
+                "Date":                 "2019-12-03",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/71.0/win32-EME-free/en-US/Firefox%20Setup%2071.0.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/71.0/win64-EME-free/en-US/Firefox%20Setup%2071.0.exe"
+                },
+                "Version":              "71.0.0"
+            },
             {
                 "Date":                 "2019-10-31",
                 "Downloads Platform": {
@@ -5135,6 +5155,16 @@
         "Type": "Archiver",
         "Versions": [
             {
+                "Date":                         "2019-12-02",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://github.com/giorgiotani/PeaZip/releases/download/7.0.0/peazip-7.0.0.WINDOWS.exe",
+                    "Windows 32-bit Portable":  "https://github.com/giorgiotani/PeaZip/releases/download/7.0.0/peazip_portable-7.0.0.WINDOWS.zip",
+                    "Windows 64-bit":           "https://github.com/giorgiotani/PeaZip/releases/download/7.0.0/peazip-7.0.0.WIN64.exe",
+                    "Windows 64-bit Portable":  "https://github.com/giorgiotani/PeaZip/releases/download/7.0.0/peazip_portable-7.0.0.WIN64.zip"
+                },
+                "Version":                      "7.0.0"
+            },
+            {
                 "Date": "2019-09-02",
                 "Downloads Platform": {
                     "Windows 32-bit":          "https://github.com/giorgiotani/PeaZip/releases/download/6.9.2/peazip-6.9.2.WINDOWS.exe",
@@ -5466,238 +5496,238 @@
                     }
                 },
                 "Platform": {
-                    "Windows 32-bit: VC14 Non Thread Safe": "Downloads Platform",
-                    "Windows 32-bit: VC14 Thread Safe":     "Downloads Platform",
-                    "Windows 64-bit: VC14 Non Thread Safe": "Downloads Platform",
-                    "Windows 64-bit: VC14 Thread Safe":     "Downloads Platform"
+                    "Windows 32-bit: VC15 Non Thread Safe": "Downloads Platform",
+                    "Windows 32-bit: VC15 Thread Safe":     "Downloads Platform",
+                    "Windows 64-bit: VC15 Non Thread Safe": "Downloads Platform",
+                    "Windows 64-bit: VC15 Thread Safe":     "Downloads Platform"
                 },
                 "Status": "Active support",
                 "Versions": [
                     {
                         "Date":                                     "2019-11-25",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.25-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.25-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.25-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.25-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.25-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.25-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.25-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.25-nts-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.2.25"
                     },
                     {
                         "Date":                                     "2019-10-24",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.24-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.24-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.24-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.24-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.24-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.24-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.24-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.24-nts-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.2.24"
                     },
                     {
                         "Date":                                     "2019-09-26",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.23-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.23-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.23-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.23-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.23-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.23-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.23-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.23-nts-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.2.23"
                     },
                     {
                         "Date": "2019-08-28",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.22-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.22-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.22-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.22-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.22-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.22-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.22-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.22-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.22"
                     },
                     {
                         "Date": "2019-08-01",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.21-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.21-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.21-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.21-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.21-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.21-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.21-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.21-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.21"
                     },
                     {
                         "Date": "2019-07-02",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.20-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.20-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.20-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.20-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.20-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.20-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.20-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.20-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.20"
                     },
                     {
                         "Date": "2019-05-29",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.19-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.19-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.19-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.19-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.19-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.19-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.19-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.19-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.19"
                     },
                     {
                         "Date": "2019-05-01",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.18-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.18-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.18-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.18-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.18-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.18-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.18-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.18-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.18"
                     },
                     {
                         "Date": "2019-04-03",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.17-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.17-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.17-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.17-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.17-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.17-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.17-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.17-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.17"
                     },
                     {
                         "Date": "2019-03-07",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.16-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.16-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.16-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.16-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.16-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.16-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.16-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.16-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.16"
                     },
                     {
                         "Date": "2019-02-06",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.15-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.15-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.15-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.15-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.15"
                     },
                     {
                         "Date": "2019-01-10",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.14-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.14-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.14-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.14-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.14"
                     },
                     {
                         "Date": "2018-12-06",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.13-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.13-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.13-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.13-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.13"
                     },
                     {
                         "Date": "2018-11-08",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.12-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.12-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.12-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.12-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.12"
                     },
                     {
                         "Date": "2018-10-11",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.11-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.11-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.11-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.11-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.11"
                     },
                     {
                         "Date": "2018-09-13",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.10-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.10-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.10-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.10-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.10"
                     },
                     {
                         "Date": "2018-08-16",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.9-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.9-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.9-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.9-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.9"
                     },
                     {
                         "Date": "2018-07-18",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.8-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.8-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.8-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.8-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.8"
                     },
                     {
                         "Date": "2018-06-20",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.7-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.7-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.7-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.7-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.7"
                     },
                     {
                         "Date": "2018-05-25",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.6-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.6-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.6-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.6-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.6"
                     },
                     {
                         "Date": "2018-04-26",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.5-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.5-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.5-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.5-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.5"
                     },
                     {
                         "Date": "2018-03-28",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.4-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.4-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.4-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.4-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.4"
                     },
                     {
                         "Date": "2018-03-01",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.3-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.3-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.3-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.3-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.3"
                     },
                     {
                         "Date": "2018-02-01",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.2-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.2-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.2-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.2-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.2"
                     },
                     {
                         "Date": "2018-01-04",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.1-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.1-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.1-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.1-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.1"
                     },
                     {
                         "Date": "2017-11-29",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.0-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.0-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.0-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.0-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.2.0"
                     }
@@ -5715,136 +5745,167 @@
                     }
                 },
                 "Platform": {
-                    "Windows 32-bit: VC14 Non Thread Safe": "Downloads Platform",
-                    "Windows 32-bit: VC14 Thread Safe":     "Downloads Platform",
-                    "Windows 64-bit: VC14 Non Thread Safe": "Downloads Platform",
-                    "Windows 64-bit: VC14 Thread Safe":     "Downloads Platform"
+                    "Windows 32-bit: VC15 Non Thread Safe": "Downloads Platform",
+                    "Windows 32-bit: VC15 Thread Safe":     "Downloads Platform",
+                    "Windows 64-bit: VC15 Non Thread Safe": "Downloads Platform",
+                    "Windows 64-bit: VC15 Thread Safe":     "Downloads Platform"
                 },
                 "Status": "Active support",
                 "Versions": [
                     {
                         "Date":                                     "2018-11-21",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.12-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.12-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.12-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.12-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.12-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.12-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.12-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.12-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.3.12"
                     },
                     {
                         "Date":                                     "2018-10-24",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.11-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.11-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.11-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.11-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.11-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.11-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.11-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.11-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.3.11"
                     },
                     {
                         "Date":                                     "2018-09-26",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.10-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.10-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.10-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.10-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.10-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.10-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.10-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.10-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.3.10"
                     },
                     {
                         "Date": "2018-08-28",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.9-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.9-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.9-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.9-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.9-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.9-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.9-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.9-Win32-VC15-x64.zip"
                         },
                         "Version": "7.3.9"
                     },
                     {
                         "Date": "2018-08-01",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.8-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.8-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.8-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.8-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.8-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.8-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.8-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.8-Win32-VC15-x64.zip"
                         },
                         "Version": "7.3.8"
                     },
                     {
                         "Date": "2018-07-02",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.7-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.7-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.7-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.7-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.7-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.7-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.7-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.7-Win32-VC15-x64.zip"
                         },
                         "Version": "7.3.7"
                     },
                     {
                         "Date": "2018-05-29",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.6-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.6-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.6-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.6-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.6-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.6-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.6-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.6-Win32-VC15-x64.zip"
                         },
                         "Version": "7.3.6"
                     },
                     {
                         "Date": "2018-05-01",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.5-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.5-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.5-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.5-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.5-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.5-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.5-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.5-Win32-VC15-x64.zip"
                         },
                         "Version": "7.3.5"
                     },
                     {
                         "Date": "2018-04-03",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.4-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.4-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.4-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.4-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.4-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.4-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.4-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.4-Win32-VC15-x64.zip"
                         },
                         "Version": "7.3.4"
                     },
                     {
                         "Date": "2018-03-07",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.3-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.3-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.3-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC14 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.3-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.3-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.3-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.3-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.3-Win32-VC15-x64.zip"
                         },
                         "Version": "7.3.3"
                     },
                     {
                         "Date": "2018-02-06",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.2-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.2-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.2-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.2-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.3.2"
                     },
                     {
                         "Date": "2018-01-10",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.1-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.1-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.1-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.1-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.3.1"
                     },
                     {
                         "Date": "2018-12-06",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.0-nts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC14 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.0-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.0-nts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.0-nts-Win32-VC15-x64.zip"
                         },
                         "Version": "7.3.0"
+                    }
+                ]
+            },
+            "7.4.x": {
+                "Configuration": {
+                    "Light": {
+                        "Windows 32-bit": "http://160.221.78.69/validations/ScriptEngine/config-php-7.4.x86-Light.zip",
+                        "Windows 64-bit": "http://160.221.78.69/validations/ScriptEngine/config-php-7.4.x64-Light.zip"
+                    },
+                    "with XDebug": {
+                        "Windows 32-bit": "https://lugoj2.honeywell.com/validations/ScriptEngine/config-php-7.4.x86-XDebug.zip",
+                        "Windows 64-bit": "https://lugoj2.honeywell.com/validations/ScriptEngine/config-php-7.4.x64-XDebug.zip"
+                    }
+                },
+                "Platform": {
+                    "Windows 32-bit: VC15 Non Thread Safe": "Downloads Platform",
+                    "Windows 32-bit: VC15 Thread Safe":     "Downloads Platform",
+                    "Windows 64-bit: VC15 Non Thread Safe": "Downloads Platform",
+                    "Windows 64-bit: VC15 Thread Safe":     "Downloads Platform"
+                },
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date":                                     "2019-11-27",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.0-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.0-ts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.0-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.0-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.4.0"
                     }
                 ]
             }
@@ -5870,11 +5931,37 @@
             "PHP 7.3 VC15 (32-bit)":    "Downloads Platform",
             "PHP 7.3 VC15 (64-bit)":    "Downloads Platform",
             "PHP 7.3 VC15 TS (32-bit)": "Downloads Platform",
-            "PHP 7.3 VC15 TS (64-bit)": "Downloads Platform"
+            "PHP 7.3 VC15 TS (64-bit)": "Downloads Platform",
+            "PHP 7.4 VC15 (32-bit)":    "Downloads Platform",
+            "PHP 7.4 VC15 (64-bit)":    "Downloads Platform",
+            "PHP 7.4 VC15 TS (32-bit)": "Downloads Platform",
+            "PHP 7.4 VC15 TS (64-bit)": "Downloads Platform"
         },
         "Releases": "https://windows.php.net/downloads/pecl/releases/ast/",
         "Type": "PHP Extension",
         "Versions": [
+            {
+                "Date":                         "2019-11-27",
+                "Downloads Platform": {
+                    "PHP 7.1 VC14 (32-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.1-nts-vc14-x86.zip",
+                    "PHP 7.1 VC14 (64-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.1-nts-vc14-x86.zip",
+                    "PHP 7.1 VC14 TS (32-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.1-ts-vc14-x86.zip",
+                    "PHP 7.1 VC14 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.1-ts-vc14-x64.zip",
+                    "PHP 7.2 VC15 (32-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.2-nts-vc15-x86.zip",
+                    "PHP 7.2 VC15 (64-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.2-nts-vc15-x64.zip",
+                    "PHP 7.2 VC15 TS (32-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.2-ts-vc15-x86.zip",
+                    "PHP 7.2 VC15 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.2-ts-vc15-x64.zip",
+                    "PHP 7.3 VC15 (32-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.3-nts-vc15-x86.zip",
+                    "PHP 7.3 VC15 (64-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.3-nts-vc15-x64.zip",
+                    "PHP 7.3 VC15 TS (32-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.3-ts-vc15-x86.zip",
+                    "PHP 7.3 VC15 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.3-ts-vc15-x64.zip",
+                    "PHP 7.4 VC15 (32-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.3-nts-vc15-x86.zip",
+                    "PHP 7.4 VC15 (64-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.3-nts-vc15-x64.zip",
+                    "PHP 7.4 VC15 TS (32-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.3-ts-vc15-x86.zip",
+                    "PHP 7.4 VC15 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.3-ts-vc15-x64.zip"
+                },
+                "Version":                      "1.0.5"
+            },
             {
                 "Date":                         "2019-11-12",
                 "Downloads Platform": {
@@ -5889,7 +5976,11 @@
                     "PHP 7.3 VC15 (32-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.3-nts-vc15-x86.zip",
                     "PHP 7.3 VC15 (64-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.3-nts-vc15-x64.zip",
                     "PHP 7.3 VC15 TS (32-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.3-ts-vc15-x86.zip",
-                    "PHP 7.3 VC15 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.3-ts-vc15-x64.zip"
+                    "PHP 7.3 VC15 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.3-ts-vc15-x64.zip",
+                    "PHP 7.4 VC15 (32-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.3-nts-vc15-x86.zip",
+                    "PHP 7.4 VC15 (64-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.3-nts-vc15-x64.zip",
+                    "PHP 7.4 VC15 TS (32-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.3-ts-vc15-x86.zip",
+                    "PHP 7.4 VC15 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.4/php_ast-1.0.4-7.3-ts-vc15-x64.zip"
                 },
                 "Version":                      "1.0.4"
             },
@@ -5987,6 +6078,28 @@
         "Releases": "https://xdebug.org/download.php",
         "Type": "PHP Extension",
         "Versions": [
+            {
+                "Date":                         "2019-12-02",
+                "Downloads Platform": {
+                    "PHP 7.1 VC14 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.8.1-7.1-vc14-nts.dll",
+                    "PHP 7.1 VC14 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.8.1-7.1-vc14-nts-x86_64.dll",
+                    "PHP 7.1 VC14 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.8.1-7.1-vc14.dll",
+                    "PHP 7.1 VC14 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.8.1-7.1-vc14-x86_64.dll",
+                    "PHP 7.2 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.8.1-7.2-vc15-nts.dll",
+                    "PHP 7.2 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.8.1-7.2-vc15-nts-x86_64.dll",
+                    "PHP 7.2 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.8.1-7.2-vc15.dll",
+                    "PHP 7.2 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.8.1-7.2-vc15-x86_64.dll",
+                    "PHP 7.3 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.8.1-7.3-vc15-nts.dll",
+                    "PHP 7.3 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.8.1-7.3-vc15-nts-x86_64.dll",
+                    "PHP 7.3 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.8.1-7.3-vc15.dll",
+                    "PHP 7.3 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.8.1-7.3-vc15-x86_64.dll",
+                    "PHP 7.4 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.8.1-7.4-vc15-nts.dll",
+                    "PHP 7.4 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.8.1-7.4-vc15-nts-x86_64.dll",
+                    "PHP 7.4 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.8.1-7.4-vc15.dll",
+                    "PHP 7.4 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.8.1-7.4-vc15-x86_64.dll"
+                },
+                "Version":                      "2.8.1"
+            },
             {
                 "Date":                         "2019-10-31",
                 "Downloads Platform": {
@@ -8055,13 +8168,34 @@
                         "Version": "2019.2.0.192.5728.105"
                     }
                 ]
+            },
+            "2019.3.x": {
+                "Platform": {
+                    "Community Windows":                  "Downloads Platform",
+                    "Community Windows with Anaconda":    "Downloads Platform",
+                    "Professional Windows":               "Downloads Platform",
+                    "Professional Windows with Anaconda": "Downloads Platform"
+                },
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date":                                     "2019-12-02",
+                        "Downloads Platform": {
+                            "Community Windows":                    "https://download.jetbrains.com/python/pycharm-community-2019.3.exe",
+                            "Community Windows with Anaconda":      "https://download.jetbrains.com/python/pycharm-community-anaconda-2019.3.exe",
+                            "Professional Windows":                 "https://download.jetbrains.com/python/pycharm-professional-2019.3.exe",
+                            "Professional Windows with Anaconda":   "https://download.jetbrains.com/python/pycharm-professional-anaconda-2019.3.exe"
+                        },
+                        "Version":                                  "2019.3.0.193.5233.109"
+                    }
+                ]
             }
         },
-        "Description": "The Python IDE for Professional Developers",
-        "Name": "PyCharm",
-        "Releases": "https://www.jetbrains.com/pycharm/download/other.html",
-        "Type": "IDE",
-        "Website": "https://www.jetbrains.com/pycharm/"
+        "Description":  "The Python IDE for Professional Developers",
+        "Name":         "PyCharm",
+        "Releases":     "https://www.jetbrains.com/pycharm/download/other.html",
+        "Type":         "IDE",
+        "Website":      "https://www.jetbrains.com/pycharm/"
     },
     "python": {
         "Branches": {
