@@ -2345,7 +2345,7 @@
                     "Windows 64-bit Runtime": "Downloads Platform"
                 },
                 "Releases": "https://www.microsoft.com/net/download/dotnet-core/1.1",
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date": "2018-10-09",
@@ -2435,7 +2435,7 @@
                     "Windows 64-bit Runtime": "Downloads Platform"
                 },
                 "Releases": "https://www.microsoft.com/net/download/dotnet-core/2.0",
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date": "2018-07-10",
@@ -2527,7 +2527,7 @@
                     "Windows 64-bit Runtime": "Downloads Platform"
                 },
                 "Releases": "https://www.microsoft.com/net/download/dotnet-core/2.1",
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date": "2019-03-12",
@@ -2629,7 +2629,7 @@
                     "Windows 64-bit Runtime": "Downloads Platform"
                 },
                 "Releases": "https://www.microsoft.com/net/download/dotnet-core/2.2",
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date": "2019-09-10",
@@ -2691,7 +2691,7 @@
                     "Windows 64-bit Runtime":           "Downloads Platform"
                 },
                 "Releases":                             "https://www.microsoft.com/net/download/dotnet-core/3.0",
-                "Status":                               "Active support",
+                "Status":                               "End of live",
                 "Versions": [
                     {
                         "Date":                         "2019-11-19",
@@ -2712,6 +2712,28 @@
                             "Windows 64-bit Runtime":   "https://download.visualstudio.microsoft.com/download/pr/b3b81103-619a-48d8-ac1b-e03bbe153b7c/566b0f50872164abd1478a5b3ec38ffa/dotnet-runtime-3.0.0-win-x64.exe"
                         },
                         "Version":                      "3.0.0"
+                    }
+                ]
+            },
+            "3.1.x": {
+                "Platform": {
+                    "Windows 32-bit Develop":           "Downloads Platform",
+                    "Windows 32-bit Runtime":           "Downloads Platform",
+                    "Windows 64-bit Develop":           "Downloads Platform",
+                    "Windows 64-bit Runtime":           "Downloads Platform"
+                },
+                "Releases":                             "https://www.microsoft.com/net/download/dotnet-core/3.1",
+                "Status":                               "Active support",
+                "Versions": [
+                    {
+                        "Date":                         "2019-12-03",
+                        "Downloads Platform": {
+                            "Windows 32-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/f6fb21ca-cbf8-41a0-87b9-84225ae485cd/7dcd7ed94e6614098edd2f9832bceeee/dotnet-sdk-3.1.100-win-x86.exe",
+                            "Windows 32-bit Runtime":   "https://download.visualstudio.microsoft.com/download/pr/10256f2e-4665-4acb-918b-26c7c85956cd/e562428eb91b894e711cd81b53166575/dotnet-runtime-3.1.0-win-x86.exe",
+                            "Windows 64-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/639f7cfa-84f8-48e8-b6c9-82634314e28f/8eb04e1b5f34df0c840c1bffa363c101/dotnet-sdk-3.1.100-win-x64.exe",
+                            "Windows 64-bit Runtime":   "https://download.visualstudio.microsoft.com/download/pr/71c181aa-e8fc-4581-ab8b-93a5906b75ff/7458c330a88227463eb0721aded45426/dotnet-runtime-3.1.0-win-x64.exe"
+                        },
+                        "Version":                      "3.1.0"
                     }
                 ]
             }
