@@ -486,7 +486,7 @@
                 "Status": "Active support",
                 "Versions": [
                     {
-                        "Date":     "2019-11-18",
+                        "Date":     "2019-11-20",
                         "Version":  "2.1.6.1"
                     },
                     {
@@ -3433,8 +3433,8 @@
                 "Status": "Active support",
                 "Versions": [
                     {
-                        "Date":     "2019-11-20",
-                        "Version":  "16.3.10"
+                        "Date":     "2019-12-03",
+                        "Version":  "16.4.0"
                     },
                     {
                         "Date":     "2019-11-12",
@@ -3611,6 +3611,10 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2019-10-04",
+                        "Version":  "14.24.28127.4"
+                    },
                     {
                         "Date":     "2019-09-23",
                         "Version":  "14.23.27820"
@@ -4179,6 +4183,19 @@
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2019-12-03",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v13.3.0/node-v13.3.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v13.3.0/node-v13.3.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v13.3.0/node-v13.3.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v13.3.0/node-v13.3.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "6.13.1"
+                        },
+                        "Version":                      "13.3.0"
+                    },
                     {
                         "Date":                         "2019-11-21",
                         "Downloads Platform": {
@@ -4806,6 +4823,16 @@
         "Releases": "https://notepad-plus-plus.org/download/",
         "Type": "Advanced Text Editor",
         "Versions": [
+            {
+                "Date":                         "2019-12-05",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.2/npp.7.8.2.Installer.exe",
+                    "Windows 32-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.8.2/npp.7.8.2.bin.7z",
+                    "Windows 64-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.2/npp.7.8.2.Installer.x64.exe",
+                    "Windows 64-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.8.2/npp.7.8.2.bin.x64.7z"
+                },
+                "Version":                      "7.8.2"
+            },
             {
                 "Date":                         "2019-10-29",
                 "Downloads Platform": {
@@ -5977,10 +6004,10 @@
                     "PHP 7.3 VC15 (64-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.3-nts-vc15-x64.zip",
                     "PHP 7.3 VC15 TS (32-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.3-ts-vc15-x86.zip",
                     "PHP 7.3 VC15 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.3-ts-vc15-x64.zip",
-                    "PHP 7.4 VC15 (32-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.3-nts-vc15-x86.zip",
-                    "PHP 7.4 VC15 (64-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.3-nts-vc15-x64.zip",
-                    "PHP 7.4 VC15 TS (32-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.3-ts-vc15-x86.zip",
-                    "PHP 7.4 VC15 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.3-ts-vc15-x64.zip"
+                    "PHP 7.4 VC15 (32-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.4-nts-vc15-x86.zip",
+                    "PHP 7.4 VC15 (64-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.4-nts-vc15-x64.zip",
+                    "PHP 7.4 VC15 TS (32-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.4-ts-vc15-x86.zip",
+                    "PHP 7.4 VC15 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.5/php_ast-1.0.5-7.4-ts-vc15-x64.zip"
                 },
                 "Version":                      "1.0.5"
             },
@@ -6030,10 +6057,18 @@
         "Description": "High Resolution Time (HRTime) as an intermediary structure in the compilation process",
         "Name": "PHP Extension: HRTime (High Resolution Time)",
         "Platform": {
+            "PHP 7.2 NTS (32-bit)": "Downloads Platform",
+            "PHP 7.2 NTS (64-bit)": "Downloads Platform",
+            "PHP 7.2 TS (32-bit)":  "Downloads Platform",
+            "PHP 7.2 TS (64-bit)":  "Downloads Platform",
             "PHP 7.3 NTS (32-bit)": "Downloads Platform",
             "PHP 7.3 NTS (64-bit)": "Downloads Platform",
             "PHP 7.3 TS (32-bit)":  "Downloads Platform",
-            "PHP 7.3 TS (64-bit)":  "Downloads Platform"
+            "PHP 7.3 TS (64-bit)":  "Downloads Platform",
+            "PHP 7.4 NTS (32-bit)": "Downloads Platform",
+            "PHP 7.4 NTS (64-bit)": "Downloads Platform",
+            "PHP 7.4 TS (32-bit)":  "Downloads Platform",
+            "PHP 7.4 TS (64-bit)":  "Downloads Platform"
         },
         "Releases": "https://windows.php.net/downloads/pecl/releases/hrtime/",
         "Type": "PHP Extension",
@@ -6041,10 +6076,18 @@
             {
                 "Date":                     "2019-12-08",
                 "Downloads Platform": {
+                    "PHP 7.2 NTS (32-bit)": "https://windows.php.net/downloads/pecl/releases/hrtime/0.6.0/php_hrtime-0.6.0-7.2-nts-vc15-x86.zip",
+                    "PHP 7.2 NTS (64-bit)": "https://windows.php.net/downloads/pecl/releases/hrtime/0.6.0/php_hrtime-0.6.0-7.2-nts-vc15-x64.zip",
+                    "PHP 7.2 TS (32-bit)":  "https://windows.php.net/downloads/pecl/releases/hrtime/0.6.0/php_hrtime-0.6.0-7.2-ts-vc15-x86.zip",
+                    "PHP 7.2 TS (64-bit)":  "https://windows.php.net/downloads/pecl/releases/hrtime/0.6.0/php_hrtime-0.6.0-7.2-ts-vc15-x64.zip",
                     "PHP 7.3 NTS (32-bit)": "https://windows.php.net/downloads/pecl/releases/hrtime/0.6.0/php_hrtime-0.6.0-7.3-nts-vc15-x86.zip",
                     "PHP 7.3 NTS (64-bit)": "https://windows.php.net/downloads/pecl/releases/hrtime/0.6.0/php_hrtime-0.6.0-7.3-nts-vc15-x64.zip",
                     "PHP 7.3 TS (32-bit)":  "https://windows.php.net/downloads/pecl/releases/hrtime/0.6.0/php_hrtime-0.6.0-7.3-ts-vc15-x86.zip",
-                    "PHP 7.3 TS (64-bit)":  "https://windows.php.net/downloads/pecl/releases/hrtime/0.6.0/php_hrtime-0.6.0-7.3-ts-vc15-x64.zip"
+                    "PHP 7.3 TS (64-bit)":  "https://windows.php.net/downloads/pecl/releases/hrtime/0.6.0/php_hrtime-0.6.0-7.3-ts-vc15-x64.zip",
+                    "PHP 7.4 NTS (32-bit)": "https://windows.php.net/downloads/pecl/releases/hrtime/0.6.0/php_hrtime-0.6.0-7.4-nts-vc15-x86.zip",
+                    "PHP 7.4 NTS (64-bit)": "https://windows.php.net/downloads/pecl/releases/hrtime/0.6.0/php_hrtime-0.6.0-7.4-nts-vc15-x64.zip",
+                    "PHP 7.4 TS (32-bit)":  "https://windows.php.net/downloads/pecl/releases/hrtime/0.6.0/php_hrtime-0.6.0-7.4-ts-vc15-x86.zip",
+                    "PHP 7.4 TS (64-bit)":  "https://windows.php.net/downloads/pecl/releases/hrtime/0.6.0/php_hrtime-0.6.0-7.4-ts-vc15-x64.zip"
                 },
                 "Version":                  "0.6.0"
             }
@@ -6778,6 +6821,13 @@
                 "Support until": "2020-02-07",
                 "Versions": [
                     {
+                        "Date":             "2019-12-06",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/7.5.18"
+                        },
+                        "Version":          "7.5.18"
+                    },
+                    {
                         "Date":             "2019-10-28",
                         "Downloads Platform": {
                             "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/7.5.17"
@@ -6961,6 +7011,13 @@
                 "Status": "Active",
                 "Support until": "2021-02-05",
                 "Versions": [
+                    {
+                        "Date":             "2019-12-06",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.5.0"
+                        },
+                        "Version":          "8.5.0"
+                    },
                     {
                         "Date":             "2019-11-06",
                         "Downloads Platform": {
@@ -8366,6 +8423,13 @@
                 },
                 "Status": "Active",
                 "Versions": [
+                    {
+                        "Date":                 "2019-10-17",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://tools.hana.ondemand.com/additional/hanaclient-2.4.167-windows-x64.zip"
+                        },
+                        "Version":              "2.4.167.1570894745"
+                    },
                     {
                         "Date":                 "2019-09-17",
                         "Downloads Platform": {
