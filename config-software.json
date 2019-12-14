@@ -211,6 +211,14 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2019-12-12",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.30-windows-x86.zip",
+                            "Windows 64-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.30-windows-x64.zip"
+                        },
+                        "Version":              "9.0.30"
+                    },
+                    {
                         "Date":                 "2019-11-21",
                         "Downloads Platform": {
                             "Windows 32-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.29-windows-x86.zip",
@@ -485,6 +493,10 @@
                 "Releases": "https://docs.docker.com/docker-for-windows/edge-release-notes/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2019-12-11",
+                        "Version":  "2.1.7"
+                    },
                     {
                         "Date":     "2019-11-20",
                         "Version":  "2.1.6.1"
@@ -1111,6 +1123,16 @@
         "Type": "Version Control",
         "Versions": [
             {
+                "Date":                         "2019-12-10",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/Git-2.24.1.2-32-bit.exe",
+                    "Windows 32-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/PortableGit-2.24.1.2-32-bit.7z.exe",
+                    "Windows 64-bit":          "https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/Git-2.24.1.2-64-bit.exe",
+                    "Windows 64-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/PortableGit-2.24.1.2-64-bit.7z.exe"
+                },
+                "Version":                      "2.24.1.2"
+            },
+            {
                 "Date":                         "2019-11-06",
                 "Downloads Platform": {
                     "Windows 32-bit":          "https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.2/Git-2.24.0.2-32-bit.exe",
@@ -1501,12 +1523,15 @@
     "jasper_reports_library": {
         "Description": "The JasperReports Library is the world's most popular open source reporting engine. It is entirely written in Java and it is able to use data coming from any kind of data source and produce pixel-perfect documents that can be viewed, printed or exported in a variety of document formats including HTML, PDF, Excel, OpenOffice and Word.",
         "Name": "JasperReports Library",
-        "Platform": {
-            "Multi-Platform": "Downloads Platform"
-        },
-        "Releases": "https://sourceforge.net/projects/jasperreports/files/jasperreports/",
         "Status": "Active",
         "Versions": [
+            {
+                "Date":                 "2019-12-12",
+                "Downloads Platform": {
+                    "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%25206.11.0/jasperreports-6.11.0-project.zip"
+                },
+                "Version":              "6.11.0"
+            },
             {
                 "Date":                 "2019-09-29",
                 "Downloads Platform": {
@@ -1548,6 +1573,13 @@
         "Releases": "https://sourceforge.net/projects/jasperstudio/files/",
         "Status": "Active",
         "Versions": [
+            {
+                "Date":                 "2019-12-12",
+                "Downloads Platform": {
+                    "Windows 64-bit":   "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.11.0/TIB_js-studiocomm_6.11.0_windows_x86_64.zip"
+                },
+                "Version":              "6.11.0"
+            },
             {
                 "Date":                 "2019-10-01",
                 "Downloads Platform": {
@@ -2213,6 +2245,14 @@
                     "Final Date":   "2024-06-18"
                 },
                 "Versions": [
+                    {
+                        "Date":                 "2019-12-12",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.11/win32-packages/mariadb-10.4.11-win32.zip",
+                            "Windows 64-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.11/winx64-packages/mariadb-10.4.11-winx64.zip"
+                        },
+                        "Version":              "10.4.11"
+                    },
                     {
                         "Date":                 "2019-11-08",
                         "Downloads Platform": {
@@ -3028,6 +3068,14 @@
         "Type": "Developement IDE",
         "Versions": [
             {
+                "Date":                 "2019-12-10",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.41.0/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.41.0/win32-x64-user/stable"
+                },
+                "Version":              "1.41.0"
+            },
+            {
                 "Date":                 "2019-11-25",
                 "Downloads Platform": {
                     "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.40.2/win32-user/stable",
@@ -3312,6 +3360,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2019-12-10",
+                        "Version":  "15.9.18"
+                    },
+                    {
                         "Date":     "2019-10-15",
                         "Version":  "15.9.17"
                     },
@@ -3432,6 +3484,10 @@
                 "Releases": "https://docs.microsoft.com/visualstudio/releases/2019/release-notes",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2019-12-10",
+                        "Version":  "16.4.1"
+                    },
                     {
                         "Date":     "2019-12-03",
                         "Version":  "16.4.0"
@@ -5103,6 +5159,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date": "2019-12-12",
+                        "Version": "19.5.0.0.0"
+                    },
+                    {
                         "Date": "2019-06-26",
                         "Version": "19.3.0.0.0"
                     }
@@ -5304,6 +5364,13 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2019-12-12",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.16/windows/"
+                        },
+                        "Version":                      "4.16"
+                    },
                     {
                         "Date":                         "2019-11-14",
                         "Downloads Platform": {
@@ -6143,6 +6210,28 @@
         "Releases": "https://xdebug.org/download.php",
         "Type": "PHP Extension",
         "Versions": [
+            {
+                "Date":                         "2019-12-09",
+                "Downloads Platform": {
+                    "PHP 7.1 VC14 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.0-7.1-vc14-nts.dll",
+                    "PHP 7.1 VC14 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.0-7.1-vc14-nts-x86_64.dll",
+                    "PHP 7.1 VC14 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.0-7.1-vc14.dll",
+                    "PHP 7.1 VC14 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.0-7.1-vc14-x86_64.dll",
+                    "PHP 7.2 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.0-7.2-vc15-nts.dll",
+                    "PHP 7.2 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.0-7.2-vc15-nts-x86_64.dll",
+                    "PHP 7.2 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.0-7.2-vc15.dll",
+                    "PHP 7.2 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.0-7.2-vc15-x86_64.dll",
+                    "PHP 7.3 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.0-7.3-vc15-nts.dll",
+                    "PHP 7.3 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.0-7.3-vc15-nts-x86_64.dll",
+                    "PHP 7.3 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.0-7.3-vc15.dll",
+                    "PHP 7.3 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.0-7.3-vc15-x86_64.dll",
+                    "PHP 7.4 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.0-7.4-vc15-nts.dll",
+                    "PHP 7.4 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.0-7.4-vc15-nts-x86_64.dll",
+                    "PHP 7.4 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.0-7.4-vc15.dll",
+                    "PHP 7.4 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.0-7.4-vc15-x86_64.dll"
+                },
+                "Version":                      "2.9.0"
+            },
             {
                 "Date":                         "2019-12-02",
                 "Downloads Platform": {
@@ -8878,6 +8967,14 @@
         "Releases": "https://www.virtualbox.org/wiki/Changelog",
         "Type": "Utility",
         "Versions": [
+            {
+                "Date":                 "2019-12-10",
+                "Downloads Platform": {
+                    "Extension Pack":   "https://download.virtualbox.org/virtualbox/6.1.0/Oracle_VM_VirtualBox_Extension_Pack-6.1.0.vbox-extpack",
+                    "Windows 64-bit":   "https://download.virtualbox.org/virtualbox/6.1.0/VirtualBox-6.1.0-133895-Win.exe"
+                },
+                "Version":              "6.1.0"
+            },
             {
                 "Date":                 "2019-10-15",
                 "Downloads Platform": {
