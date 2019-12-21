@@ -8945,7 +8945,7 @@
     },
     "tableau": {
         "Branches": {
-            "10.5.x": {
+            "Desktop 10.5.x": {
                 "Platform": {
                     "Windows 64-bit": "Downloads Platform"
                 },
@@ -9114,7 +9114,27 @@
                         "Version": "10.5.0"
                     }
                 ]
-            }
+            },
+            "Hyper API 0.0.x": {
+                "Platform": {
+                    "Linux 64-bit":     "Downloads Platform",
+                    "Mac 64-bit":       "Downloads Platform",
+                    "Windows 64-bit":   "Downloads Platform"
+                },
+                "Releases": "https://www.tableau.com/support/releases/hyper-api/0.0.9273",
+                "Status":   "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2019-12-04",
+                        "Downloads Platform": {
+                            "Linux 64-bit":     "http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.9273-py3-none-linux_x86_64.whl",
+                            "Mac 64-bit":       "http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.9273-py3-none-macosx_10_11_x86_64.whl",
+                            "Windows 64-bit":   "http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.9273-py3-none-win_amd64.whl"
+                        },
+                        "Version":              "0.0.9273"
+                    }
+                ]
+            },
         },
         "Description": "Tableau has a mapping functionality, and is able to plot latitude and longitude coordinates and connect to spatial files like Esri Shapefiles, KML, and GeoJSON to display custom geography. The built-in geocoding allows for administrative places (country, state/province, county/district), postal codes, US Congressional Districts, US CBSA/MSA, Area Codes, Airports, and European Union statistical areas (NUTS codes) to be mapped automatically. You can group geographies to create custom territories or use custom geocoding to extend existing geographic roles in the product. There are five ways to access their products: Desktop (both professional and personal editions), Server, Online (which scales to support thousands of users), Reader, and Public, with the last two free to use. Vizable, a consumer data visualization mobile app, was released in 2015.",
         "Name": "Tableau Desktop",
