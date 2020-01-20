@@ -343,6 +343,16 @@
         "Type": "Advanced Text Editor",
         "Versions": [
             {
+                "Date":                         "2020-01-14",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://github.com/atom/atom/releases/download/v1.43.0/AtomSetup.exe",
+                    "Windows 32-bit Portable":  "https://github.com/atom/atom/releases/download/v1.43.0/atom-windows.zip",
+                    "Windows 64-bit":           "https://github.com/atom/atom/releases/download/v1.43.0/AtomSetup-x64.exe",
+                    "Windows 64-bit Portable":  "https://github.com/atom/atom/releases/download/v1.43.0/atom-x64-windows.zip"
+                },
+                "Version":                      "1.43.0"
+            },
+            {
                 "Date":                         "2019-12-16",
                 "Downloads Platform": {
                     "Windows 32-bit":           "https://github.com/atom/atom/releases/download/v1.42.0/AtomSetup.exe",
@@ -414,6 +424,13 @@
         "Releases": "https://github.com/composer/composer/releases",
         "Type": "Dependency Manager for PHP",
         "Versions": [
+            {
+                "Date":             "2020-01-14",
+                "Downloads Platform": {
+                    "based on PHP": "https://github.com/composer/composer/releases/download/1.9.2/composer.phar"
+                },
+                "Version":          "1.9.2"
+            },
             {
                 "Date":             "2019-11-02",
                 "Downloads Platform": {
@@ -829,6 +846,16 @@
         "Type": "File Manager",
         "Versions": [
             {
+                "Date": "2019-01-06",
+                "Downloads Platform": {
+                    "Windows 32-bit":     "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.7%20beta/doublecmd-0.9.7.i386-win32.exe/download",
+                    "Windows 32-bit ZIP": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.7%20beta/doublecmd-0.9.7.i386-win32.zip/download",
+                    "Windows 64-bit":     "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.7%20beta/doublecmd-0.9.7.x86_64-win64.exe/download",
+                    "Windows 64-bit ZIP": "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.7%20beta/doublecmd-0.9.7.x86_64-win64.zip/download"
+                },
+                "Version": "0.9.7"
+            },
+            {
                 "Date": "2019-09-02",
                 "Downloads Platform": {
                     "Windows 32-bit":     "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.6%20beta/doublecmd-0.9.6.i386-win32.exe/download",
@@ -1154,6 +1181,16 @@
         "Releases": "https://github.com/git-for-windows/git/releases/",
         "Type": "Version Control",
         "Versions": [
+            {
+                "Date":                         "2020-01-13",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.2/Git-2.25.0-32-bit.exe",
+                    "Windows 32-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.2/PortableGit-2.25.0-32-bit.7z.exe",
+                    "Windows 64-bit":          "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.2/Git-2.25.0-64-bit.exe",
+                    "Windows 64-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/PortableGit-2.25.0-64-bit.7z.exe"
+                },
+                "Version":                      "2.25.0"
+            },
             {
                 "Date":                         "2019-12-10",
                 "Downloads Platform": {
@@ -1660,6 +1697,14 @@
                 "Status": "Active",
                 "Versions": [
                     {
+                        "Date":                 "2020-01-14",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "https://download.oracle.com/otn/java/jdk/8u241-b07/1f5b5a70bf22433b84d0e960903adac8/jdk-8u241-windows-i586.exe",
+                            "Windows 64-bit":   "https://download.oracle.com/otn/java/jdk/8u241-b07/1f5b5a70bf22433b84d0e960903adac8/jdk-8u241-windows-x64.exe"
+                        },
+                        "Version":              "8.0.241"
+                    },
+                    {
                         "Date":                 "2019-10-15",
                         "Downloads Platform": {
                             "Windows 32-bit":   "https://download.oracle.com/otn/java/jdk/8u231-b11/5b13a193868b4bf28bcb45c792fce896/jdk-8u231-windows-i586.exe",
@@ -1801,6 +1846,13 @@
                 "Status": "Long Term Support",
                 "Versions": [
                     {
+                        "Date":                 "2020-01-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://download.oracle.com/otn/java/jdk/11.0.6+8/90eb79fb590d45c8971362673c5ab495/jdk-11.0.6_windows-x64_bin.exe"
+                        },
+                        "Version":              "11.0.6"
+                    },
+                    {
                         "Date":                 "2019-10-16",
                         "Downloads Platform": {
                             "Windows 64-bit":   "https://download.oracle.com/otn/java/jdk/11.0.5+10/e51269e04165492b90fa15af5b4eb1a5/jdk-11.0.5_windows-x64_bin.exe"
@@ -1881,6 +1933,13 @@
                 "Releases": "https://www.oracle.com/technetwork/java/javase/13all-relnotes-5461743.html",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2020-01-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://download.oracle.com/otn-pub/java/jdk/13.0.2+8/d4173c853231432d94f001e99d882ca7/jdk-13.0.2_windows-x64_bin.exe"
+                        },
+                        "Version":              "13.0.2"
+                    },
                     {
                         "Date":                 "2019-10-15",
                         "Downloads Platform": {
@@ -1964,6 +2023,13 @@
                 "Releases": "http://jdk.java.net/13/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2019-12-11",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://download.java.net/java/GA/jdk13.0.2/d4173c853231432d94f001e99d882ca7/8/GPL/openjdk-13.0.2_windows-x64_bin.zip"
+                        },
+                        "Version":              "13.0.2"
+                    },
                     {
                         "Date":                 "2019-10-16",
                         "Downloads Platform": {
@@ -2803,6 +2869,16 @@
                 "Status":                               "Active support",
                 "Versions": [
                     {
+                        "Date":                         "2020-01-14",
+                        "Downloads Platform": {
+                            "Windows 32-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/31b790f6-8557-48d9-bb57-9b2900ead284/4072f3d932af91e2a3127e552370c2b4/dotnet-sdk-3.1.101-win-x86.exe",
+                            "Windows 32-bit Runtime":   "https://download.visualstudio.microsoft.com/download/pr/3a21bd9a-8040-4277-99d4-9de7fcda6d7c/c669f1662f140cbb41fdf0c9cba221a8/dotnet-runtime-3.1.1-win-x86.exe",
+                            "Windows 64-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/854ca330-4414-4141-9be8-5da3c4be8d04/3792eafd60099b3050313f2edfd31805/dotnet-sdk-3.1.101-win-x64.exe",
+                            "Windows 64-bit Runtime":   "https://download.visualstudio.microsoft.com/download/pr/fda71c5b-ee58-4919-95dc-4f32dbebd2cd/97ffe3880a25f5f7cae1a7e40cd3509e/dotnet-runtime-3.1.1-win-x64.exe"
+                        },
+                        "Version":                      "3.1.1"
+                    },
+                    {
                         "Date":                         "2019-12-03",
                         "Downloads Platform": {
                             "Windows 32-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/f6fb21ca-cbf8-41a0-87b9-84225ae485cd/7dcd7ed94e6614098edd2f9832bceeee/dotnet-sdk-3.1.100-win-x86.exe",
@@ -3405,6 +3481,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2020-01-14",
+                        "Version":  "15.9.19"
+                    },
+                    {
                         "Date":     "2019-12-10",
                         "Version":  "15.9.18"
                     },
@@ -3529,6 +3609,10 @@
                 "Releases": "https://docs.microsoft.com/visualstudio/releases/2019/release-notes",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2020-01-14",
+                        "Version":  "16.4.3"
+                    },
                     {
                         "Date":     "2019-12-17",
                         "Version":  "16.4.2"
@@ -3756,6 +3840,22 @@
         "Type": "Internet Browser",
         "Versions": [
             {
+                "Date":                 "2020-01-08",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/72.0.1/win32-EME-free/en-US/Firefox%20Setup%2072.0.1.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/72.0.1/win64-EME-free/en-US/Firefox%20Setup%2072.0.1.exe"
+                },
+                "Version":              "72.0.1"
+            },
+            {
+                "Date":                 "2020-01-06",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/72.0/win32-EME-free/en-US/Firefox%20Setup%2072.0.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/72.0/win64-EME-free/en-US/Firefox%20Setup%2072.0.exe"
+                },
+                "Version":              "72.0.0"
+            },
+            {
                 "Date":                 "2019-12-03",
                 "Downloads Platform": {
                     "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/71.0/win32-EME-free/en-US/Firefox%20Setup%2071.0.exe",
@@ -3961,6 +4061,14 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2020-01-13",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "https://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.47-win32.zip",
+                            "Windows 64-bit":   "https://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.47-winx64.zip"
+                        },
+                        "Version":              "5.6.47"
+                    },
+                    {
                         "Date":                 "2019-10-14",
                         "Downloads Platform": {
                             "Windows 32-bit":   "https://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.46-win32.zip",
@@ -4018,6 +4126,14 @@
                 "Releases": "https://dev.mysql.com/doc/relnotes/mysql/5.7/en/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2020-01-13",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.29-win32.zip",
+                            "Windows 64-bit":   "https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.29-winx64.zip"
+                        },
+                        "Version":              "5.7.29"
+                    },
                     {
                         "Date":                 "2019-10-14",
                         "Downloads Platform": {
@@ -4083,6 +4199,13 @@
                 "Releases": "https://dev.mysql.com/doc/relnotes/mysql/8.0/en/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2020-01-13",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.19-winx64.zip"
+                        },
+                        "Version":              "8.0.19"
+                    },
                     {
                         "Date":                 "2019-10-14",
                         "Downloads Platform": {
@@ -4172,6 +4295,13 @@
                 "Releases": "https://dev.mysql.com/doc/relnotes/workbench/en/news-8-0.html",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2020-01-13",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.19-winx64.msi"
+                        },
+                        "Version":              "8.0.19"
+                    },
                     {
                         "Date":                 "2019-10-14",
                         "Downloads Platform": {
@@ -4288,6 +4418,19 @@
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2020-01-07",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v13.6.0/node-v13.6.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v13.6.0/node-v13.6.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v13.6.0/node-v13.6.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v13.6.0/node-v13.6.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "6.13.4"
+                        },
+                        "Version":                      "13.6.0"
+                    },
                     {
                         "Date":                         "2019-12-17",
                         "Downloads Platform": {
@@ -4766,6 +4909,19 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2020-01-07",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v12.14.1/node-v12.14.1-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v12.14.1/node-v12.14.1-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v12.14.1/node-v12.14.1-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v12.14.1/node-v12.14.1-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":              "6.13.4"
+                        },
+                        "Version":              "12.14.1"
+                    },
+                    {
                         "Date":                 "2019-12-17",
                         "Downloads Platform": {
                             "Windows 32-bit":           "https://nodejs.org/dist/v12.14.0/node-v12.14.0-x86.msi",
@@ -4968,6 +5124,16 @@
         "Type": "Advanced Text Editor",
         "Versions": [
             {
+                "Date":                         "2020-01-16",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.3/npp.7.8.3.Installer.exe",
+                    "Windows 32-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.8.3/npp.7.8.3.bin.7z",
+                    "Windows 64-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.3/npp.7.8.3.Installer.x64.exe",
+                    "Windows 64-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.8.3/npp.7.8.3.bin.x64.7z"
+                },
+                "Version":                      "7.8.3"
+            },
+            {
                 "Date":                         "2019-12-05",
                 "Downloads Platform": {
                     "Windows 32-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.2/npp.7.8.2.Installer.exe",
@@ -5120,6 +5286,14 @@
                 "Releases": "https://github.com/openssl/openssl/releases",
                 "Status":   "Active Support",
                 "Versions": [
+                    {
+                        "Date":                 "2019-12-20",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "https://slproweb.com/download/Win32OpenSSL_Light-1_0_2u.exe",
+                            "Windows 64-bit":   "https://slproweb.com/download/Win64OpenSSL_Light-1_0_2u.exe"
+                        },
+                        "Version":              "1.0.2u"
+                    },
                     {
                         "Date":    "2019-09-11",
                         "Downloads Platform": {
@@ -5462,6 +5636,13 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2020-01-09",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.17/windows/"
+                        },
+                        "Version":                      "4.17"
+                    },
                     {
                         "Date":                         "2019-12-12",
                         "Downloads Platform": {
@@ -6341,6 +6522,28 @@
         "Type": "PHP Extension",
         "Versions": [
             {
+                "Date":                         "2020-01-16",
+                "Downloads Platform": {
+                    "PHP 7.1 VC14 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.1-7.1-vc14-nts.dll",
+                    "PHP 7.1 VC14 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.1-7.1-vc14-nts-x86_64.dll",
+                    "PHP 7.1 VC14 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.1-7.1-vc14.dll",
+                    "PHP 7.1 VC14 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.1-7.1-vc14-x86_64.dll",
+                    "PHP 7.2 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.1-7.2-vc15-nts.dll",
+                    "PHP 7.2 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.1-7.2-vc15-nts-x86_64.dll",
+                    "PHP 7.2 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.1-7.2-vc15.dll",
+                    "PHP 7.2 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.1-7.2-vc15-x86_64.dll",
+                    "PHP 7.3 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.1-7.3-vc15-nts.dll",
+                    "PHP 7.3 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.1-7.3-vc15-nts-x86_64.dll",
+                    "PHP 7.3 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.1-7.3-vc15.dll",
+                    "PHP 7.3 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.1-7.3-vc15-x86_64.dll",
+                    "PHP 7.4 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.1-7.4-vc15-nts.dll",
+                    "PHP 7.4 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.1-7.4-vc15-nts-x86_64.dll",
+                    "PHP 7.4 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.1-7.4-vc15.dll",
+                    "PHP 7.4 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.1-7.4-vc15-x86_64.dll"
+                },
+                "Version":                      "2.9.1"
+            },
+            {
                 "Date":                         "2019-12-09",
                 "Downloads Platform": {
                     "PHP 7.1 VC14 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.0-7.1-vc14-nts.dll",
@@ -7040,6 +7243,20 @@
                 "Support until": "2020-02-07",
                 "Versions": [
                     {
+                        "Date":             "2020-02-08",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/7.5.20"
+                        },
+                        "Version":          "7.5.20"
+                    },
+                    {
+                        "Date":             "2020-02-06",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/7.5.19"
+                        },
+                        "Version":          "7.5.19"
+                    },
+                    {
                         "Date":             "2019-12-06",
                         "Downloads Platform": {
                             "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/7.5.18"
@@ -7230,6 +7447,13 @@
                 "Status": "Active",
                 "Support until": "2021-02-05",
                 "Versions": [
+                    {
+                        "Date":             "2020-01-08",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.5.2"
+                        },
+                        "Version":          "8.5.2"
+                    },
                     {
                         "Date":             "2019-12-25",
                         "Downloads Platform": {
@@ -7558,6 +7782,14 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2020-01-07",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://ftp.postgresql.org/pub/odbc/versions/msi/psqlodbc_12_01_0000-x86.zip",
+                            "Windows 64-bit Installer": "https://ftp.postgresql.org/pub/odbc/versions/msi/psqlodbc_12_01_0000-x64.zip"
+                        },
+                        "Version":                      "12.0.1"
+                    },
                     {
                         "Date":                         "2019-10-11",
                         "Downloads Platform": {
@@ -8651,7 +8883,7 @@
         },
         "Description": "Python is a programming language that lets you work quickly and integrate systems more effectively.",
         "Name": "Python",
-        "Type": "Localization Editor",
+        "Type": "Scriptign Engine",
         "Website": "https://www.python.org/"
     },
     "sap_hana_database_client": {
@@ -8685,6 +8917,13 @@
                 "Releases": "https://tools.hana.ondemand.com/#hanatools",
                 "Status": "Active",
                 "Versions": [
+                    {
+                        "Date":                 "2019-10-17",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://tools.hana.ondemand.com/additional/hanaclient-2.4.171-windows-x64.zip"
+                        },
+                        "Version":              "2.4.171.1573163505"
+                    },
                     {
                         "Date":                 "2019-10-17",
                         "Downloads Platform": {
@@ -9187,6 +9426,14 @@
         "Releases": "https://www.virtualbox.org/wiki/Changelog",
         "Type": "Utility",
         "Versions": [
+            {
+                "Date":                 "2020-01-14",
+                "Downloads Platform": {
+                    "Extension Pack":   "https://download.virtualbox.org/virtualbox/6.1.2/Oracle_VM_VirtualBox_Extension_Pack-6.1.2.vbox-extpack",
+                    "Windows 64-bit":   "https://download.virtualbox.org/virtualbox/6.1.2/VirtualBox-6.1.2-135663-Win.exe"
+                },
+                "Version":              "6.1.2"
+            },
             {
                 "Date":                 "2019-12-10",
                 "Downloads Platform": {
