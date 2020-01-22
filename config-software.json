@@ -3843,6 +3843,14 @@
         "Type": "Internet Browser",
         "Versions": [
             {
+                "Date":                 "2020-01-20",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/72.0.2/win32-EME-free/en-US/Firefox%20Setup%2072.0.2.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/72.0.2/win64-EME-free/en-US/Firefox%20Setup%2072.0.2.exe"
+                },
+                "Version":              "72.0.2"
+            },
+            {
                 "Date":                 "2020-01-08",
                 "Downloads Platform": {
                     "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/72.0.1/win32-EME-free/en-US/Firefox%20Setup%2072.0.1.exe",
