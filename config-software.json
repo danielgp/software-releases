@@ -702,6 +702,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2020-01-21",
+                        "Version":  "2.2.0.0"
+                    },
+                    {
                         "Date":     "2019-11-18",
                         "Version":  "2.1.0.5"
                     },
@@ -2352,6 +2356,14 @@
                 },
                 "Versions": [
                     {
+                        "Date":                 "2020-01-28",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.12/win32-packages/mariadb-10.4.12-win32.zip",
+                            "Windows 64-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.12/winx64-packages/mariadb-10.4.12-winx64.zip"
+                        },
+                        "Version":              "10.4.12"
+                    },
+                    {
                         "Date":                 "2019-12-12",
                         "Downloads Platform": {
                             "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.11/win32-packages/mariadb-10.4.11-win32.zip",
@@ -3059,6 +3071,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2020-01-28",
+                        "Version":  "17.5.1.1"
+                    },
+                    {
                         "Date": "2019-10-04",
                         "Version": "17.4.2.1"
                     },
@@ -3612,6 +3628,10 @@
                 "Releases": "https://docs.microsoft.com/visualstudio/releases/2019/release-notes",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2020-01-30",
+                        "Version":  "16.4.4"
+                    },
                     {
                         "Date":     "2020-01-14",
                         "Version":  "16.4.3"
@@ -4429,6 +4449,19 @@
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2020-01-21",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v13.6.0/node-v13.7.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v13.6.0/node-v13.7.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v13.6.0/node-v13.7.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v13.6.0/node-v13.7.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "6.13.6"
+                        },
+                        "Version":                      "13.7.0"
+                    },
                     {
                         "Date":                         "2020-01-07",
                         "Downloads Platform": {
@@ -5910,12 +5943,22 @@
                 "Status": "Security fixes only",
                 "Versions": [
                     {
+                        "Date":                                     "2020-01-23",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.27-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.27-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.27-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.27-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.2.27"
+                    },
+                    {
                         "Date":                                     "2019-12-18",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.26-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.26-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.26-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.26-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.26-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.26-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.26-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.26-nts-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.2.26"
                     },
@@ -6169,12 +6212,22 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2020-01-23",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.14-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.14-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.14-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.14-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.3.14"
+                    },
+                    {
                         "Date":                                     "2018-12-18",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.13-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.13-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.13-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.13-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.13-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.13-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.13-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.13-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.3.13"
                     },
@@ -6324,12 +6377,22 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2020-01-23",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.2-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.2-ts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.2-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.2-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.4.2"
+                    },
+                    {
                         "Date":                                     "2019-12-18",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.1-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.1-ts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.1-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.1-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.1-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.1-ts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.1-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.1-nts-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.4.1"
                     },
@@ -8655,7 +8718,7 @@
                     "Professional Windows with Anaconda": "Downloads Platform"
                 },
                 "Releases": "https://www.jetbrains.com/pycharm/download/other.html",
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date":                                     "2019-12-19",
@@ -8729,6 +8792,16 @@
                 "Releases": "https://www.jetbrains.com/pycharm/download/other.html",
                 "Status":   "Active support",
                 "Versions": [
+                    {
+                        "Date":                                     "2020-01-22",
+                        "Downloads Platform": {
+                            "Community Windows":                    "https://download.jetbrains.com/python/pycharm-community-2019.3.2.exe",
+                            "Community Windows with Anaconda":      "https://download.jetbrains.com/python/pycharm-community-anaconda-2019.3.2.exe",
+                            "Professional Windows":                 "https://download.jetbrains.com/python/pycharm-professional-2019.3.2.exe",
+                            "Professional Windows with Anaconda":   "https://download.jetbrains.com/python/pycharm-professional-anaconda-2019.3.2.exe"
+                        },
+                        "Version":                                  "2019.3.2.193.6015.41"
+                    },
                     {
                         "Date":                                     "2019-12-19",
                         "Downloads Platform": {
@@ -8929,6 +9002,13 @@
                 "Status": "Active",
                 "Versions": [
                     {
+                        "Date":                 "2019-12-19",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://tools.hana.ondemand.com/additional/hanaclient-2.4.177-windows-x64.zip"
+                        },
+                        "Version":              "2.4.177.1576789258"
+                    },
+                    {
                         "Date":                 "2019-10-17",
                         "Downloads Platform": {
                             "Windows 64-bit":   "https://tools.hana.ondemand.com/additional/hanaclient-2.4.171-windows-x64.zip"
@@ -9053,21 +9133,28 @@
             {
                 "Date": "2019-12-20",
                 "Downloads Platform": {
-                    "Windows 32-bit/64-bit": "https://tools.hana.ondemand.com/2018-09"
+                    "Windows 32-bit/64-bit": "https://tools.hana.ondemand.com/2019-12"
+                },
+                "Version": "2.3.50"
+            },
+            {
+                "Date": "2019-12-20",
+                "Downloads Platform": {
+                    "Windows 32-bit/64-bit": "https://tools.hana.ondemand.com/2019-06"
                 },
                 "Version": "2.3.48"
             },
             {
                 "Date": "2019-09-11",
                 "Downloads Platform": {
-                    "Windows 32-bit/64-bit": "https://tools.hana.ondemand.com/2018-06"
+                    "Windows 32-bit/64-bit": "https://tools.hana.ondemand.com/2019-03"
                 },
                 "Version": "2.3.46"
             },
             {
                 "Date": "2019-06-20",
                 "Downloads Platform": {
-                    "Windows 32-bit/64-bit": "https://tools.hana.ondemand.com/2018-03"
+                    "Windows 32-bit/64-bit": "https://tools.hana.ondemand.com/2018-12"
                 },
                 "Version": "2.3.44"
             },
@@ -9181,6 +9268,13 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2020-01-08",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.3.7.exe"
+                        },
+                        "Version":              "3.3.7"
+                    },
+                    {
                         "Date":                 "2019-11-22",
                         "Downloads Platform": {
                             "Windows 64-bit":   "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.3.6.exe"
@@ -9219,6 +9313,13 @@
                 "Releases": "https://www.tableau.com/support/releases",
                 "Status":   "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2020-01-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/10.5.23/TableauDesktop-64bit-10-5-23.exe"
+                        },
+                        "Version":              "10.5.23"
+                    },
                     {
                         "Date":                 "2019-12-21",
                         "Downloads Platform": {
