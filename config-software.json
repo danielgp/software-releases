@@ -132,7 +132,7 @@
                 "Version": "2.3.9"
             }
         ],
-        "Website": "https://github.com/jzdziarski/mod_evasive"
+        "Website": "https://httpd.apache.org/mod_fcgid/mod/mod_fcgid.html"
     },
     "apache_mod_log_rotate": {
         "Description": "Apache mod_log_rotate is an in-process server-native log rotation",
