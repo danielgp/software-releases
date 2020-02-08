@@ -425,6 +425,13 @@
         "Type": "Dependency Manager for PHP",
         "Versions": [
             {
+                "Date":             "2020-02-04",
+                "Downloads Platform": {
+                    "based on PHP": "https://github.com/composer/composer/releases/download/1.9.3/composer.phar"
+                },
+                "Version":          "1.9.3"
+            },
+            {
                 "Date":             "2020-01-14",
                 "Downloads Platform": {
                     "based on PHP": "https://github.com/composer/composer/releases/download/1.9.2/composer.phar"
@@ -849,6 +856,16 @@
         "Releases": "https://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/",
         "Type": "File Manager",
         "Versions": [
+            {
+                "Date":                     "2019-02-01",
+                "Downloads Platform": {
+                    "Windows 32-bit":       "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.8%20beta/doublecmd-0.9.8.i386-win32.exe/download",
+                    "Windows 32-bit ZIP":   "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.8%20beta/doublecmd-0.9.8.i386-win32.zip/download",
+                    "Windows 64-bit":       "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.8%20beta/doublecmd-0.9.8.x86_64-win64.exe/download",
+                    "Windows 64-bit ZIP":   "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.8%20beta/doublecmd-0.9.8.x86_64-win64.zip/download"
+                },
+                "Version":                  "0.9.8"
+            },
             {
                 "Date": "2019-01-06",
                 "Downloads Platform": {
@@ -1527,6 +1544,10 @@
         "Releases": "https://en.wikipedia.org/wiki/Google_Chrome_version_history",
         "Type": "Internet Browser",
         "Versions": [
+            {
+                "Date":     "2020-02-04",
+                "Version":  "80.0.3987"
+            },
             {
                 "Date":     "2019-12-10",
                 "Version":  "79.0.3945"
@@ -3200,6 +3221,14 @@
         "Type": "Developement IDE",
         "Versions": [
             {
+                "Date":                 "2020-02-05",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.42.0/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.42.0/win32-x64-user/stable"
+                },
+                "Version":              "1.42.0"
+            },
+            {
                 "Date":                 "2019-12-18",
                 "Downloads Platform": {
                     "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.41.1/win32-user/stable",
@@ -4450,12 +4479,25 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                         "2020-02-06",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v13.8.0/node-v13.8.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v13.8.0/node-v13.8.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v13.8.0/node-v13.8.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v13.8.0/node-v13.8.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "6.13.6"
+                        },
+                        "Version":                      "13.8.0"
+                    },
+                    {
                         "Date":                         "2020-01-21",
                         "Downloads Platform": {
-                            "Windows 32-bit":           "https://nodejs.org/dist/v13.6.0/node-v13.7.0-x86.msi",
-                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v13.6.0/node-v13.7.0-win-x86.zip",
-                            "Windows 64-bit":           "https://nodejs.org/dist/v13.6.0/node-v13.7.0-x64.msi",
-                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v13.6.0/node-v13.7.0-win-x64.zip"
+                            "Windows 32-bit":           "https://nodejs.org/dist/v13.7.0/node-v13.7.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v13.7.0/node-v13.7.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v13.7.0/node-v13.7.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v13.7.0/node-v13.7.0-win-x64.zip"
                         },
                         "Includes": {
                             "npm":                      "6.13.6"
@@ -4953,6 +4995,19 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2020-02-06",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v12.15.0/node-v12.15.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v12.15.0/node-v12.15.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v12.15.0/node-v12.15.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v12.15.0/node-v12.15.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":              "6.13.4"
+                        },
+                        "Version":              "12.15.0"
+                    },
+                    {
                         "Date":                 "2020-01-07",
                         "Downloads Platform": {
                             "Windows 32-bit":           "https://nodejs.org/dist/v12.14.1/node-v12.14.1-x86.msi",
@@ -5167,6 +5222,16 @@
         "Releases": "https://notepad-plus-plus.org/download/",
         "Type": "Advanced Text Editor",
         "Versions": [
+            {
+                "Date":                         "2020-01-30",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.4/npp.7.8.4.Installer.exe",
+                    "Windows 32-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.8.4/npp.7.8.4.bin.7z",
+                    "Windows 64-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.4/npp.7.8.4.Installer.x64.exe",
+                    "Windows 64-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.8.4/npp.7.8.4.bin.x64.7z"
+                },
+                "Version":                      "7.8.4"
+            },
             {
                 "Date":                         "2020-01-16",
                 "Downloads Platform": {
@@ -5570,6 +5635,16 @@
         "Type": "Archiver",
         "Versions": [
             {
+                "Date":                         "2020-02-02",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://github.com/giorgiotani/PeaZip/releases/download/7.1.0/peazip-7.1.0.WINDOWS.exe",
+                    "Windows 32-bit Portable":  "https://github.com/giorgiotani/PeaZip/releases/download/7.1.0/peazip_portable-7.1.0.WINDOWS.zip",
+                    "Windows 64-bit":           "https://github.com/giorgiotani/PeaZip/releases/download/7.1.0/peazip-7.1.0.WIN64.exe",
+                    "Windows 64-bit Portable":  "https://github.com/giorgiotani/PeaZip/releases/download/7.1.0/peazip_portable-7.1.0.WIN64.zip"
+                },
+                "Version":                      "7.1.0"
+            },
+            {
                 "Date":                         "2019-12-30",
                 "Downloads Platform": {
                     "Windows 32-bit":           "https://github.com/giorgiotani/PeaZip/releases/download/7.0.1/peazip-7.0.1.WINDOWS.exe",
@@ -5680,6 +5755,13 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2020-02-06",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.18/windows/"
+                        },
+                        "Version":                      "4.18"
+                    },
                     {
                         "Date":                         "2020-01-09",
                         "Downloads Platform": {
@@ -6596,6 +6678,28 @@
         "Type": "PHP Extension",
         "Versions": [
             {
+                "Date":                         "2020-01-31",
+                "Downloads Platform": {
+                    "PHP 7.1 VC14 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.2-7.1-vc14-nts.dll",
+                    "PHP 7.1 VC14 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.2-7.1-vc14-nts-x86_64.dll",
+                    "PHP 7.1 VC14 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.2-7.1-vc14.dll",
+                    "PHP 7.1 VC14 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.2-7.1-vc14-x86_64.dll",
+                    "PHP 7.2 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.2-7.2-vc15-nts.dll",
+                    "PHP 7.2 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.2-7.2-vc15-nts-x86_64.dll",
+                    "PHP 7.2 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.2-7.2-vc15.dll",
+                    "PHP 7.2 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.2-7.2-vc15-x86_64.dll",
+                    "PHP 7.3 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.2-7.3-vc15-nts.dll",
+                    "PHP 7.3 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.2-7.3-vc15-nts-x86_64.dll",
+                    "PHP 7.3 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.2-7.3-vc15.dll",
+                    "PHP 7.3 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.2-7.3-vc15-x86_64.dll",
+                    "PHP 7.4 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.2-7.4-vc15-nts.dll",
+                    "PHP 7.4 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.2-7.4-vc15-nts-x86_64.dll",
+                    "PHP 7.4 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.2-7.4-vc15.dll",
+                    "PHP 7.4 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.2-7.4-vc15-x86_64.dll"
+                },
+                "Version":                      "2.9.2"
+            },
+            {
                 "Date":                         "2020-01-16",
                 "Downloads Platform": {
                     "PHP 7.1 VC14 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.1-7.1-vc14-nts.dll",
@@ -7313,7 +7417,7 @@
                 "Platform": {
                     "based on PHP": "Downloads Platform"
                 },
-                "Status": "Supported",
+                "Status": "End of life",
                 "Support until": "2020-02-07",
                 "Versions": [
                     {
@@ -7751,6 +7855,22 @@
                             "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.0.0"
                         },
                         "Version": "8.0.0"
+                    }
+                ]
+            },
+            "9.x": {
+                "Platform": {
+                    "based on PHP": "Downloads Platform"
+                },
+                "Status": "Active",
+                "Support until": "2021-02-04",
+                "Versions": [
+                    {
+                        "Date":             "2021-02-07",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/9.0.0"
+                        },
+                        "Version":          "9.0.0"
                     }
                 ]
             }
@@ -8793,6 +8913,16 @@
                 "Status":   "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2020-02-07",
+                        "Downloads Platform": {
+                            "Community Windows":                    "https://download.jetbrains.com/python/pycharm-community-2019.3.3.exe",
+                            "Community Windows with Anaconda":      "https://download.jetbrains.com/python/pycharm-community-anaconda-2019.3.3.exe",
+                            "Professional Windows":                 "https://download.jetbrains.com/python/pycharm-professional-2019.3.3.exe",
+                            "Professional Windows with Anaconda":   "https://download.jetbrains.com/python/pycharm-professional-anaconda-2019.3.3.exe"
+                        },
+                        "Version":                                  "2019.3.3.193.6494.30"
+                    },
+                    {
                         "Date":                                     "2020-01-22",
                         "Downloads Platform": {
                             "Community Windows":                    "https://download.jetbrains.com/python/pycharm-community-2019.3.2.exe",
@@ -8839,7 +8969,7 @@
                     "Windows Help File": "Downloads Platform"
                 },
                 "Releases": "https://docs.python.org/2.7/whatsnew/2.7.html",
-                "Status": "Legacy",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date":                     "2019-10-19",
@@ -9249,7 +9379,7 @@
                     "Windows 64-bit": "Downloads Platform"
                 },
                 "Releases": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/ReleaseNotes_3.2.6.html",
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date": "2019-08-16",
@@ -9267,6 +9397,13 @@
                 "Releases": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/ReleaseNotes_3.3.6.html",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2020-01-08",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.3.8.exe"
+                        },
+                        "Version":              "3.3.8"
+                    },
                     {
                         "Date":                 "2020-01-08",
                         "Downloads Platform": {
@@ -9483,6 +9620,50 @@
                     }
                 ]
             },
+            "Desktop 2019.3.x": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://www.tableau.com/support/releases",
+                "Status":   "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2020-01-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.3.4/TableauDesktop-64bit-2019-3-4.exe"
+                        },
+                        "Version":              "2019.3.4"
+                    },
+                    {
+                        "Date":                 "2019-12-19",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.3.3/TableauDesktop-64bit-2019-3-3.exe"
+                        },
+                        "Version":              "2019.3.3"
+                    },
+                    {
+                        "Date":                 "2019-11-19",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.3.2/TableauDesktop-64bit-2019-3-2.exe"
+                        },
+                        "Version":              "2019.3.2"
+                    },
+                    {
+                        "Date":                 "2019-10-24",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.3.1/TableauDesktop-64bit-2019-3-1.exe"
+                        },
+                        "Version":              "2019.3.1"
+                    },
+                    {
+                        "Date":                 "2019-09-17",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.3/TableauDesktop-64bit-2019-3.exe"
+                        },
+                        "Version":              "2019.3"
+                    }
+                ]
+            },
             "Hyper API 0.0.x": {
                 "Platform": {
                     "Linux 64-bit":     "Downloads Platform",
@@ -9492,6 +9673,15 @@
                 "Releases": "https://www.tableau.com/support/releases/hyper-api/0.0.9273",
                 "Status":   "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2020-01-29",
+                        "Downloads Platform": {
+                            "Linux 64-bit":     "http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.9746-py3-none-linux_x86_64.whl",
+                            "Mac 64-bit":       "http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.9746-py3-none-macosx_10_11_x86_64.whl",
+                            "Windows 64-bit":   "http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.9746-py3-none-win_amd64.whl"
+                        },
+                        "Version":              "0.0.9746"
+                    },
                     {
                         "Date":                 "2019-12-04",
                         "Downloads Platform": {
