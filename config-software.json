@@ -211,10 +211,18 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2020-02-05",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.31/bin/apache-tomcat-9.0.31-windows-x86.zip",
+                            "Windows 64-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.31/bin/apache-tomcat-9.0.31-windows-x64.zip"
+                        },
+                        "Version":              "9.0.31"
+                    },
+                    {
                         "Date":                 "2019-12-12",
                         "Downloads Platform": {
-                            "Windows 32-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.30-windows-x86.zip",
-                            "Windows 64-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.29/bin/apache-tomcat-9.0.30-windows-x64.zip"
+                            "Windows 32-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30-windows-x86.zip",
+                            "Windows 64-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30-windows-x64.zip"
                         },
                         "Version":              "9.0.30"
                     },
@@ -342,6 +350,16 @@
         "Releases": "https://atom.io/releases",
         "Type": "Advanced Text Editor",
         "Versions": [
+            {
+                "Date":                         "2020-02-11",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://github.com/atom/atom/releases/download/v1.44.0/AtomSetup.exe",
+                    "Windows 32-bit Portable":  "https://github.com/atom/atom/releases/download/v1.44.0/atom-windows.zip",
+                    "Windows 64-bit":           "https://github.com/atom/atom/releases/download/v1.44.0/AtomSetup-x64.exe",
+                    "Windows 64-bit Portable":  "https://github.com/atom/atom/releases/download/v1.44.0/atom-x64-windows.zip"
+                },
+                "Version":                      "1.44.0"
+            },
             {
                 "Date":                         "2020-01-14",
                 "Downloads Platform": {
@@ -528,6 +546,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2020-02-12",
+                        "Version":  "2.2.1.0"
+                    },
+                    {
                         "Date":     "2019-12-11",
                         "Version":  "2.1.7"
                     },
@@ -708,6 +730,10 @@
                 "Releases": "https://docs.docker.com/docker-for-windows/release-notes/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2020-02-11",
+                        "Version":  "2.2.0.3"
+                    },
                     {
                         "Date":     "2020-01-21",
                         "Version":  "2.2.0.0"
@@ -2870,8 +2896,18 @@
                     "Windows 64-bit Runtime":           "Downloads Platform"
                 },
                 "Releases":                             "https://www.microsoft.com/net/download/dotnet-core/3.0",
-                "Status":                               "End of live",
+                "Status":                               "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2020-01-14",
+                        "Downloads Platform": {
+                            "Windows 32-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/ac725466-79c4-44fc-8c40-1e94c69751d1/9dc355a1c3fe3613fa380a6bce492dfc/dotnet-sdk-3.0.102-win-x86.exe",
+                            "Windows 32-bit Runtime":   "https://download.visualstudio.microsoft.com/download/pr/a9175198-d86c-4aa2-9a69-007ed7f5895b/2c7fb7db8989f10eb4c48a1ac27e0a34/windowsdesktop-runtime-3.0.2-win-x86.exe",
+                            "Windows 64-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/7d6389b7-eda7-4ae0-924d-4fedaa3d0fc7/7712bebba5b34149837f9b60928acbb1/dotnet-sdk-3.0.102-win-x64.exe",
+                            "Windows 64-bit Runtime":   "https://download.visualstudio.microsoft.com/download/pr/6de20972-a961-4ea9-add7-1ed70c889292/5fb88f842d9d0ef361f0982bd047c42b/windowsdesktop-runtime-3.0.2-win-x64.exe"
+                        },
+                        "Version":                      "3.0.2"
+                    },
                     {
                         "Date":                         "2019-11-19",
                         "Downloads Platform": {
@@ -3221,6 +3257,14 @@
         "Type": "Developement IDE",
         "Versions": [
             {
+                "Date":                 "2020-02-11",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.42.1/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.42.1/win32-x64-user/stable"
+                },
+                "Version":              "1.42.1"
+            },
+            {
                 "Date":                 "2020-02-05",
                 "Downloads Platform": {
                     "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.42.0/win32-user/stable",
@@ -3529,6 +3573,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2020-02-11",
+                        "Version":  "15.9.20"
+                    },
+                    {
                         "Date":     "2020-01-14",
                         "Version":  "15.9.19"
                     },
@@ -3657,6 +3705,10 @@
                 "Releases": "https://docs.microsoft.com/visualstudio/releases/2019/release-notes",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2020-02-11",
+                        "Version":  "16.4.5"
+                    },
                     {
                         "Date":     "2020-01-30",
                         "Version":  "16.4.4"
@@ -3891,6 +3943,14 @@
         "Releases": "https://wiki.mozilla.org/Release_Management/Calendar",
         "Type": "Internet Browser",
         "Versions": [
+            {
+                "Date":                 "2020-02-11",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/73.0/win32-EME-free/en-US/Firefox%20Setup%2073.0.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/73.0/win64-EME-free/en-US/Firefox%20Setup%2073.0.exe"
+                },
+                "Version":              "73.0.0"
+            },
             {
                 "Date":                 "2020-01-20",
                 "Downloads Platform": {
@@ -4994,6 +5054,19 @@
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2020-02-11",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v12.16.0/node-v12.16.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v12.16.0/node-v12.16.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v12.16.0/node-v12.16.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v12.16.0/node-v12.16.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":              "6.13.4"
+                        },
+                        "Version":              "12.16.0"
+                    },
                     {
                         "Date":                 "2020-02-06",
                         "Downloads Platform": {
@@ -7866,7 +7939,14 @@
                 "Support until": "2021-02-04",
                 "Versions": [
                     {
-                        "Date":             "2021-02-07",
+                        "Date":             "2020-02-12",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/9.0.1"
+                        },
+                        "Version":          "9.0.1"
+                    },
+                    {
+                        "Date":             "2020-02-07",
                         "Downloads Platform": {
                             "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/9.0.0"
                         },
@@ -7890,6 +7970,13 @@
         "Releases": "https://poedit.net/download",
         "Type": "Localization Editor",
         "Versions": [
+            {
+                "Date":                 "2020-02-03",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download.poedit.net/Poedit-2.3-setup.exe"
+                },
+                "Version":              "2.3.0"
+            },
             {
                 "Date":                 "2019-09-29",
                 "Downloads Platform": {
@@ -8008,12 +8095,20 @@
                     "Windows 64-bit Archive":           "Downloads Platform",
                     "Windows 64-bit Installer":         "Downloads Platform"
                 },
-                "Status": "Active support",
+                "Status": "End of life",
                 "Support Policy": {
                     "First Date":   "2014-12-18",
                     "Final Date":   "2020-02-13"
                 },
                 "Versions": [
+                    {
+                        "Date":                         "2020-02-13",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-9.4.26-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-9.4.26-1-windows-x64.exe"
+                        },
+                        "Version":                      "9.4.26"
+                    },
                     {
                         "Date":                         "2019-11-14",
                         "Downloads Platform": {
@@ -8236,6 +8331,14 @@
                 },
                 "Versions": [
                     {
+                        "Date":                         "2020-02-13",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-9.5.21-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-9.5.21-1-windows-x64.exe"
+                        },
+                        "Version":                      "9.5.21"
+                    },
+                    {
                         "Date":                         "2019-11-14",
                         "Downloads Platform": {
                             "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-9.5.20-1-windows-x64-binaries.zip",
@@ -8417,6 +8520,14 @@
                 },
                 "Versions": [
                     {
+                        "Date":                         "2020-02-13",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-9.6.17-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-9.6.17-1-windows-x64.exe"
+                        },
+                        "Version":                      "9.6.17"
+                    },
+                    {
                         "Date":                         "2019-11-14",
                         "Downloads Platform": {
                             "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-9.6.16-1-windows-x64-binaries.zip",
@@ -8566,6 +8677,14 @@
                 },
                 "Versions": [
                     {
+                        "Date":                         "2020-02-13",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-10.12-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-10.12-1-windows-x64.exe"
+                        },
+                        "Version":                      "10.12"
+                    },
+                    {
                         "Date":                         "2019-11-14",
                         "Downloads Platform": {
                             "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-10.11-1-windows-x64-binaries.zip",
@@ -8675,6 +8794,14 @@
                 },
                 "Versions": [
                     {
+                        "Date":                         "2020-02-13",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-11.7-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-11.7-1-windows-x64.exe"
+                        },
+                        "Version":                      "11.7"
+                    },
+                    {
                         "Date":                         "2019-11-14",
                         "Downloads Platform": {
                             "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-11.6-1-windows-x64-binaries.zip",
@@ -8743,6 +8870,14 @@
                     "Final Date":   "2024-11-09"
                 },
                 "Versions": [
+                    {
+                        "Date":                         "2020-02-13",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-12.2-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-12.2-1-windows-x64.exe"
+                        },
+                        "Version":                      "12.2"
+                    },
                     {
                         "Date":                         "2019-11-14",
                         "Downloads Platform": {
