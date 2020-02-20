@@ -3944,6 +3944,14 @@
         "Type": "Internet Browser",
         "Versions": [
             {
+                "Date":                 "2020-02-17",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/73.0.1/win32-EME-free/en-US/Firefox%20Setup%2073.0.1.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/73.0.1/win64-EME-free/en-US/Firefox%20Setup%2073.0.1.exe"
+                },
+                "Version":              "73.0.1"
+            },
+            {
                 "Date":                 "2020-02-11",
                 "Downloads Platform": {
                     "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/73.0/win32-EME-free/en-US/Firefox%20Setup%2073.0.exe",
@@ -4539,6 +4547,19 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                         "2020-02-18",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v13.9.0/node-v13.9.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v13.9.0/node-v13.9.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v13.9.0/node-v13.9.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v13.9.0/node-v13.9.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "6.13.7"
+                        },
+                        "Version":                      "13.9.0"
+                    },
+                    {
                         "Date":                         "2020-02-06",
                         "Downloads Platform": {
                             "Windows 32-bit":           "https://nodejs.org/dist/v13.8.0/node-v13.8.0-x86.msi",
@@ -5054,6 +5075,19 @@
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2020-02-18",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v12.16.1/node-v12.16.1-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v12.16.1/node-v12.16.1-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v12.16.1/node-v12.16.1-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v12.16.1/node-v12.16.1-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":              "6.13.4"
+                        },
+                        "Version":              "12.16.1"
+                    },
                     {
                         "Date":                 "2020-02-11",
                         "Downloads Platform": {
@@ -6367,12 +6401,22 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2020-02-19",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.15-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.15-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.15-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.15-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.3.15"
+                    },
+                    {
                         "Date":                                     "2020-01-23",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.14-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.14-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.14-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.14-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.14-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.14-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.14-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.14-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.3.14"
                     },
@@ -6532,12 +6576,22 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2020-02-19",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.3-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.3-ts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.3-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.3-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.4.3"
+                    },
+                    {
                         "Date":                                     "2020-01-23",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.2-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.2-ts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.2-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.2-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.2-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.2-ts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.2-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.2-nts-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.4.2"
                     },
@@ -9245,6 +9299,10 @@
                 "Releases": "https://tools.hana.ondemand.com/#hanatools",
                 "Status": "Active",
                 "Versions": [
+                    {
+                        "Date":     "2019-11-07",
+                        "Version":  "2.4.171.1573163505"
+                    },
                     {
                         "Date": "2019-03-06",
                         "Version": "2.4.126.1551801496"
