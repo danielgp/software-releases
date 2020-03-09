@@ -546,6 +546,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2020-03-02",
+                        "Version":  "2.2.2.0"
+                    },
+                    {
                         "Date":     "2020-02-12",
                         "Version":  "2.2.1.0"
                     },
@@ -1654,6 +1658,20 @@
         "Status": "Active",
         "Versions": [
             {
+                "Date":                 "2020-03-05",
+                "Downloads Platform": {
+                    "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%206.12.1/jasperreports-6.12.1-project.zip/download"
+                },
+                "Version":              "6.12.1"
+            },
+            {
+                "Date":                 "2020-03-04",
+                "Downloads Platform": {
+                    "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%206.12.0/jasperreports-6.12.0-project.zip/download"
+                },
+                "Version":              "6.12.0"
+            },
+            {
                 "Date":                 "2019-12-12",
                 "Downloads Platform": {
                     "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%206.11.0/jasperreports-6.11.0-project.zip/download"
@@ -1701,6 +1719,13 @@
         "Releases": "https://sourceforge.net/projects/jasperstudio/files/",
         "Status": "Active",
         "Versions": [
+            {
+                "Date":                 "2020-03-06",
+                "Downloads Platform": {
+                    "Windows 64-bit":   "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.12.0/TIB_js-studiocomm_6.12.0_windows_x86_64.zip"
+                },
+                "Version":              "6.12.0"
+            },
             {
                 "Date":                 "2019-12-12",
                 "Downloads Platform": {
@@ -2899,6 +2924,16 @@
                 "Status":                               "Active support",
                 "Versions": [
                     {
+                        "Date":                         "2020-02-18",
+                        "Downloads Platform": {
+                            "Windows 32-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/715dc65d-5906-4365-ab5b-fa8fc8f80a10/32f8fb72e1d704eebee7d8e8cf79f308/dotnet-sdk-3.0.103-win-x86.exe",
+                            "Windows 32-bit Runtime":   "https://download.visualstudio.microsoft.com/download/pr/43ee0fd4-eba6-4803-ad1f-3508ab8a928a/6ab4fc4ba693870614d72dc52073e339/dotnet-runtime-3.0.3-win-x86.exe",
+                            "Windows 64-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/848d3804-9a9c-42a0-8a53-40329bc7bf76/8f39c7ad960594e5ec7235c333b53733/dotnet-sdk-3.0.103-win-x64.exe",
+                            "Windows 64-bit Runtime":   "https://download.visualstudio.microsoft.com/download/pr/fa69f1ae-255d-453c-b4ff-28d832525037/51694be04e411600c2e3361f6c81400d/dotnet-runtime-3.0.3-win-x64.exe"
+                        },
+                        "Version":                      "3.0.3"
+                    },
+                    {
                         "Date":                         "2020-01-14",
                         "Downloads Platform": {
                             "Windows 32-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/ac725466-79c4-44fc-8c40-1e94c69751d1/9dc355a1c3fe3613fa380a6bce492dfc/dotnet-sdk-3.0.102-win-x86.exe",
@@ -2940,6 +2975,16 @@
                 "Releases":                             "https://www.microsoft.com/net/download/dotnet-core/3.1",
                 "Status":                               "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2020-02-18",
+                        "Downloads Platform": {
+                            "Windows 32-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/0f19219f-3f53-4235-ba67-0bb74f3b1a23/0047614c923d2641344d8a3531efc5f5/dotnet-sdk-3.1.102-win-x86.exe",
+                            "Windows 32-bit Runtime":   "https://download.visualstudio.microsoft.com/download/pr/dfedf8a5-c3cd-4b69-a5eb-8f9994e810f7/feeead4b3ae3b9e003917797c8356675/dotnet-runtime-3.1.2-win-x86.exe",
+                            "Windows 64-bit Develop":   "https://download.visualstudio.microsoft.com/download/pr/5aad9c2c-7bb6-45b1-97e7-98f12cb5b63b/6f6d7944c81b043bdb9a7241529a5504/dotnet-sdk-3.1.102-win-x64.exe",
+                            "Windows 64-bit Runtime":   "https://download.visualstudio.microsoft.com/download/pr/cfe420d5-084c-4590-b387-f89f3387d4c9/db4c577b995c54dee0530d8230e87145/dotnet-runtime-3.1.2-win-x64.exe"
+                        },
+                        "Version":                      "3.1.2"
+                    },
                     {
                         "Date":                         "2020-01-14",
                         "Downloads Platform": {
@@ -4497,6 +4542,13 @@
         "Type": "IDE",
         "Versions": [
             {
+                "Date":                         "2020-02-245",
+                "Downloads Platform": {
+                    "Windows 32-bit/64-bit":    "https://www.apache.org/dyn/closer.cgi/netbeans/netbeans/11.3/netbeans-11.3-bin.zip"
+                },
+                "Version":                      "11.3"
+            },
+            {
                 "Date":                         "2019-10-25",
                 "Downloads Platform": {
                     "Windows 32-bit/64-bit":    "https://www.apache.org/dyn/closer.cgi/netbeans/netbeans/11.2/netbeans-11.2-bin.zip"
@@ -4546,6 +4598,32 @@
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2020-03-04",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v13.10.1/node-v13.10.1-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v13.10.1/node-v13.10.1-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v13.10.1/node-v13.10.1-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v13.10.1/node-v13.10.1-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "6.13.7"
+                        },
+                        "Version":                      "13.10.1"
+                    },
+                    {
+                        "Date":                         "2020-02-18",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v13.10.0/node-v13.10.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v13.10.0/node-v13.10.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v13.10.0/node-v13.10.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v13.10.0/node-v13.10.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "6.13.7"
+                        },
+                        "Version":                      "13.10.0"
+                    },
                     {
                         "Date":                         "2020-02-18",
                         "Downloads Platform": {
@@ -5330,6 +5408,16 @@
         "Type": "Advanced Text Editor",
         "Versions": [
             {
+                "Date":                         "2020-03-06",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.5/npp.7.8.5.Installer.exe",
+                    "Windows 32-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.8.5/npp.7.8.5.bin.7z",
+                    "Windows 64-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.5/npp.7.8.5.Installer.x64.exe",
+                    "Windows 64-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.8.5/npp.7.8.5.bin.x64.7z"
+                },
+                "Version":                      "7.8.5"
+            },
+            {
                 "Date":                         "2020-01-30",
                 "Downloads Platform": {
                     "Windows 32-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.4/npp.7.8.4.Installer.exe",
@@ -5862,6 +5950,13 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2020-03-05",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.19/windows/"
+                        },
+                        "Version":                      "4.19"
+                    },
                     {
                         "Date":                         "2020-02-06",
                         "Downloads Platform": {
@@ -6648,6 +6743,28 @@
         "Releases": "https://windows.php.net/downloads/pecl/releases/ast/",
         "Type": "PHP Extension",
         "Versions": [
+            {
+                "Date":                         "2020-02-22",
+                "Downloads Platform": {
+                    "PHP 7.1 VC14 (32-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.6/php_ast-1.0.6-7.1-nts-vc14-x86.zip",
+                    "PHP 7.1 VC14 (64-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.6/php_ast-1.0.6-7.1-nts-vc14-x86.zip",
+                    "PHP 7.1 VC14 TS (32-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.6/php_ast-1.0.6-7.1-ts-vc14-x86.zip",
+                    "PHP 7.1 VC14 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.6/php_ast-1.0.6-7.1-ts-vc14-x64.zip",
+                    "PHP 7.2 VC15 (32-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.6/php_ast-1.0.6-7.2-nts-vc15-x86.zip",
+                    "PHP 7.2 VC15 (64-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.6/php_ast-1.0.6-7.2-nts-vc15-x64.zip",
+                    "PHP 7.2 VC15 TS (32-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.6/php_ast-1.0.6-7.2-ts-vc15-x86.zip",
+                    "PHP 7.2 VC15 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.6/php_ast-1.0.6-7.2-ts-vc15-x64.zip",
+                    "PHP 7.3 VC15 (32-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.6/php_ast-1.0.6-7.3-nts-vc15-x86.zip",
+                    "PHP 7.3 VC15 (64-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.6/php_ast-1.0.6-7.3-nts-vc15-x64.zip",
+                    "PHP 7.3 VC15 TS (32-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.6/php_ast-1.0.6-7.3-ts-vc15-x86.zip",
+                    "PHP 7.3 VC15 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.6/php_ast-1.0.6-7.3-ts-vc15-x64.zip",
+                    "PHP 7.4 VC15 (32-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.6/php_ast-1.0.6-7.4-nts-vc15-x86.zip",
+                    "PHP 7.4 VC15 (64-bit)":    "https://windows.php.net/downloads/pecl/releases/ast/1.0.6/php_ast-1.0.6-7.4-nts-vc15-x64.zip",
+                    "PHP 7.4 VC15 TS (32-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.6/php_ast-1.0.6-7.4-ts-vc15-x86.zip",
+                    "PHP 7.4 VC15 TS (64-bit)": "https://windows.php.net/downloads/pecl/releases/ast/1.0.6/php_ast-1.0.6-7.4-ts-vc15-x64.zip"
+                },
+                "Version":                      "1.0.6"
+            },
             {
                 "Date":                         "2019-11-27",
                 "Downloads Platform": {
@@ -9260,6 +9377,17 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                         "2020-02-25",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://www.python.org/ftp/python/3.8.2/python-3.8.2.exe",
+                            "Windows 32-bit Portable":  "https://www.python.org/ftp/python/3.8.2/python-3.8.2-embed-win32.zip",
+                            "Windows 64-bit":           "https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe",
+                            "Windows 64-bit Portable":  "https://www.python.org/ftp/python/3.8.2/python-3.8.2-embed-amd64.zip",
+                            "Windows Help File":        "https://www.python.org/ftp/python/3.8.2/python381.chm"
+                        },
+                        "Version":                      "3.8.2"
+                    },
+                    {
                         "Date":                         "2019-12-18",
                         "Downloads Platform": {
                             "Windows 32-bit":           "https://www.python.org/ftp/python/3.8.1/python-3.8.1.exe",
@@ -9644,6 +9772,13 @@
                 "Status":   "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2020-02-27",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/10.5.24/TableauDesktop-64bit-10-5-24.exe"
+                        },
+                        "Version":              "10.5.24"
+                    },
+                    {
                         "Date":                 "2020-01-23",
                         "Downloads Platform": {
                             "Windows 64-bit":   "https://downloads.tableau.com/esdalt/10.5.23/TableauDesktop-64bit-10-5-23.exe"
@@ -9821,6 +9956,13 @@
                 "Status":   "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2020-02-27",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.3.5/TableauDesktop-64bit-2019-3-5.exe"
+                        },
+                        "Version":              "2019.3.5"
+                    },
+                    {
                         "Date":                 "2020-01-23",
                         "Downloads Platform": {
                             "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.3.4/TableauDesktop-64bit-2019-3-4.exe"
@@ -9867,11 +10009,20 @@
                 "Status":   "Active support",
                 "Versions": [
                     {
-                        "Date":                 "2020-01-29",
+                        "Date":                 "2020-02-26",
                         "Downloads Platform": {
                             "Linux 64-bit":     "http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.9746-py3-none-linux_x86_64.whl",
                             "Mac 64-bit":       "http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.9746-py3-none-macosx_10_11_x86_64.whl",
                             "Windows 64-bit":   "http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.9746-py3-none-win_amd64.whl"
+                        },
+                        "Version":              "0.0.10002"
+                    },
+                    {
+                        "Date":                 "2020-01-29",
+                        "Downloads Platform": {
+                            "Linux 64-bit":     "https://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.10002-py3-none-manylinux2014_x86_64.whl",
+                            "Mac 64-bit":       "https://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.10002-py3-none-macosx_10_11_x86_64.whl",
+                            "Windows 64-bit":   "https://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.10002-py3-none-win_amd64.whl"
                         },
                         "Version":              "0.0.9746"
                     },
@@ -9921,6 +10072,14 @@
         "Releases": "https://www.virtualbox.org/wiki/Changelog",
         "Type": "Utility",
         "Versions": [
+            {
+                "Date":                 "2020-02-19",
+                "Downloads Platform": {
+                    "Extension Pack":   "https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack",
+                    "Windows 64-bit":   "https://download.virtualbox.org/virtualbox/6.1.4/VirtualBox-6.1.4-136177-Win.exe"
+                },
+                "Version":              "6.1.4"
+            },
             {
                 "Date":                 "2020-01-14",
                 "Downloads Platform": {
