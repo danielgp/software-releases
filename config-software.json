@@ -211,6 +211,14 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2020-03-11",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.33/bin/apache-tomcat-9.0.33-windows-x86.zip",
+                            "Windows 64-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.33/bin/apache-tomcat-9.0.33-windows-x64.zip"
+                        },
+                        "Version":              "9.0.33"
+                    },
+                    {
                         "Date":                 "2020-02-05",
                         "Downloads Platform": {
                             "Windows 32-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.31/bin/apache-tomcat-9.0.31-windows-x86.zip",
@@ -351,6 +359,16 @@
         "Type": "Advanced Text Editor",
         "Versions": [
             {
+                "Date":                         "2020-03-10",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://github.com/atom/atom/releases/download/v1.45.0/AtomSetup.exe",
+                    "Windows 32-bit Portable":  "https://github.com/atom/atom/releases/download/v1.45.0/atom-windows.zip",
+                    "Windows 64-bit":           "https://github.com/atom/atom/releases/download/v1.45.0/AtomSetup-x64.exe",
+                    "Windows 64-bit Portable":  "https://github.com/atom/atom/releases/download/v1.45.0/atom-x64-windows.zip"
+                },
+                "Version":                      "1.45.0"
+            },
+            {
                 "Date":                         "2020-02-11",
                 "Downloads Platform": {
                     "Windows 32-bit":           "https://github.com/atom/atom/releases/download/v1.44.0/AtomSetup.exe",
@@ -442,6 +460,20 @@
         "Releases": "https://github.com/composer/composer/releases",
         "Type": "Dependency Manager for PHP",
         "Versions": [
+            {
+                "Date":             "2020-03-13",
+                "Downloads Platform": {
+                    "based on PHP": "https://github.com/composer/composer/releases/download/1.10.1/composer.phar"
+                },
+                "Version":          "1.10.0"
+            },
+            {
+                "Date":             "2020-03-10",
+                "Downloads Platform": {
+                    "based on PHP": "https://github.com/composer/composer/releases/download/1.10.0/composer.phar"
+                },
+                "Version":          "1.10.0"
+            },
             {
                 "Date":             "2020-02-04",
                 "Downloads Platform": {
@@ -734,6 +766,10 @@
                 "Releases": "https://docs.docker.com/docker-for-windows/release-notes/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2020-03-13",
+                        "Version":  "2.2.0.4"
+                    },
                     {
                         "Date":     "2020-02-11",
                         "Version":  "2.2.0.3"
@@ -1109,7 +1145,7 @@
                     "Windows 64-bit": "Downloads Platform"
                 },
                 "Releases": "https://download.eclipse.org/eclipse/downloads/",
-                "Status":   "Active support",
+                "Status":   "End of life",
                 "Versions": [
                     {
                         "Date": "2019-03-20",
@@ -1126,7 +1162,7 @@
                     "Windows 64-bit": "Downloads Platform"
                 },
                 "Releases": "https://download.eclipse.org/eclipse/downloads/",
-                "Status":   "Active support",
+                "Status":   "End of life",
                 "Versions": [
                     {
                         "Date": "2019-06-05",
@@ -1166,6 +1202,22 @@
                             "Windows 64-bit": "https://download.eclipse.org/eclipse/downloads/drops4/R-4.14-201912100610/download.php?dropFile=eclipse-platform-4.14-win32-x86_64.zip"
                         },
                         "Version": "4.14.0"
+                    }
+                ]
+            },
+            "4.15.x (2020-03 R)": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://download.eclipse.org/eclipse/downloads/",
+                "Status":   "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2020-03-05",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://download.eclipse.org/eclipse/downloads/drops4/R-4.15-202003050155/download.php?dropFile=eclipse-platform-4.15-win32-x86_64.zip"
+                        },
+                        "Version":              "4.15.0"
                     }
                 ]
             }
@@ -1658,6 +1710,13 @@
         "Status": "Active",
         "Versions": [
             {
+                "Date":                 "2020-03-11",
+                "Downloads Platform": {
+                    "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%206.12.2/jasperreports-6.12.2-project.zip/download"
+                },
+                "Version":              "6.12.2"
+            },
+            {
                 "Date":                 "2020-03-05",
                 "Downloads Platform": {
                     "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%206.12.1/jasperreports-6.12.1-project.zip/download"
@@ -1980,7 +2039,7 @@
                     "Windows 64-bit": "Downloads Platform"
                 },
                 "Releases": "https://www.oracle.com/technetwork/java/javase/12u-relnotes-5211424.html",
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date": "2019-07-16",
@@ -2010,7 +2069,7 @@
                     "Windows 64-bit": "Downloads Platform"
                 },
                 "Releases": "https://www.oracle.com/technetwork/java/javase/13all-relnotes-5461743.html",
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date":                 "2020-01-14",
@@ -2032,6 +2091,22 @@
                             "Windows 64-bit":   "https://download.oracle.com/otn-pub/java/jdk/13+33/5b8a42f3905b406298b72d750b6919f6/jdk-13_windows-x64_bin.exe"
                         },
                         "Version":              "13.0.0"
+                    }
+                ]
+            },
+            "Development Kit 14.x": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://www.oracle.com/technetwork/java/javase/14all-relnotes-5809668.html",
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2020-03-17",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://download.oracle.com/otn-pub/java/jdk/14+36/076bab302c7b4508975440c56f6cc26a/jdk-14_windows-x64_bin.exe"
+                        },
+                        "Version":              "14.0.0"
                     }
                 ]
             },
@@ -2070,7 +2145,7 @@
                     "Windows 64-bit": "Downloads Platform"
                 },
                 "Releases": "http://jdk.java.net/12/",
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date": "2019-07-16",
@@ -2100,7 +2175,7 @@
                     "Windows 64-bit": "Downloads Platform"
                 },
                 "Releases": "http://jdk.java.net/13/",
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date":                 "2019-12-11",
@@ -2122,6 +2197,22 @@
                             "Windows 64-bit":   "https://download.java.net/java/GA/jdk13/5b8a42f3905b406298b72d750b6919f6/33/GPL/openjdk-13_windows-x64_bin.zip"
                         },
                         "Version":              "13.0.0"
+                    }
+                ]
+            },
+            "Open Development Kit 14.x": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "http://jdk.java.net/14/",
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2020-03-17",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://download.java.net/java/GA/jdk14/076bab302c7b4508975440c56f6cc26a/36/GPL/openjdk-14_windows-x64_bin.zip"
+                        },
+                        "Version":              "14.0.0"
                     }
                 ]
             },
@@ -3173,6 +3264,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2020-03-06",
+                        "Version":  "17.5.2"
+                    },
+                    {
                         "Date":     "2020-01-28",
                         "Version":  "17.5.1.1"
                     },
@@ -3301,6 +3396,22 @@
         "Releases": "https://github.com/Microsoft/vscode/releases",
         "Type": "Developement IDE",
         "Versions": [
+            {
+                "Date":                 "2020-03-17",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.43.1/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.43.1/win32-x64-user/stable"
+                },
+                "Version":              "1.43.1"
+            },
+            {
+                "Date":                 "2020-03-09",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.43.0/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.43.0/win32-x64-user/stable"
+                },
+                "Version":              "1.43.0"
+            },
             {
                 "Date":                 "2020-02-11",
                 "Downloads Platform": {
@@ -3618,6 +3729,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2020-03-10",
+                        "Version":  "15.9.21"
+                    },
+                    {
                         "Date":     "2020-02-11",
                         "Version":  "15.9.20"
                     },
@@ -3750,6 +3865,10 @@
                 "Releases": "https://docs.microsoft.com/visualstudio/releases/2019/release-notes",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2020-03-16",
+                        "Version":  "16.4.5"
+                    },
                     {
                         "Date":     "2020-02-11",
                         "Version":  "16.4.5"
@@ -3950,6 +4069,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2020-03-16",
+                        "Version":  "14.25.28508.3"
+                    },
+                    {
                         "Date":     "2019-10-04",
                         "Version":  "14.24.28127.4"
                     },
@@ -3988,6 +4111,14 @@
         "Releases": "https://wiki.mozilla.org/Release_Management/Calendar",
         "Type": "Internet Browser",
         "Versions": [
+            {
+                "Date":                 "2020-03-09",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/74.0/win32-EME-free/en-US/Firefox%20Setup%2074.0.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/74.0/win64-EME-free/en-US/Firefox%20Setup%2074.0.exe"
+                },
+                "Version":              "74.0.0"
+            },
             {
                 "Date":                 "2020-02-17",
                 "Downloads Platform": {
@@ -4598,6 +4729,19 @@
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2020-03-11",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v13.11.0/node-v13.11.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v13.11.0/node-v13.11.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v13.11.0/node-v13.11.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v13.11.0/node-v13.11.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "6.13.7"
+                        },
+                        "Version":                      "13.11.0"
+                    },
                     {
                         "Date":                         "2020-03-04",
                         "Downloads Platform": {
@@ -5651,6 +5795,14 @@
                 "Status":   "Active Support",
                 "Versions": [
                     {
+                        "Date":    "2020-03-18",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://windows.php.net/downloads/php-sdk/deps/vs16/x86/openssl-1.1.1e-vs16-x86.zip",
+                            "Windows 64-bit": "https://windows.php.net/downloads/php-sdk/deps/vs16/x64/openssl-1.1.1e-vs16-x64.zip"
+                        },
+                        "Version": "1.1.13"
+                    },
+                    {
                         "Date":    "2019-09-11",
                         "Downloads Platform": {
                             "Windows 32-bit": "https://windows.php.net/downloads/php-sdk/deps/vs16/x86/openssl-1.1.1d-vs16-x86.zip",
@@ -5829,6 +5981,16 @@
         "Releases": "https://osdn.net/projects/peazip/releases/",
         "Type": "Archiver",
         "Versions": [
+            {
+                "Date":                         "2020-03-09",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://github.com/giorgiotani/PeaZip/releases/download/7.1.1/peazip-7.1.1.WINDOWS.exe",
+                    "Windows 32-bit Portable":  "https://github.com/giorgiotani/PeaZip/releases/download/7.1.1/peazip_portable-7.1.1.WINDOWS.zip",
+                    "Windows 64-bit":           "https://github.com/giorgiotani/PeaZip/releases/download/7.1.1/peazip-7.1.1.WIN64.exe",
+                    "Windows 64-bit Portable":  "https://github.com/giorgiotani/PeaZip/releases/download/7.1.1/peazip_portable-7.1.1.WIN64.zip"
+                },
+                "Version":                      "7.1.1"
+            },
             {
                 "Date":                         "2020-02-02",
                 "Downloads Platform": {
@@ -6227,12 +6389,32 @@
                 "Status": "Security fixes only",
                 "Versions": [
                     {
+                        "Date":                                     "2020-03-19",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.29-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.29-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.29-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.29-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.2.29"
+                    },
+                    {
+                        "Date":                                     "2020-02-20",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.28-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.28-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.28-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.28-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.2.28"
+                    },
+                    {
                         "Date":                                     "2020-01-23",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.27-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.27-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.27-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.27-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.27-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.27-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.2.27-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.2.27-nts-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.2.27"
                     },
@@ -6496,6 +6678,16 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2020-03-19",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.16-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.16-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.3.16-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.3.16-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.3.16"
+                    },
+                    {
                         "Date":                                     "2020-02-19",
                         "Downloads Platform": {
                             "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.15-nts-Win32-VC15-x86.zip",
@@ -6671,12 +6863,22 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2020-03-19",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.4-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.4-ts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.4-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.4-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.4.4"
+                    },
+                    {
                         "Date":                                     "2020-02-19",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.3-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.3-ts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.3-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.3-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.3-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.3-ts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.3-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.3-nts-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.4.3"
                     },
@@ -6921,6 +7123,28 @@
         "Releases": "https://xdebug.org/download.php",
         "Type": "PHP Extension",
         "Versions": [
+            {
+                "Date":                         "2020-03-13",
+                "Downloads Platform": {
+                    "PHP 7.1 VC14 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.3-7.1-vc14-nts.dll",
+                    "PHP 7.1 VC14 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.3-7.1-vc14-nts-x86_64.dll",
+                    "PHP 7.1 VC14 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.3-7.1-vc14.dll",
+                    "PHP 7.1 VC14 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.3-7.1-vc14-x86_64.dll",
+                    "PHP 7.2 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.3-7.2-vc15-nts.dll",
+                    "PHP 7.2 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.3-7.2-vc15-nts-x86_64.dll",
+                    "PHP 7.2 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.3-7.2-vc15.dll",
+                    "PHP 7.2 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.3-7.2-vc15-x86_64.dll",
+                    "PHP 7.3 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.3-7.3-vc15-nts.dll",
+                    "PHP 7.3 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.3-7.3-vc15-nts-x86_64.dll",
+                    "PHP 7.3 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.3-7.3-vc15.dll",
+                    "PHP 7.3 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.3-7.3-vc15-x86_64.dll",
+                    "PHP 7.4 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.3-7.4-vc15-nts.dll",
+                    "PHP 7.4 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.3-7.4-vc15-nts-x86_64.dll",
+                    "PHP 7.4 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.3-7.4-vc15.dll",
+                    "PHP 7.4 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.3-7.4-vc15-x86_64.dll"
+                },
+                "Version":                      "2.9.3"
+            },
             {
                 "Date":                         "2020-01-31",
                 "Downloads Platform": {
@@ -9218,6 +9442,16 @@
                 "Releases": "https://www.jetbrains.com/pycharm/download/other.html",
                 "Status":   "Active support",
                 "Versions": [
+                    {
+                        "Date":                                     "2020-03-18",
+                        "Downloads Platform": {
+                            "Community Windows":                    "https://download.jetbrains.com/python/pycharm-community-2019.3.4.exe",
+                            "Community Windows with Anaconda":      "https://download.jetbrains.com/python/pycharm-community-anaconda-2019.3.4.exe",
+                            "Professional Windows":                 "https://download.jetbrains.com/python/pycharm-professional-2019.3.4.exe",
+                            "Professional Windows with Anaconda":   "https://download.jetbrains.com/python/pycharm-professional-anaconda-2019.3.4.exe"
+                        },
+                        "Version":                                  "2019.3.4.193.6911.25"
+                    },
                     {
                         "Date":                                     "2020-02-07",
                         "Downloads Platform": {
