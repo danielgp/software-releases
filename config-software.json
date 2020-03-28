@@ -465,7 +465,7 @@
                 "Downloads Platform": {
                     "based on PHP": "https://github.com/composer/composer/releases/download/1.10.1/composer.phar"
                 },
-                "Version":          "1.10.0"
+                "Version":          "1.10.1"
             },
             {
                 "Date":             "2020-03-10",
@@ -1285,11 +1285,21 @@
         "Type": "Version Control",
         "Versions": [
             {
+                "Date":                         "2020-03-23",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/git-for-windows/git/releases/download/v2.26.0.windows.1/Git-2.26.0-32-bit.exe",
+                    "Windows 32-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.26.0.windows.1/PortableGit-2.26.0-32-bit.7z.exe",
+                    "Windows 64-bit":          "https://github.com/git-for-windows/git/releases/download/v2.26.0.windows.1/Git-2.26.0-64-bit.exe",
+                    "Windows 64-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.26.0.windows.1/PortableGit-2.26.0-64-bit.7z.exe"
+                },
+                "Version":                      "2.26.0"
+            },
+            {
                 "Date":                         "2020-01-13",
                 "Downloads Platform": {
-                    "Windows 32-bit":          "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.2/Git-2.25.0-32-bit.exe",
-                    "Windows 32-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.2/PortableGit-2.25.0-32-bit.7z.exe",
-                    "Windows 64-bit":          "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.2/Git-2.25.0-64-bit.exe",
+                    "Windows 32-bit":          "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/Git-2.25.0-32-bit.exe",
+                    "Windows 32-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/PortableGit-2.25.0-32-bit.7z.exe",
+                    "Windows 64-bit":          "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/Git-2.25.0-64-bit.exe",
                     "Windows 64-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/PortableGit-2.25.0-64-bit.7z.exe"
                 },
                 "Version":                      "2.25.0"
@@ -5877,6 +5887,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2020-03-24",
+                        "Version":  "19.6.0.0.0"
+                    },
+                    {
                         "Date": "2019-12-12",
                         "Version": "19.5.0.0.0"
                     },
@@ -7123,6 +7137,28 @@
         "Releases": "https://xdebug.org/download.php",
         "Type": "PHP Extension",
         "Versions": [
+            {
+                "Date":                         "2020-03-23",
+                "Downloads Platform": {
+                    "PHP 7.1 VC14 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.4-7.1-vc14-nts.dll",
+                    "PHP 7.1 VC14 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.4-7.1-vc14-nts-x86_64.dll",
+                    "PHP 7.1 VC14 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.4-7.1-vc14.dll",
+                    "PHP 7.1 VC14 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.4-7.1-vc14-x86_64.dll",
+                    "PHP 7.2 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.4-7.2-vc15-nts.dll",
+                    "PHP 7.2 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.4-7.2-vc15-nts-x86_64.dll",
+                    "PHP 7.2 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.4-7.2-vc15.dll",
+                    "PHP 7.2 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.4-7.2-vc15-x86_64.dll",
+                    "PHP 7.3 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.4-7.3-vc15-nts.dll",
+                    "PHP 7.3 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.4-7.3-vc15-nts-x86_64.dll",
+                    "PHP 7.3 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.4-7.3-vc15.dll",
+                    "PHP 7.3 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.4-7.3-vc15-x86_64.dll",
+                    "PHP 7.4 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.4-7.4-vc15-nts.dll",
+                    "PHP 7.4 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.4-7.4-vc15-nts-x86_64.dll",
+                    "PHP 7.4 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.4-7.4-vc15.dll",
+                    "PHP 7.4 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.4-7.4-vc15-x86_64.dll"
+                },
+                "Version":                      "2.9.4"
+            },
             {
                 "Date":                         "2020-03-13",
                 "Downloads Platform": {
@@ -9687,6 +9723,13 @@
                 "Status": "Active",
                 "Versions": [
                     {
+                        "Date":                 "2020-01-22",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://tools.hana.ondemand.com/additional/hanaclient-2.4.182-windows-x64.zip"
+                        },
+                        "Version":              "2.4.182.1579711187"
+                    },
+                    {
                         "Date":                 "2019-12-19",
                         "Downloads Platform": {
                             "Windows 64-bit":   "https://tools.hana.ondemand.com/additional/hanaclient-2.4.177-windows-x64.zip"
@@ -10239,9 +10282,18 @@
                     "Mac 64-bit":       "Downloads Platform",
                     "Windows 64-bit":   "Downloads Platform"
                 },
-                "Releases": "https://www.tableau.com/support/releases/hyper-api/0.0.9273",
+                "Releases": "https://www.tableau.com/support/releases/hyper-api/0.0.10309",
                 "Status":   "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2020-03-25",
+                        "Downloads Platform": {
+                            "Linux 64-bit":     "http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.10309-py3-none-linux_x86_64.whl",
+                            "Mac 64-bit":       "http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.10309-py3-none-macosx_10_11_x86_64.whl",
+                            "Windows 64-bit":   "http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.10309-py3-none-win_amd64.whl"
+                        },
+                        "Version":              "0.0.10309"
+                    },
                     {
                         "Date":                 "2020-02-26",
                         "Downloads Platform": {
