@@ -219,6 +219,14 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2020-05-05",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.35/bin/apache-tomcat-9.0.35-windows-x86.zip",
+                            "Windows 64-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.35/bin/apache-tomcat-9.0.35-windows-x64.zip"
+                        },
+                        "Version":              "9.0.35"
+                    },
+                    {
                         "Date":                 "2020-04-08",
                         "Downloads Platform": {
                             "Windows 32-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.34/bin/apache-tomcat-9.0.34-windows-x86.zip",
@@ -375,6 +383,16 @@
         "Type": "Advanced Text Editor",
         "Versions": [
             {
+                "Date":                         "2020-05-19",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://github.com/atom/atom/releases/download/v1.47.0/AtomSetup.exe",
+                    "Windows 32-bit Portable":  "https://github.com/atom/atom/releases/download/v1.47.0/atom-windows.zip",
+                    "Windows 64-bit":           "https://github.com/atom/atom/releases/download/v1.47.0/AtomSetup-x64.exe",
+                    "Windows 64-bit Portable":  "https://github.com/atom/atom/releases/download/v1.47.0/atom-x64-windows.zip"
+                },
+                "Version":                      "1.47.0"
+            },
+            {
                 "Date":                         "2020-05-05",
                 "Downloads Platform": {
                     "Windows 32-bit":           "https://github.com/atom/atom/releases/download/v1.46.0/AtomSetup.exe",
@@ -486,6 +504,10 @@
                 "Releases": "https://docs.docker.com/docker-for-windows/edge-release-notes/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2020-05-20",
+                        "Version":  "2.3.1.0"
+                    },
                     {
                         "Date":     "2020-04-20",
                         "Version":  "2.3.0.0"
@@ -683,6 +705,14 @@
                 "Releases": "https://docs.docker.com/docker-for-windows/release-notes/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2020-05-27",
+                        "Version":  "2.3.0.3"
+                    },
+                    {
+                        "Date":     "2020-05-11",
+                        "Version":  "2.3.0.2"
+                    },
                     {
                         "Date":     "2020-04-02",
                         "Version":  "2.2.0.5"
@@ -1587,6 +1617,10 @@
         "Releases": "https://en.wikipedia.org/wiki/Google_Chrome_version_history",
         "Type": "Internet Browser",
         "Versions": [
+            {
+                "Date":     "2020-05-19",
+                "Version":  "83.0.4103"
+            },
             {
                 "Date":     "2020-04-07",
                 "Version":  "81.0.4044"
@@ -2536,6 +2570,14 @@
                 },
                 "Versions": [
                     {
+                        "Date":                 "2020-05-12",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.13/win32-packages/mariadb-10.4.13-win32.zip",
+                            "Windows 64-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.13/winx64-packages/mariadb-10.4.13-winx64.zip"
+                        },
+                        "Version":              "10.4.13"
+                    },
+                    {
                         "Date":                 "2020-01-28",
                         "Downloads Platform": {
                             "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.12/win32-packages/mariadb-10.4.12-win32.zip",
@@ -3029,7 +3071,7 @@
                     "Windows 64-bit Runtime":           "Downloads Platform"
                 },
                 "Releases":                             "https://www.microsoft.com/net/download/dotnet-core/3.0",
-                "Status":                               "Active support",
+                "Status":                               "End of life",
                 "Versions": [
                     {
                         "Date":                         "2020-02-18",
@@ -3075,14 +3117,15 @@
             },
             "3.1.x": {
                 "Platform": {
-                    "Windows 32-bit Develop":           "Downloads Platform",
-                    "Windows 32-bit Runtime":           "Downloads Platform",
-                    "Windows 64-bit Develop":           "Downloads Platform",
-                    "Windows 64-bit Runtime":           "Downloads Platform"
+                    "Linux/MacOS/Windows":              "https://dotnet.microsoft.com/download/dotnet-core/3.1"
                 },
                 "Releases":                             "https://www.microsoft.com/net/download/dotnet-core/3.1",
                 "Status":                               "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2020-05-29",
+                        "Version":                      "3.1.4"
+                    },
                     {
                         "Date":                         "2020-03-24",
                         "Downloads Platform": {
@@ -3287,7 +3330,7 @@
                     "Windows 32-bit": "https://www.microsoft.com/en-us/download/details.aspx?id=56567",
                     "Windows 64-bit": "https://www.microsoft.com/en-us/download/details.aspx?id=56567"
                 },
-                "Releases": "https://docs.microsoft.com/en-us/sql/connect/odbc/windows/microsoft-odbc-driver-for-sql-server-on-windows?view=sql-server-2017",
+                "Releases": "https://docs.microsoft.com/en-us/sql/connect/odbc/windows/release-notes-odbc-sql-server-windows?view=sql-server-2016",
                 "Status": "Active support",
                 "Versions": [
                     {
@@ -3430,6 +3473,38 @@
         "Releases": "https://github.com/Microsoft/vscode/releases",
         "Type": "Developement IDE",
         "Versions": [
+            {
+                "Date":                 "2020-05-14",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.45.1/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.45.1/win32-x64-user/stable"
+                },
+                "Version":              "1.45.1"
+            },
+            {
+                "Date":                 "2020-05-05",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.45.0/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.45.0/win32-x64-user/stable"
+                },
+                "Version":              "1.45.0"
+            },
+            {
+                "Date":                 "2020-04-16",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.44.2/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.44.2/win32-x64-user/stable"
+                },
+                "Version":              "1.44.2"
+            },
+            {
+                "Date":                 "2020-04-11",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.44.1/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.44.1/win32-x64-user/stable"
+                },
+                "Version":              "1.44.1"
+            },
             {
                 "Date":                 "2020-04-07",
                 "Downloads Platform": {
@@ -3779,6 +3854,10 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2020-05-12",
+                        "Version":  "15.9.23"
+                    },
+                    {
                         "Date":     "2020-04-14",
                         "Version":  "15.9.22"
                     },
@@ -3919,6 +3998,14 @@
                 "Releases": "https://docs.microsoft.com/visualstudio/releases/2019/release-notes",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2020-05-19",
+                        "Version":  "16.6.0"
+                    },
+                    {
+                        "Date":     "2020-05-05",
+                        "Version":  "16.5.5"
+                    },
                     {
                         "Date":     "2020-04-14",
                         "Version":  "16.5.4"
@@ -4866,6 +4953,19 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                         "2020-05-19",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v14.3.0/node-v14.3.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v14.3.0/node-v14.3.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v14.3.0/node-v14.3.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v14.3.0/node-v14.3.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "6.14.5"
+                        },
+                        "Version":                      "14.3.0"
+                    },
+                    {
                         "Date":                         "2020-05-05",
                         "Downloads Platform": {
                             "Windows 32-bit":           "https://nodejs.org/dist/v14.2.0/node-v14.2.0-x86.msi",
@@ -4914,7 +5014,7 @@
                     "Windows 64-bit Portable":  "Downloads Platform"
                 },
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/",
-                "Status": "Active support",
+                "Status":   "End of life",
                 "Versions": [
                     {
                         "Date":                         "2020-04-29",
@@ -5559,6 +5659,19 @@
                 "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2020-05-26",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v12.17.0/node-v12.17.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v12.17.0/node-v12.17.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v12.17.0/node-v12.17.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v12.17.0/node-v12.17.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":              "6.14.4"
+                        },
+                        "Version":              "12.17.0"
+                    },
                     {
                         "Date":                 "2020-04-28",
                         "Downloads Platform": {
@@ -6308,6 +6421,16 @@
         "Type": "Archiver",
         "Versions": [
             {
+                "Date":                         "2020-05-18",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://github.com/giorgiotani/PeaZip/releases/download/7.3.0/peazip-7.3.0.WINDOWS.exe",
+                    "Windows 32-bit Portable":  "https://github.com/giorgiotani/PeaZip/releases/download/7.3.0/peazip_portable-7.3.0.WINDOWS.zip",
+                    "Windows 64-bit":           "https://github.com/giorgiotani/PeaZip/releases/download/7.3.0/peazip-7.3.0.WIN64.exe",
+                    "Windows 64-bit Portable":  "https://github.com/giorgiotani/PeaZip/releases/download/7.3.0/peazip_portable-7.3.0.WIN64.zip"
+                },
+                "Version":                      "7.3.0"
+            },
+            {
                 "Date":                         "2020-05-06",
                 "Downloads Platform": {
                     "Windows 32-bit":           "https://github.com/giorgiotani/PeaZip/releases/download/7.2.2/peazip-7.2.2.WINDOWS.exe",
@@ -6468,6 +6591,13 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2020-05-28",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.22/windows/"
+                        },
+                        "Version":                      "4.22"
+                    },
                     {
                         "Date":                         "2020-04-30",
                         "Downloads Platform": {
@@ -6758,6 +6888,16 @@
                 },
                 "Status": "Security fixes only",
                 "Versions": [
+                    {
+                        "Date":                                     "2020-05-14",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.31-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.31-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.2.31-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.2.31-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.2.31"
+                    },
                     {
                         "Date":                                     "2020-04-16",
                         "Downloads Platform": {
@@ -7058,6 +7198,16 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2020-05-14",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.18-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.18-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.18-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.3.18-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.3.18"
+                    },
+                    {
                         "Date":                                     "2020-04-16",
                         "Downloads Platform": {
                             "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.3.17-nts-Win32-VC15-x86.zip",
@@ -7253,12 +7403,22 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2020-05-14",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.6-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.6-ts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.6-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.6-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.4.6"
+                    },
+                    {
                         "Date":                                     "2020-04-16",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.5-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.5-ts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.5-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.5-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.5-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.5-ts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.5-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.5-nts-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.4.5"
                     },
@@ -7675,6 +7835,28 @@
         "Releases": "https://xdebug.org/download.php",
         "Type": "PHP Extension",
         "Versions": [
+            {
+                "Date":                         "2020-05-29",
+                "Downloads Platform": {
+                    "PHP 7.1 VC14 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.6-7.1-vc14-nts.dll",
+                    "PHP 7.1 VC14 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.6-7.1-vc14-nts-x86_64.dll",
+                    "PHP 7.1 VC14 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.6-7.1-vc14.dll",
+                    "PHP 7.1 VC14 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.6-7.1-vc14-x86_64.dll",
+                    "PHP 7.2 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.6-7.2-vc15-nts.dll",
+                    "PHP 7.2 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.6-7.2-vc15-nts-x86_64.dll",
+                    "PHP 7.2 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.6-7.2-vc15.dll",
+                    "PHP 7.2 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.6-7.2-vc15-x86_64.dll",
+                    "PHP 7.3 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.6-7.3-vc15-nts.dll",
+                    "PHP 7.3 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.6-7.3-vc15-nts-x86_64.dll",
+                    "PHP 7.3 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.6-7.3-vc15.dll",
+                    "PHP 7.3 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.6-7.3-vc15-x86_64.dll",
+                    "PHP 7.4 VC15 (32-bit)":    "https://xdebug.org/files/php_xdebug-2.9.6-7.4-vc15-nts.dll",
+                    "PHP 7.4 VC15 (64-bit)":    "https://xdebug.org/files/php_xdebug-2.9.6-7.4-vc15-nts-x86_64.dll",
+                    "PHP 7.4 VC15 TS (32-bit)": "https://xdebug.org/files/php_xdebug-2.9.6-7.4-vc15.dll",
+                    "PHP 7.4 VC15 TS (64-bit)": "https://xdebug.org/files/php_xdebug-2.9.6-7.4-vc15-x86_64.dll"
+                },
+                "Version":                      "2.9.6"
+            },
             {
                 "Date":                         "2020-04-25",
                 "Downloads Platform": {
@@ -8690,6 +8872,13 @@
                 "Support until": "2021-02-05",
                 "Versions": [
                     {
+                        "Date":             "2020-05-22",
+                        "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.5.5"
+                        },
+                        "Version":          "8.5.5"
+                    },
+                    {
                         "Date":             "2020-04-22",
                         "Downloads Platform": {
                             "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/8.5.4"
@@ -8946,6 +9135,13 @@
                     {
                         "Date":             "2020-04-30",
                         "Downloads Platform": {
+                            "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/9.1.5"
+                        },
+                        "Version":          "9.1.5"
+                    },
+                    {
+                        "Date":             "2020-04-30",
+                        "Downloads Platform": {
                             "based on PHP": "https://github.com/sebastianbergmann/phpunit/releases/tag/9.1.4"
                         },
                         "Version":          "9.1.4"
@@ -9025,6 +9221,13 @@
         "Type": "Localization Editor",
         "Versions": [
             {
+                "Date":                 "2020-05-03",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download.poedit.net/Poedit-2.3.1-setup.exe"
+                },
+                "Version":              "2.3.1"
+            },
+            {
                 "Date":                 "2020-02-03",
                 "Downloads Platform": {
                     "Windows 32-bit":   "https://download.poedit.net/Poedit-2.3-setup.exe"
@@ -9090,7 +9293,7 @@
                     "Windows 32-bit Installer":         "Downloads Platform",
                     "Windows 64-bit Installer":         "Downloads Platform"
                 },
-                "Status": "Active support",
+                "Status": "End of life",
                 "Versions": [
                     {
                         "Date":                         "2019-05-24",
@@ -9117,6 +9320,14 @@
                 },
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2020-05-29",
+                        "Downloads Platform": {
+                            "Windows 32-bit Installer": "https://ftp.postgresql.org/pub/odbc/versions/msi/psqlodbc_12_02_0000-x86.zip",
+                            "Windows 64-bit Installer": "https://ftp.postgresql.org/pub/odbc/versions/msi/psqlodbc_12_02_0000-x64.zip"
+                        },
+                        "Version":                      "12.0.2"
+                    },
                     {
                         "Date":                         "2020-01-07",
                         "Downloads Platform": {
@@ -9385,6 +9596,14 @@
                 },
                 "Versions": [
                     {
+                        "Date":                         "2020-05-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-9.5.22-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-9.5.22-1-windows-x64.exe"
+                        },
+                        "Version":                      "9.5.22"
+                    },
+                    {
                         "Date":                         "2020-02-13",
                         "Downloads Platform": {
                             "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-9.5.21-1-windows-x64-binaries.zip",
@@ -9574,6 +9793,14 @@
                 },
                 "Versions": [
                     {
+                        "Date":                         "2020-05-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-9.6.18-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-9.6.18-1-windows-x64.exe"
+                        },
+                        "Version":                      "9.6.18"
+                    },
+                    {
                         "Date":                         "2020-02-13",
                         "Downloads Platform": {
                             "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-9.6.17-1-windows-x64-binaries.zip",
@@ -9731,6 +9958,14 @@
                 },
                 "Versions": [
                     {
+                        "Date":                         "2020-05-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-10.13-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-10.13-1-windows-x64.exe"
+                        },
+                        "Version":                      "10.13"
+                    },
+                    {
                         "Date":                         "2020-02-13",
                         "Downloads Platform": {
                             "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-10.12-1-windows-x64-binaries.zip",
@@ -9848,6 +10083,14 @@
                 },
                 "Versions": [
                     {
+                        "Date":                         "2020-05-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-11.8-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-11.8-1-windows-x64.exe"
+                        },
+                        "Version":                      "11.8"
+                    },
+                    {
                         "Date":                         "2020-02-13",
                         "Downloads Platform": {
                             "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-11.7-1-windows-x64-binaries.zip",
@@ -9924,6 +10167,14 @@
                     "Final Date":   "2024-11-09"
                 },
                 "Versions": [
+                    {
+                        "Date":                         "2020-05-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit Archive":   "https://get.enterprisedb.com/postgresql/postgresql-12.3-1-windows-x64-binaries.zip",
+                            "Windows 64-bit Installer": "https://get.enterprisedb.com/postgresql/postgresql-12.3-1-windows-x64.exe"
+                        },
+                        "Version":                      "12.3"
+                    },
                     {
                         "Date":                         "2020-02-13",
                         "Downloads Platform": {
@@ -10244,6 +10495,17 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                         "2020-03-10",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://www.python.org/ftp/python/3.7.7/python-3.7.7.exe",
+                            "Windows 32-bit Portable":  "https://www.python.org/ftp/python/3.7.7/python-3.7.7-embed-win32.zip",
+                            "Windows 64-bit":           "https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe",
+                            "Windows 64-bit Portable":  "https://www.python.org/ftp/python/3.7.7/python-3.7.7-embed-amd64.zip",
+                            "Windows Help File":        "https://www.python.org/ftp/python/3.7.7/python376.chm"
+                        },
+                        "Version":                      "3.7.7"
+                    },
+                    {
                         "Date":                         "2019-12-18",
                         "Downloads Platform": {
                             "Windows 32-bit":           "https://www.python.org/ftp/python/3.7.6/python-3.7.6.exe",
@@ -10311,6 +10573,17 @@
                 "Releases": "https://docs.python.org/3.8/whatsnew/changelog.html",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2020-05-13",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://www.python.org/ftp/python/3.8.3/python-3.8.3.exe",
+                            "Windows 32-bit Portable":  "https://www.python.org/ftp/python/3.8.3/python-3.8.3-embed-win32.zip",
+                            "Windows 64-bit":           "https://www.python.org/ftp/python/3.8.3/python-3.8.3-amd64.exe",
+                            "Windows 64-bit Portable":  "https://www.python.org/ftp/python/3.8.3/python-3.8.3-embed-amd64.zip",
+                            "Windows Help File":        "https://www.python.org/ftp/python/3.8.3/python383.chm"
+                        },
+                        "Version":                      "3.8.3"
+                    },
                     {
                         "Date":                         "2020-02-25",
                         "Downloads Platform": {
@@ -10721,6 +10994,20 @@
                 "Status":   "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2020-05-26",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/10.5.27/TableauDesktop-64bit-10-5-27.exe"
+                        },
+                        "Version":              "10.5.27"
+                    },
+                    {
+                        "Date":                 "2020-04-29",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/10.5.26/TableauDesktop-64bit-10-5-26.exe"
+                        },
+                        "Version":              "10.5.26"
+                    },
+                    {
                         "Date":                 "2020-03-30",
                         "Downloads Platform": {
                             "Windows 64-bit":   "https://downloads.tableau.com/esdalt/10.5.25/TableauDesktop-64bit-10-5-25.exe"
@@ -10904,6 +11191,716 @@
                     }
                 ]
             },
+            "Desktop 2018.1.x": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://www.tableau.com/support/releases",
+                "Status":   "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2020-05-26",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.24/TableauDesktop-64bit-2018-1-24.exe"
+                        },
+                        "Version":              "2018.1.24"
+                    },
+                    {
+                        "Date":                 "2020-04-29",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.23/TableauDesktop-64bit-2018-1-23.exe"
+                        },
+                        "Version":              "2018.1.23"
+                    },
+                    {
+                        "Date":                 "2020-03-30",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.22/TableauDesktop-64bit-2018-1-22.exe"
+                        },
+                        "Version":              "2018.1.22"
+                    },
+                    {
+                        "Date":                 "2020-02-27",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.21/TableauDesktop-64bit-2018-1-21.exe"
+                        },
+                        "Version":              "2018.1.21"
+                    },
+                    {
+                        "Date":                 "2020-01-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.20/TableauDesktop-64bit-2018-1-20.exe"
+                        },
+                        "Version":              "2018.1.20"
+                    },
+                    {
+                        "Date":                 "2019-12-19",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.19/TableauDesktop-64bit-2018-1-19.exe"
+                        },
+                        "Version":              "2018.1.19"
+                    },
+                    {
+                        "Date":                 "2019-10-24",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.18/TableauDesktop-64bit-2018-1-18.exe"
+                        },
+                        "Version":              "2018.1.18"
+                    },
+                    {
+                        "Date":                 "2019-09-17",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.17/TableauDesktop-64bit-2018-1-17.exe"
+                        },
+                        "Version":              "2018.1.17"
+                    },
+                    {
+                        "Date":                 "2019-08-22",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.16/TableauDesktop-64bit-2018-1-16.exe"
+                        },
+                        "Version":              "2018.1.16"
+                    },
+                    {
+                        "Date":                 "2019-07-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.15/TableauDesktop-64bit-2018-1-15.exe"
+                        },
+                        "Version":              "2018.1.15"
+                    },
+                    {
+                        "Date":                 "2019-06-21",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.14/TableauDesktop-64bit-2018-1-14.exe"
+                        },
+                        "Version":              "2018.1.14"
+                    },
+                    {
+                        "Date":                 "2019-05-21",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.13/TableauDesktop-64bit-2018-1-13.exe"
+                        },
+                        "Version":              "2018.1.13"
+                    },
+                    {
+                        "Date":                 "2019-04-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.12/TableauDesktop-64bit-2018-1-12.exe"
+                        },
+                        "Version":              "2018.1.12"
+                    },
+                    {
+                        "Date":                 "2018-03-26",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.11/TableauDesktop-64bit-2018-1-11.exe"
+                        },
+                        "Version":              "2018.1.11"
+                    },
+                    {
+                        "Date":                 "2019-02-21",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.10/TableauDesktop-64bit-2018-1-10.exe"
+                        },
+                        "Version":              "2018.1.10"
+                    },
+                    {
+                        "Date":                 "2019-01-31",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.9/TableauDesktop-64bit-2018-1-9.exe"
+                        },
+                        "Version":              "2018.1.9"
+                    },
+                    {
+                        "Date":                 "2018-12-20",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.8/TableauDesktop-64bit-2018-1-8.exe"
+                        },
+                        "Version":              "2018.1.8"
+                    },
+                    {
+                        "Date":                 "2018-11-29",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.7/TableauDesktop-64bit-2018-1-7.exe"
+                        },
+                        "Version":              "2018.1.7"
+                    },
+                    {
+                        "Date":                 "2018-10-16",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.6/TableauDesktop-64bit-2018-1-6.exe"
+                        },
+                        "Version":              "2018.1.6"
+                    },
+                    {
+                        "Date":                 "2018-10-02",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.5/TableauDesktop-64bit-2018-1-5.exe"
+                        },
+                        "Version":              "2018.1.5"
+                    },
+                    {
+                        "Date":                 "2018-08-09",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.4/TableauDesktop-64bit-2018-1-4.exe"
+                        },
+                        "Version":              "2018.1.4"
+                    },
+                    {
+                        "Date":                 "2018-07-10",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.3/TableauDesktop-64bit-2018-1-3.exe"
+                        },
+                        "Version":              "2018.1.3"
+                    },
+                    {
+                        "Date":                 "2018-06-19",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.2/TableauDesktop-64bit-2018-1-2.exe"
+                        },
+                        "Version":              "2018.1.2"
+                    },
+                    {
+                        "Date":                 "2018-05-17",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.1/TableauDesktop-64bit-2018-1-1.exe"
+                        },
+                        "Version":              "2018.1.1"
+                    },
+                    {
+                        "Date":                 "2018-04-24",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.1.0/TableauDesktop-64bit-2018-1-0.exe"
+                        },
+                        "Version":              "2018.1.0"
+                    }
+                ]
+            },
+            "Desktop 2018.2.x": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://www.tableau.com/support/releases",
+                "Status":   "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2020-05-26",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.21/TableauDesktop-64bit-2018-2-21.exe"
+                        },
+                        "Version":              "2018.2.21"
+                    },
+                    {
+                        "Date":                 "2020-04-29",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.20/TableauDesktop-64bit-2018-2-20.exe"
+                        },
+                        "Version":              "2018.2.20"
+                    },
+                    {
+                        "Date":                 "2020-03-30",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.19/TableauDesktop-64bit-2018-2-19.exe"
+                        },
+                        "Version":              "2018.2.19"
+                    },
+                    {
+                        "Date":                 "2020-02-27",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.18/TableauDesktop-64bit-2018-2-18.exe"
+                        },
+                        "Version":              "2018.2.18"
+                    },
+                    {
+                        "Date":                 "2020-01-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.17/TableauDesktop-64bit-2018-2-17.exe"
+                        },
+                        "Version":              "2018.2.17"
+                    },
+                    {
+                        "Date":                 "2019-12-19",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.16/TableauDesktop-64bit-2018-2-16.exe"
+                        },
+                        "Version":              "2018.2.16"
+                    },
+                    {
+                        "Date":                 "2019-10-24",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.15/TableauDesktop-64bit-2018-2-15.exe"
+                        },
+                        "Version":              "2018.2.15"
+                    },
+                    {
+                        "Date":                 "2019-09-17",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.14/TableauDesktop-64bit-2018-2-14.exe"
+                        },
+                        "Version":              "2018.2.14"
+                    },
+                    {
+                        "Date":                 "2019-08-22",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.13/TableauDesktop-64bit-2018-2-13.exe"
+                        },
+                        "Version":              "2018.2.13"
+                    },
+                    {
+                        "Date":                 "2019-07-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.12/TableauDesktop-64bit-2018-2-12.exe"
+                        },
+                        "Version":              "2018.2.12"
+                    },
+                    {
+                        "Date":                 "2018-06-25",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.11/TableauDesktop-64bit-2018-2-11.exe"
+                        },
+                        "Version":              "2018.2.11"
+                    },
+                    {
+                        "Date":                 "2019-05-21",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.10/TableauDesktop-64bit-2018-2-10.exe"
+                        },
+                        "Version":              "2018.2.10"
+                    },
+                    {
+                        "Date":                 "2019-04-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.9/TableauDesktop-64bit-2018-2-9.exe"
+                        },
+                        "Version":              "2018.2.9"
+                    },
+                    {
+                        "Date":                 "2019-03-26",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.8/TableauDesktop-64bit-2018-2-8.exe"
+                        },
+                        "Version":              "2018.2.8"
+                    },
+                    {
+                        "Date":                 "2019-02-21",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.7/TableauDesktop-64bit-2018-2-7.exe"
+                        },
+                        "Version":              "2018.2.7"
+                    },
+                    {
+                        "Date":                 "2019-01-31",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.6/TableauDesktop-64bit-2018-2-6.exe"
+                        },
+                        "Version":              "2018.2.6"
+                    },
+                    {
+                        "Date":                 "2018-12-20",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.5/TableauDesktop-64bit-2018-2-5.exe"
+                        },
+                        "Version":              "2018.2.5"
+                    },
+                    {
+                        "Date":                 "2018-11-29",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.4/TableauDesktop-64bit-2018-2-4.exe"
+                        },
+                        "Version":              "2018.2.4"
+                    },
+                    {
+                        "Date":                 "2018-10-16",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.3/TableauDesktop-64bit-2018-2-3.exe"
+                        },
+                        "Version":              "2018.2.3"
+                    },
+                    {
+                        "Date":                 "2018-09-27",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.2/TableauDesktop-64bit-2018-2-2.exe"
+                        },
+                        "Version":              "2018.2.2"
+                    },
+                    {
+                        "Date":                 "2018-08-29",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.1/TableauDesktop-64bit-2018-2-1.exe"
+                        },
+                        "Version":              "2018.2.1"
+                    },
+                    {
+                        "Date":                 "2018-07-30",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.2.0/TableauDesktop-64bit-2018-2-0.exe"
+                        },
+                        "Version":              "2018.2.0"
+                    }
+                ]
+            },
+            "Desktop 2018.3.x": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://www.tableau.com/support/releases",
+                "Status":   "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2020-05-26",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.18/TableauDesktop-64bit-2018-3-18.exe"
+                        },
+                        "Version":              "2018.3.18"
+                    },
+                    {
+                        "Date":                 "2020-04-29",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.17/TableauDesktop-64bit-2018-3-17.exe"
+                        },
+                        "Version":              "2018.3.17"
+                    },
+                    {
+                        "Date":                 "2020-03-30",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.16/TableauDesktop-64bit-2018-3-16.exe"
+                        },
+                        "Version":              "2018.3.16"
+                    },
+                    {
+                        "Date":                 "2020-02-27",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.15/TableauDesktop-64bit-2018-3-15.exe"
+                        },
+                        "Version":              "2018.3.15"
+                    },
+                    {
+                        "Date":                 "2020-01-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.14/TableauDesktop-64bit-2018-3-14.exe"
+                        },
+                        "Version":              "2018.3.14"
+                    },
+                    {
+                        "Date":                 "2019-12-19",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.13/TableauDesktop-64bit-2018-3-13.exe"
+                        },
+                        "Version":              "2018.3.13"
+                    },
+                    {
+                        "Date":                 "2019-10-24",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.12/TableauDesktop-64bit-2018-3-12.exe"
+                        },
+                        "Version":              "2018.3.12"
+                    },
+                    {
+                        "Date":                 "2019-09-17",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.11/TableauDesktop-64bit-2018-3-11.exe"
+                        },
+                        "Version":              "2018.3.11"
+                    },
+                    {
+                        "Date":                 "2019-08-22",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.10/TableauDesktop-64bit-2018-3-10.exe"
+                        },
+                        "Version":              "2018.3.10"
+                    },
+                    {
+                        "Date":                 "2019-07-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.9/TableauDesktop-64bit-2018-3-9.exe"
+                        },
+                        "Version":              "2018.3.9"
+                    },
+                    {
+                        "Date":                 "2019-06-25",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.8/TableauDesktop-64bit-2018-3-8.exe"
+                        },
+                        "Version":              "2018.3.8"
+                    },
+                    {
+                        "Date":                 "2019-05-21",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.7/TableauDesktop-64bit-2018-3-7.exe"
+                        },
+                        "Version":              "2018.3.7"
+                    },
+                    {
+                        "Date":                 "2019-04-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.6/TableauDesktop-64bit-2018-3-6.exe"
+                        },
+                        "Version":              "2018.3.6"
+                    },
+                    {
+                        "Date":                 "2019-03-26",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.5/TableauDesktop-64bit-2018-3-5.exe"
+                        },
+                        "Version":              "2018.3.5"
+                    },
+                    {
+                        "Date":                 "2019-02-21",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.4/TableauDesktop-64bit-2018-3-4.exe"
+                        },
+                        "Version":              "2018.3.4"
+                    },
+                    {
+                        "Date":                 "2019-01-31",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.3/TableauDesktop-64bit-2018-3-3.exe"
+                        },
+                        "Version":              "2018.3.3"
+                    },
+                    {
+                        "Date":                 "2018-12-20",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.2/TableauDesktop-64bit-2018-3-2.exe"
+                        },
+                        "Version":              "2018.3.2"
+                    },
+                    {
+                        "Date":                 "2018-11-29",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.1/TableauDesktop-64bit-2018-3-1.exe"
+                        },
+                        "Version":              "2018.3.1"
+                    },
+                    {
+                        "Date":                 "2018-10-29",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2018.3.0/TableauDesktop-64bit-2018-3-0.exe"
+                        },
+                        "Version":              "2018.3.0"
+                    }
+                ]
+            },
+            "Desktop 2019.1.x": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://www.tableau.com/support/releases",
+                "Status":   "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2020-05-26",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.1.16/TableauDesktop-64bit-2019-1-16.exe"
+                        },
+                        "Version":              "2019.1.16"
+                    },
+                    {
+                        "Date":                 "2020-04-29",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.1.15/TableauDesktop-64bit-2019-1-15.exe"
+                        },
+                        "Version":              "2019.1.15"
+                    },
+                    {
+                        "Date":                 "2020-03-30",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.1.14/TableauDesktop-64bit-2019-1-14.exe"
+                        },
+                        "Version":              "2019.1.14"
+                    },
+                    {
+                        "Date":                 "2020-02-27",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.1.13/TableauDesktop-64bit-2019-1-13.exe"
+                        },
+                        "Version":              "2019.1.13"
+                    },
+                    {
+                        "Date":                 "2020-01-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.1.12/TableauDesktop-64bit-2019-1-12.exe"
+                        },
+                        "Version":              "2019.1.12"
+                    },
+                    {
+                        "Date":                 "2019-12-19",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.1.11/TableauDesktop-64bit-2019-1-11.exe"
+                        },
+                        "Version":              "2019.1.11"
+                    },
+                    {
+                        "Date":                 "2019-11-19",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.1.10/TableauDesktop-64bit-2019-1-10.exe"
+                        },
+                        "Version":              "2019.1.10"
+                    },
+                    {
+                        "Date":                 "2019-10-24",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.1.9/TableauDesktop-64bit-2019-1-9.exe"
+                        },
+                        "Version":              "2019.1.9"
+                    },
+                    {
+                        "Date":                 "2019-09-17",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.1.8/TableauDesktop-64bit-2019-1-8.exe"
+                        },
+                        "Version":              "2019.1.8"
+                    },
+                    {
+                        "Date":                 "2019-08-22",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.1.7/TableauDesktop-64bit-2019-1-7.exe"
+                        },
+                        "Version":              "2019.1.7"
+                    },
+                    {
+                        "Date":                 "2019-07-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.1.6/TableauDesktop-64bit-2019-1-6.exe"
+                        },
+                        "Version":              "2019.1.6"
+                    },
+                    {
+                        "Date":                 "2019-06-25",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.1.5/TableauDesktop-64bit-2019-1-5.exe"
+                        },
+                        "Version":              "2019.1.5"
+                    },
+                    {
+                        "Date":                 "2019-05-21",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.1.4/TableauDesktop-64bit-2019-1-4.exe"
+                        },
+                        "Version":              "2019.1.4"
+                    },
+                    {
+                        "Date":                 "2019-04-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.1.3/TableauDesktop-64bit-2019-1-3.exe"
+                        },
+                        "Version":              "2019.1.3"
+                    },
+                    {
+                        "Date":                 "2019-03-26",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.1.2/TableauDesktop-64bit-2019-1-2.exe"
+                        },
+                        "Version":              "2019.1.2"
+                    },
+                    {
+                        "Date":                 "2019-02-14",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.1.0/TableauDesktop-64bit-2019-1-0.exe"
+                        },
+                        "Version":              "2019.1.0"
+                    }
+                ]
+            },
+            "Desktop 2019.2.x": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://www.tableau.com/support/releases",
+                "Status":   "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2020-05-26",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.2.12/TableauDesktop-64bit-2019-2-12.exe"
+                        },
+                        "Version":              "2019.2.12"
+                    },
+                    {
+                        "Date":                 "2019-04-29",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.2.11/TableauDesktop-64bit-2019-2-11.exe"
+                        },
+                        "Version":              "2019.2.11"
+                    },
+                    {
+                        "Date":                 "2020-03-30",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.2.10/TableauDesktop-64bit-2019-2-10.exe"
+                        },
+                        "Version":              "2019.2.10"
+                    },
+                    {
+                        "Date":                 "2020-02-27",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.2.9/TableauDesktop-64bit-2019-2-9.exe"
+                        },
+                        "Version":              "2019.2.9"
+                    },
+                    {
+                        "Date":                 "2020-01-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.2.8/TableauDesktop-64bit-2019-2-8.exe"
+                        },
+                        "Version":              "2019.2.8"
+                    },
+                    {
+                        "Date":                 "2019-12-19",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.2.7/TableauDesktop-64bit-2019-2-7.exe"
+                        },
+                        "Version":              "2019.2.7"
+                    },
+                    {
+                        "Date":                 "2019-11-19",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.2.6/TableauDesktop-64bit-2019-2-6.exe"
+                        },
+                        "Version":              "2019.2.6"
+                    },
+                    {
+                        "Date":                 "2019-10-24",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.2.5/TableauDesktop-64bit-2019-2-5.exe"
+                        },
+                        "Version":              "2019.2.5"
+                    },
+                    {
+                        "Date":                 "2019-09-17",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.2.4/TableauDesktop-64bit-2019-2-4.exe"
+                        },
+                        "Version":              "2019.2.4"
+                    },
+                    {
+                        "Date":                 "2019-08-22",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.2.3/TableauDesktop-64bit-2019-2-3.exe"
+                        },
+                        "Version":              "2019.2.3"
+                    },
+                    {
+                        "Date":                 "2019-07-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.2.2/TableauDesktop-64bit-2019-2-2.exe"
+                        },
+                        "Version":              "2019.2.2"
+                    },
+                    {
+                        "Date":                 "2019-06-25",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.2.1/TableauDesktop-64bit-2019-2-1.exe"
+                        },
+                        "Version":              "2019.2.1"
+                    },
+                    {
+                        "Date":                 "2019-05-21",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.2.0/TableauDesktop-64bit-2019-2-0.exe"
+                        },
+                        "Version":              "2019.2.0"
+                    }
+                ]
+            },
             "Desktop 2019.3.x": {
                 "Platform": {
                     "Windows 64-bit": "Downloads Platform"
@@ -10969,15 +11966,149 @@
                     }
                 ]
             },
+            "Desktop 2019.4.x": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://www.tableau.com/support/releases",
+                "Status":   "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2020-05-26",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.4.7/TableauDesktop-64bit-2019-4-7.exe"
+                        },
+                        "Version":              "2019.4.7"
+                    },
+                    {
+                        "Date":                 "2020-04-29",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.4.6/TableauDesktop-64bit-2019-4-6.exe"
+                        },
+                        "Version":              "2019.4.6"
+                    },
+                    {
+                        "Date":                 "2020-03-30",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.4.5/TableauDesktop-64bit-2019-4-5.exe"
+                        },
+                        "Version":              "2019.4.5"
+                    },
+                    {
+                        "Date":                 "2020-02-27",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.4.4/TableauDesktop-64bit-2019-4-4.exe"
+                        },
+                        "Version":              "2019.4.4"
+                    },
+                    {
+                        "Date":                 "2020-01-31",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.4.3/TableauDesktop-64bit-2019-4-3.exe"
+                        },
+                        "Version":              "2019.4.3"
+                    },
+                    {
+                        "Date":                 "2020-01-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.4.2/TableauDesktop-64bit-2019-4-2.exe"
+                        },
+                        "Version":              "2019.4.2"
+                    },
+                    {
+                        "Date":                 "2019-12-19",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.4.1/TableauDesktop-64bit-2019-4-1.exe"
+                        },
+                        "Version":              "2019.4.1"
+                    },
+                    {
+                        "Date":                 "2019-11-06",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2019.4/TableauDesktop-64bit-2019-4.exe"
+                        },
+                        "Version":              "2019.4"
+                    }
+                ]
+            },
+            "Desktop 2020.1.x": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://www.tableau.com/support/releases",
+                "Status":   "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2020-05-26",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2020.1.4/TableauDesktop-64bit-2020-1-4.exe"
+                        },
+                        "Version":              "2020.1.4"
+                    },
+                    {
+                        "Date":                 "2020-04-29",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2020.1.3/TableauDesktop-64bit-2020-1-3.exe"
+                        },
+                        "Version":              "2020.1.3"
+                    },
+                    {
+                        "Date":                 "2020-03-30",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2020.1.2/TableauDesktop-64bit-2020-1-2.exe"
+                        },
+                        "Version":              "2020.1.2"
+                    },
+                    {
+                        "Date":                 "2020-02-24",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2020.1/TableauDesktop-64bit-2020-1.exe"
+                        },
+                        "Version":              "2020.1"
+                    }
+                ]
+            },
+            "Desktop 2020.2.x": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://www.tableau.com/support/releases",
+                "Status":   "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2020-05-28",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2020.2.1/TableauDesktop-64bit-2020-2-1.exe"
+                        },
+                        "Version":              "2020.2.1"
+                    },
+                    {
+                        "Date":                 "2020-05-06",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://downloads.tableau.com/esdalt/2020.2/TableauDesktop-64bit-2020-2.exe"
+                        },
+                        "Version":              "2020.2"
+                    }
+                ]
+            },
             "Hyper API 0.0.x": {
                 "Platform": {
                     "Linux 64-bit":     "Downloads Platform",
                     "Mac 64-bit":       "Downloads Platform",
                     "Windows 64-bit":   "Downloads Platform"
                 },
-                "Releases": "https://www.tableau.com/support/releases/hyper-api/0.0.10622",
+                "Releases": "https://www.tableau.com/support/releases/hyper-api",
                 "Status":   "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2020-05-27",
+                        "Downloads Platform": {
+                            "Linux 64-bit":     "http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.10899-py3-none-linux_x86_64.whl",
+                            "Mac 64-bit":       "http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.10899-py3-none-macosx_10_11_x86_64.whl",
+                            "Windows 64-bit":   "http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.10899-py3-none-win_amd64.whl"
+                        },
+                        "Version":              "0.0.10899"
+                    },
                     {
                         "Date":                 "2020-04-22",
                         "Downloads Platform": {
@@ -11022,6 +12153,92 @@
                             "Windows 64-bit":   "http://downloads.tableau.com/tssoftware/tableauhyperapi-0.0.9273-py3-none-win_amd64.whl"
                         },
                         "Version":              "0.0.9273"
+                    }
+                ]
+            },
+            "Server Client API 0.0.x": {
+                "Platform": {
+                    "Platform Independent":     "Downloads Platform"
+                },
+                "Releases": "https://pypi.org/project/tableauserverclient/#history",
+                "Status":   "Active support",
+                "Versions": [
+                    {
+                        "Date":                     "2020-05-01",
+                        "Downloads Platform": {
+                            "Platform Independent": "https://files.pythonhosted.org/packages/5c/bd/07ed21734dad01508f9d094ad5d58c1347a005c918ed4353eda099f7362e/tableauserverclient-0.11-py2.py3-none-any.whl"
+                        },
+                        "Version":                  "0.10"
+                    },
+                    {
+                        "Date":                 "2020-02-22",
+                        "Downloads Platform": {
+                            "Platform Independent":     "https://files.pythonhosted.org/packages/af/a5/fc64a23a88470dd50222919c9a6e008e2d703a4bdbb8cbfcfec34081fcfa/tableauserverclient-0.10-py2.py3-none-any.whl"
+                        },
+                        "Version":              "0.10"
+                    },
+                    {
+                        "Date":                 "2019-10-05",
+                        "Downloads Platform": {
+                            "Platform Independent":     "https://files.pythonhosted.org/packages/a9/85/89e040ee03a80c24b7e0fa54d6fcd52d4e1b48c47e8734dcadfedab4c174/tableauserverclient-0.9-py2.py3-none-any.whl"
+                        },
+                        "Version":              "0.9"
+                    },
+                    {
+                        "Date":                 "2019-04-08",
+                        "Downloads Platform": {
+                            "Platform Independent":     "https://files.pythonhosted.org/packages/a4/e5/c3086ed7a1a22557fbd9127fc6fe866f2894202657870dc05de55cc3a7b5/tableauserverclient-0.8-py2.py3-none-any.whl"
+                        },
+                        "Version":              "0.8"
+                    },
+                    {
+                        "Date":                 "2018-07-11",
+                        "Downloads Platform": {
+                            "Platform Independent":     "https://files.pythonhosted.org/packages/6d/37/a2bebc7d6128f1a48a885e90b54e4d5e3aaf1ce54a5c3aff41a022ff0d6e/tableauserverclient-0.7-py2.py3-none-any.whl"
+                        },
+                        "Version":              "0.7"
+                    },
+                    {
+                        "Date":                 "2018-01-18",
+                        "Downloads Platform": {
+                            "Platform Independent":     "https://files.pythonhosted.org/packages/9f/64/82a933f306ebfe1aba41508be8e1103438ba6d8369a76494fc7b1cd4f346/tableauserverclient-0.6-py2.py3-none-any.whl"
+                        },
+                        "Version":              "0.6"
+                    },
+                    {
+                        "Date":                 "2017-09-19",
+                        "Downloads Platform": {
+                            "Platform Independent":     "https://files.pythonhosted.org/packages/9b/2d/a2336abb95a6f7ac7b55ff2085e465a75745e24f1b6743ac57590fdfc34c/tableauserverclient-0.5-py2.py3-none-any.whl"
+                        },
+                        "Version":              "0.5"
+                    },
+                    {
+                        "Date":                 "2017-04-18",
+                        "Downloads Platform": {
+                            "Platform Independent":     "https://files.pythonhosted.org/packages/ec/fc/102fd8b1d544481d2d42da5016a41ac6375b488d37eddb2a2e352f06125c/tableauserverclient-0.4-py2.py3-none-any.whl"
+                        },
+                        "Version":              "0.4"
+                    },
+                    {
+                        "Date":                 "2017-01-12",
+                        "Downloads Platform": {
+                            "Platform Independent":     "https://files.pythonhosted.org/packages/64/31/f68f9b7b25e89c8527cd0a1c0711ed3df57519aceb66a577f53878309f41/tableauserverclient-0.3-py2.py3-none-any.whl"
+                        },
+                        "Version":              "0.3"
+                    },
+                    {
+                        "Date":                 "2016-11-01",
+                        "Downloads Platform": {
+                            "Platform Independent":     "https://files.pythonhosted.org/packages/24/f4/f58f6351b9991a1101e4494bdab6c883910bd4cb7f5a40c1d1b65c9bd896/tableauserverclient-0.2-py2.py3-none-any.whl"
+                        },
+                        "Version":              "0.2"
+                    },
+                    {
+                        "Date":                 "2016-01-12",
+                        "Downloads Platform": {
+                            "Platform Independent":     "https://files.pythonhosted.org/packages/85/50/44c6d9432c40ae0a2dce28a45f4b40858f31862fd4e4c7089bb51b5790ef/tableauserverclient-0.1-py2.py3-none-any.whl"
+                        },
+                        "Version":              "0.1"
                     }
                 ]
             }
