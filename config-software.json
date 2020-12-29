@@ -10,6 +10,14 @@
         "Type": "Web Server",
         "Versions": [
             {
+                "Date": "2020-08-07",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://home.apache.org/~steffenal/VS16/binaries/httpd-2.4.46-win32-VS16.zip",
+                    "Windows 64-bit": "https://home.apache.org/~steffenal/VS16/binaries/httpd-2.4.46-win64-VS16.zip"
+                },
+                "Version": "2.4.46"
+            },
+            {
                 "Date": "2019-03-31",
                 "Downloads Platform": {
                     "Windows 32-bit": "https://home.apache.org/~steffenal/VS16/binaries/httpd-2.4.43-win32-VS16.zip",
@@ -86,6 +94,14 @@
         "Releases": "https://www.apachelounge.com/download/",
         "Type": "Web Server Module",
         "Versions": [
+            {
+                "Date": "2019-02-20",
+                "Downloads Platform": {
+                    "Windows 32-bit": "https://www.apachelounge.com/download/VS16/modules/mod_evasive-2.2.0-win64-VS16.zip",
+                    "Windows 64-bit": "https://www.apachelounge.com/download/VS16/modules/mod_evasive-2.2.0-win64-VS16.zip"
+                },
+                "Version": "2.2.0"
+            },
             {
                 "Date": "2019-08-26",
                 "Downloads Platform": {
@@ -218,6 +234,30 @@
                 "Releases": "http://tomcat.apache.org/tomcat-9.0-doc/changelog.html",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2020-10-06",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.39/bin/apache-tomcat-9.0.39-windows-x86.zip",
+                            "Windows 64-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.39/bin/apache-tomcat-9.0.39-windows-x64.zip"
+                        },
+                        "Version":              "9.0.39"
+                    },
+                    {
+                        "Date":                 "2020-09-15",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.38/bin/apache-tomcat-9.0.38-windows-x86.zip",
+                            "Windows 64-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.38/bin/apache-tomcat-9.0.38-windows-x64.zip"
+                        },
+                        "Version":              "9.0.38"
+                    },
+                    {
+                        "Date":                 "2020-07-05",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37-windows-x86.zip",
+                            "Windows 64-bit":   "http://apache.hippo.nl/tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37-windows-x64.zip"
+                        },
+                        "Version":              "9.0.37"
+                    },
                     {
                         "Date":                 "2020-05-05",
                         "Downloads Platform": {
@@ -383,6 +423,66 @@
         "Type": "Advanced Text Editor",
         "Versions": [
             {
+                "Date":                         "2020-11-10",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://github.com/atom/atom/releases/download/v1.53.0/AtomSetup.exe",
+                    "Windows 32-bit Portable":  "https://github.com/atom/atom/releases/download/v1.53.0/atom-windows.zip",
+                    "Windows 64-bit":           "https://github.com/atom/atom/releases/download/v1.53.0/AtomSetup-x64.exe",
+                    "Windows 64-bit Portable":  "https://github.com/atom/atom/releases/download/v1.53.0/atom-x64-windows.zip"
+                },
+                "Version":                      "1.53.0"
+            },
+            {
+                "Date":                         "2020-10-13",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://github.com/atom/atom/releases/download/v1.52.0/AtomSetup.exe",
+                    "Windows 32-bit Portable":  "https://github.com/atom/atom/releases/download/v1.52.0/atom-windows.zip",
+                    "Windows 64-bit":           "https://github.com/atom/atom/releases/download/v1.52.0/AtomSetup-x64.exe",
+                    "Windows 64-bit Portable":  "https://github.com/atom/atom/releases/download/v1.52.0/atom-x64-windows.zip"
+                },
+                "Version":                      "1.52.0"
+            },
+            {
+                "Date":                         "2020-09-09",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://github.com/atom/atom/releases/download/v1.51.0/AtomSetup.exe",
+                    "Windows 32-bit Portable":  "https://github.com/atom/atom/releases/download/v1.51.0/atom-windows.zip",
+                    "Windows 64-bit":           "https://github.com/atom/atom/releases/download/v1.51.0/AtomSetup-x64.exe",
+                    "Windows 64-bit Portable":  "https://github.com/atom/atom/releases/download/v1.51.0/atom-x64-windows.zip"
+                },
+                "Version":                      "1.51.0"
+            },
+            {
+                "Date":                         "2020-08-11",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://github.com/atom/atom/releases/download/v1.50.0/AtomSetup.exe",
+                    "Windows 32-bit Portable":  "https://github.com/atom/atom/releases/download/v1.50.0/atom-windows.zip",
+                    "Windows 64-bit":           "https://github.com/atom/atom/releases/download/v1.50.0/AtomSetup-x64.exe",
+                    "Windows 64-bit Portable":  "https://github.com/atom/atom/releases/download/v1.50.0/atom-x64-windows.zip"
+                },
+                "Version":                      "1.50.0"
+            },
+            {
+                "Date":                         "2020-07-14",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://github.com/atom/atom/releases/download/v1.49.0/AtomSetup.exe",
+                    "Windows 32-bit Portable":  "https://github.com/atom/atom/releases/download/v1.49.0/atom-windows.zip",
+                    "Windows 64-bit":           "https://github.com/atom/atom/releases/download/v1.49.0/AtomSetup-x64.exe",
+                    "Windows 64-bit Portable":  "https://github.com/atom/atom/releases/download/v1.49.0/atom-x64-windows.zip"
+                },
+                "Version":                      "1.49.0"
+            },
+            {
+                "Date":                         "2020-06-10",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://github.com/atom/atom/releases/download/v1.48.0/AtomSetup.exe",
+                    "Windows 32-bit Portable":  "https://github.com/atom/atom/releases/download/v1.48.0/atom-windows.zip",
+                    "Windows 64-bit":           "https://github.com/atom/atom/releases/download/v1.48.0/AtomSetup-x64.exe",
+                    "Windows 64-bit Portable":  "https://github.com/atom/atom/releases/download/v1.48.0/atom-x64-windows.zip"
+                },
+                "Version":                      "1.48.0"
+            },
+            {
                 "Date":                         "2020-05-19",
                 "Downloads Platform": {
                     "Windows 32-bit":           "https://github.com/atom/atom/releases/download/v1.47.0/AtomSetup.exe",
@@ -504,6 +604,58 @@
                 "Releases": "https://docs.docker.com/docker-for-windows/edge-release-notes/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2020-10-19",
+                        "Version":  "2.4.2.0"
+                    },
+                    {
+                        "Date":     "2020-10-01",
+                        "Version":  "2.4.1.0"
+                    },
+                    {
+                        "Date":     "2020-09-17",
+                        "Version":  "2.3.7.0"
+                    },
+                    {
+                        "Date":     "2020-09-09",
+                        "Version":  "2.3.6.2"
+                    },
+                    {
+                        "Date":     "2020-09-01",
+                        "Version":  "2.3.6.0"
+                    },
+                    {
+                        "Date":     "2020-08-25",
+                        "Version":  "2.3.5.1"
+                    },
+                    {
+                        "Date":     "2020-08-20",
+                        "Version":  "2.3.5.0"
+                    },
+                    {
+                        "Date":     "2020-07-28",
+                        "Version":  "2.3.4.0"
+                    },
+                    {
+                        "Date":     "2020-07-21",
+                        "Version":  "2.3.3.2"
+                    },
+                    {
+                        "Date":     "2020-07-10",
+                        "Version":  "2.3.3.1"
+                    },
+                    {
+                        "Date":     "2020-07-09",
+                        "Version":  "2.3.3.0"
+                    },
+                    {
+                        "Date":     "2020-06-29",
+                        "Version":  "2.3.2.1"
+                    },
+                    {
+                        "Date":     "2020-06-25",
+                        "Version":  "2.3.2.0"
+                    },
                     {
                         "Date":     "2020-05-20",
                         "Version":  "2.3.1.0"
@@ -706,6 +858,26 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2020-11-10",
+                        "Version":  "2.5.0.1"
+                    },
+                    {
+                        "Date":     "2020-11-02",
+                        "Version":  "2.5.0.0"
+                    },
+                    {
+                        "Date":     "2020-09-30",
+                        "Version":  "2.4.0.0"
+                    },
+                    {
+                        "Date":     "2020-09-15",
+                        "Version":  "2.3.0.5"
+                    },
+                    {
+                        "Date":     "2020-07-27",
+                        "Version":  "2.3.0.4"
+                    },
+                    {
                         "Date":     "2020-05-27",
                         "Version":  "2.3.0.3"
                     },
@@ -873,6 +1045,16 @@
         "Releases": "https://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/",
         "Type": "File Manager",
         "Versions": [
+            {
+                "Date":                     "2019-06-27",
+                "Downloads Platform": {
+                    "Windows 32-bit":       "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.9%20beta/doublecmd-0.9.9.i386-win32.exe/download",
+                    "Windows 32-bit ZIP":   "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.9%20beta/doublecmd-0.9.9.i386-win32.zip/download",
+                    "Windows 64-bit":       "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.9%20beta/doublecmd-0.9.9.x86_64-win64.exe/download",
+                    "Windows 64-bit ZIP":   "http://sourceforge.net/projects/doublecmd/files/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.9%20beta/doublecmd-0.9.9.x86_64-win64.zip/download"
+                },
+                "Version":                  "0.9.9"
+            },
             {
                 "Date":                     "2019-02-01",
                 "Downloads Platform": {
@@ -1171,6 +1353,38 @@
                         "Version":              "4.15.0"
                     }
                 ]
+            },
+            "4.16.x (2020-06 R)": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://download.eclipse.org/eclipse/downloads/",
+                "Status":   "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2020-06-04",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://download.eclipse.org/eclipse/downloads/drops4/R-4.16-202006040540/download.php?dropFile=eclipse-platform-4.16-win32-x86_64.zip"
+                        },
+                        "Version":              "4.16.0"
+                    }
+                ]
+            },
+            "4.17.x (2020-09 R)": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://download.eclipse.org/eclipse/downloads/",
+                "Status":   "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2020-09-02",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://download.eclipse.org/eclipse/downloads/drops4/R-4.17-202009021800/download.php?dropFile=eclipse-platform-4.17-win32-x86_64.zip"
+                        },
+                        "Version":              "4.17.0"
+                    }
+                ]
             }
         },
         "Description":  "Eclipse is an integrated development environment (IDE) used in computer programming, and is the most widely used Java IDE. It contains a base workspace and an extensible plug-in system for customizing the environment. Eclipse is written mostly in Java and its primary use is for developing Java applications, but it may also be used to develop applications in other programming languages via plug-ins, including Ada, ABAP, C, C++, C#, COBOL, D, Fortran, Haskell, JavaScript, Julia, Lasso, Lua, NATURAL, Perl, PHP, Prolog, Python, R, Ruby (including Ruby on Rails framework), Rust, Scala, Clojure, Groovy, Scheme, and Erlang. It can also be used to develop documents with LaTeX (via a TeXlipse plug-in) and packages for the software Mathematica. Development environments include the Eclipse Java development tools (JDT) for Java and Scala, Eclipse CDT for C/C++, and Eclipse PDT for PHP, among others.",
@@ -1190,6 +1404,16 @@
         "Releases": "https://github.com/mlocati/gettext-iconv-windows/releases/",
         "Type": "Internationalization and Localization",
         "Versions": [
+            {
+                "Date":                     "2020-08-12",
+                "Downloads Platform": {
+                    "Windows 32-bit":       "https://github.com/mlocati/gettext-iconv-windows/releases/download/v0.21-v1.16/gettext0.21-iconv1.16-shared-32.exe",
+                    "Windows 32-bit ZIP":   "https://github.com/mlocati/gettext-iconv-windows/releases/download/v0.21-v1.16/gettext0.21-iconv1.16-shared-32.zip",
+                    "Windows 64-bit":       "https://github.com/mlocati/gettext-iconv-windows/releases/download/v0.21-v1.16/gettext0.21-iconv1.16-shared-64.exe",
+                    "Windows 64-bit ZIP":   "https://github.com/mlocati/gettext-iconv-windows/releases/download/v0.21-v1.16/gettext0.21-iconv1.16-shared-64.zip"
+                },
+                "Version":                  "0.21"
+            },
             {
                 "Date":                     "2020-05-01",
                 "Downloads Platform": {
@@ -1245,6 +1469,66 @@
         "Releases": "https://github.com/git-for-windows/git/releases/",
         "Type": "Version Control",
         "Versions": [
+            {
+                "Date":                         "2020-11-05",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.1/Git-2.29.2.2-32-bit.exe",
+                    "Windows 32-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.1/PortableGit-2.29.2.2-32-bit.7z.exe",
+                    "Windows 64-bit":          "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.1/Git-2.29.2.2-64-bit.exe",
+                    "Windows 64-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.1/PortableGit-2.29.2.2-64-bit.7z.exe"
+                },
+                "Version":                      "2.29.2.2"
+            },
+            {
+                "Date":                         "2020-10-31",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.1/Git-2.29.2-32-bit.exe",
+                    "Windows 32-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.1/PortableGit-2.29.2-32-bit.7z.exe",
+                    "Windows 64-bit":          "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.1/Git-2.29.2-64-bit.exe",
+                    "Windows 64-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.1/PortableGit-2.29.2-64-bit.7z.exe"
+                },
+                "Version":                      "2.29.2"
+            },
+            {
+                "Date":                         "2020-10-20",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/git-for-windows/git/releases/download/v2.29.1.windows.1/Git-2.29.1-32-bit.exe",
+                    "Windows 32-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.29.1.windows.1/PortableGit-2.29.1-32-bit.7z.exe",
+                    "Windows 64-bit":          "https://github.com/git-for-windows/git/releases/download/v2.29.1.windows.1/Git-2.29.1-64-bit.exe",
+                    "Windows 64-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.29.1.windows.1/PortableGit-2.29.1-64-bit.7z.exe"
+                },
+                "Version":                      "2.29.1"
+            },
+            {
+                "Date":                         "2020-10-24",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/git-for-windows/git/releases/download/v2.29.0.windows.1/Git-2.29.0-32-bit.exe",
+                    "Windows 32-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.29.0.windows.1/PortableGit-2.29.0-32-bit.7z.exe",
+                    "Windows 64-bit":          "https://github.com/git-for-windows/git/releases/download/v2.29.0.windows.1/Git-2.29.0-64-bit.exe",
+                    "Windows 64-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.29.0.windows.1/PortableGit-2.29.0-64-bit.7z.exe"
+                },
+                "Version":                      "2.29.0"
+            },
+            {
+                "Date":                         "2020-07-28",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/Git-2.28.0-32-bit.exe",
+                    "Windows 32-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/PortableGit-2.28.0-32-bit.7z.exe",
+                    "Windows 64-bit":          "https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/Git-2.28.0-64-bit.exe",
+                    "Windows 64-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/PortableGit-2.28.0-64-bit.7z.exe"
+                },
+                "Version":                      "2.28.0"
+            },
+            {
+                "Date":                         "2020-06-01",
+                "Downloads Platform": {
+                    "Windows 32-bit":          "https://github.com/git-for-windows/git/releases/download/v2.27.0.windows.1/Git-2.27.0-32-bit.exe",
+                    "Windows 32-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.27.0.windows.1/PortableGit-2.27.0-32-bit.7z.exe",
+                    "Windows 64-bit":          "https://github.com/git-for-windows/git/releases/download/v2.27.0.windows.1/Git-2.27.0-64-bit.exe",
+                    "Windows 64-bit Portable": "https://github.com/git-for-windows/git/releases/download/v2.27.0.windows.1/PortableGit-2.27.0-64-bit.7z.exe"
+                },
+                "Version":                      "2.27.0"
+            },
             {
                 "Date":                         "2020-04-20",
                 "Downloads Platform": {
@@ -1618,6 +1902,18 @@
         "Type": "Internet Browser",
         "Versions": [
             {
+                "Date":     "2020-10-06",
+                "Version":  "86.0.4240"
+            },
+            {
+                "Date":     "2020-08-25",
+                "Version":  "85.0.4183"
+            },
+            {
+                "Date":     "2020-07-14",
+                "Version":  "84.0.4147"
+            },
+            {
                 "Date":     "2020-05-19",
                 "Version":  "83.0.4103"
             },
@@ -1684,7 +1980,7 @@
                     "Windows 64-bit":     "https://github.com/mlocati/gettext-iconv-windows/releases/download/v0.20-v1.16/gettext0.20-iconv1.16-shared-64.exe",
                     "Windows 64-bit ZIP": "https://github.com/mlocati/gettext-iconv-windows/releases/download/v0.20-v1.16/gettext0.20-iconv1.16-shared-64.zip"
                 },
-                "Version": "0.16.0"
+                "Version": "1.16"
             },
             {
                 "Date": "2018-02-28",
@@ -1699,136 +1995,180 @@
         ],
         "Website": "https://www.gnu.org/software/libiconv/"
     },
-    "jasper_reports_library": {
+    "jasper_reports": {
+        "Branches": {
+            "Library": {
+                "Description": "The JasperReports Library is the world's most popular open source reporting engine. It is entirely written in Java and it is able to use data coming from any kind of data source and produce pixel-perfect documents that can be viewed, printed or exported in a variety of document formats including HTML, PDF, Excel, OpenOffice and Word.",
+                "Platform": {
+                    "Multi-Platform": "Downloads Platform"
+                },
+                "Releases": "https://sourceforge.net/projects/jasperreports/files/",
+                "Status": "Active",
+                "Versions": [
+                    {
+                        "Date":                 "2020-10-07",
+                        "Downloads Platform": {
+                            "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%206.15.0/jasperreports-6.15.0-project.zip/download"
+                        },
+                        "Version":              "6.15.0"
+                    },
+                    {
+                        "Date":                 "2020-08-25",
+                        "Downloads Platform": {
+                            "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%206.14.0/jasperreports-6.14.0-project.zip/download"
+                        },
+                        "Version":              "6.14.0"
+                    },
+                    {
+                        "Date":                 "2020-06-23",
+                        "Downloads Platform": {
+                            "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%206.13.0/jasperreports-6.13.0-project.zip/download"
+                        },
+                        "Version":              "6.13.0"
+                    },
+                    {
+                        "Date":                 "2020-03-11",
+                        "Downloads Platform": {
+                            "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%206.12.2/jasperreports-6.12.2-project.zip/download"
+                        },
+                        "Version":              "6.12.2"
+                    },
+                    {
+                        "Date":                 "2020-03-05",
+                        "Downloads Platform": {
+                            "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%206.12.1/jasperreports-6.12.1-project.zip/download"
+                        },
+                        "Version":              "6.12.1"
+                    },
+                    {
+                        "Date":                 "2020-03-04",
+                        "Downloads Platform": {
+                            "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%206.12.0/jasperreports-6.12.0-project.zip/download"
+                        },
+                        "Version":              "6.12.0"
+                    },
+                    {
+                        "Date":                 "2019-12-12",
+                        "Downloads Platform": {
+                            "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%206.11.0/jasperreports-6.11.0-project.zip/download"
+                        },
+                        "Version":              "6.11.0"
+                    },
+                    {
+                        "Date":                 "2019-09-29",
+                        "Downloads Platform": {
+                            "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%25206.10.0/jasperreports-6.10.0-project.zip"
+                        },
+                        "Version":              "6.10.0"
+                    },
+                    {
+                        "Date": "2019-06-24",
+                        "Downloads Platform": {
+                            "Multi-Platform": "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%25206.9.0/jasperreports-6.9.0-project.zip"
+                        },
+                        "Version": "6.9.0"
+                    },
+                    {
+                        "Date": "2019-05-23",
+                        "Downloads Platform": {
+                            "Multi-Platform": "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%25206.8.1/jasperreports-6.8.1-project.zip"
+                        },
+                        "Version": "6.8.1"
+                    },
+                    {
+                        "Date": "2019-03-26",
+                        "Downloads Platform": {
+                            "Multi-Platform": "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%25206.8.0/jasperreports-6.8.0-project.zip"
+                        },
+                        "Version": "6.8.0"
+                    }
+                ]
+            },
+            "Studio": {
+                "Description": "TIBCO Jaspersoft® Studio is editing software for TIBCO JasperReports®. It will help you design and run report templates; build report queries; write complex expressions; layout visual components like 50+ types of charts, maps, tables, crosstabs, and custom visualizations; and much more. It integrates TIBCO JasperReports® Server to create powerful report publishing workflows. With Jaspersoft Studio you can build documents of any complexity from your data—from print-ready in PDFs to interactive masterpieces in dynamic HTML, with navigation to interactive components, like maps and charts that may be inside or outside the report. You can generate high quality OpenOffice, PowerPoint , RTF, Word, and spreadsheet documents or you can generate raw CSV, JSON, or XML  documents. It's not difficult to build your own custom exporter to suit any data need. Using Jaspersoft Studio, you can access different types of data sources, including big data, CSV, Hibernate, Jaspersoft Domain, JavaBeans, JDBC, JSON, NoSQL, TIBCO Spotfire® Information Links, XML, or your own custom data source.",
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://sourceforge.net/projects/jasperstudio/files/",
+                "Status": "Active",
+                "Versions": [
+                    {
+                        "Date":                 "2020-10-11",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.15.0/TIB_js-studiocomm_6.15.0_windows_x86_64.zip"
+                        },
+                        "Version":              "6.15.0"
+                    },
+                    {
+                        "Date":                 "2020-08-18",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.14.0/TIB_js-studiocomm_6.14.0_windows_x86_64.zip"
+                        },
+                        "Version":              "6.14.0"
+                    },
+                    {
+                        "Date":                 "2020-06-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.13.0/TIB_js-studiocomm_6.13.0_windows_x86_64.zip"
+                        },
+                        "Version":              "6.13.0"
+                    },
+                    {
+                        "Date":                 "2020-03-31",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.12.2/TIB_js-studiocomm_6.12.2_windows_x86_64.zip"
+                        },
+                        "Version":              "6.12.2"
+                    },
+                    {
+                        "Date":                 "2020-03-06",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.12.0/TIB_js-studiocomm_6.12.0_windows_x86_64.zip"
+                        },
+                        "Version":              "6.12.0"
+                    },
+                    {
+                        "Date":                 "2019-12-12",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.11.0/TIB_js-studiocomm_6.11.0_windows_x86_64.zip"
+                        },
+                        "Version":              "6.11.0"
+                    },
+                    {
+                        "Date":                 "2019-10-01",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.10.0/TIB_js-studiocomm_6.10.0_windows_x86_64.zip"
+                        },
+                        "Version":              "6.10.0"
+                    },
+                    {
+                        "Date": "2019-06-25",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.9.0/TIB_js-studiocomm_6.9.0_windows_x86_64.zip"
+                        },
+                        "Version": "6.9.0"
+                    },
+                    {
+                        "Date": "2019-04-11",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.8.0/TIB_js-studiocomm_6.8.0_windows_x86_64.zip"
+                        },
+                        "Version": "6.8.0"
+                    },
+                    {
+                        "Date": "2018-05-30",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https%3A%2F%2Fsourceforge.net%2Fprojects%2Fjasperstudio%2Ffiles%2FJaspersoftStudio-6.6.0%2FTIB_js-studiocomm_6.6.0_windows_x86_64.zip"
+                        },
+                        "Version": "6.6.0"
+                    }
+                ]
+            }
+        },
         "Description": "The JasperReports Library is the world's most popular open source reporting engine. It is entirely written in Java and it is able to use data coming from any kind of data source and produce pixel-perfect documents that can be viewed, printed or exported in a variety of document formats including HTML, PDF, Excel, OpenOffice and Word.",
         "Name": "JasperReports Library",
-        "Platform": {
-            "Multi-Platform": "Downloads Platform"
-        },
-        "Releases": "https://sourceforge.net/projects/jasperreports/files/",
-        "Status": "Active",
-        "Versions": [
-            {
-                "Date":                 "2020-03-11",
-                "Downloads Platform": {
-                    "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%206.12.2/jasperreports-6.12.2-project.zip/download"
-                },
-                "Version":              "6.12.2"
-            },
-            {
-                "Date":                 "2020-03-05",
-                "Downloads Platform": {
-                    "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%206.12.1/jasperreports-6.12.1-project.zip/download"
-                },
-                "Version":              "6.12.1"
-            },
-            {
-                "Date":                 "2020-03-04",
-                "Downloads Platform": {
-                    "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%206.12.0/jasperreports-6.12.0-project.zip/download"
-                },
-                "Version":              "6.12.0"
-            },
-            {
-                "Date":                 "2019-12-12",
-                "Downloads Platform": {
-                    "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%206.11.0/jasperreports-6.11.0-project.zip/download"
-                },
-                "Version":              "6.11.0"
-            },
-            {
-                "Date":                 "2019-09-29",
-                "Downloads Platform": {
-                    "Multi-Platform":   "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%25206.10.0/jasperreports-6.10.0-project.zip"
-                },
-                "Version":              "6.10.0"
-            },
-            {
-                "Date": "2019-06-24",
-                "Downloads Platform": {
-                    "Multi-Platform": "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%25206.9.0/jasperreports-6.9.0-project.zip"
-                },
-                "Version": "6.9.0"
-            },
-            {
-                "Date": "2019-05-23",
-                "Downloads Platform": {
-                    "Multi-Platform": "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%25206.8.1/jasperreports-6.8.1-project.zip"
-                },
-                "Version": "6.8.1"
-            },
-            {
-                "Date": "2019-03-26",
-                "Downloads Platform": {
-                    "Multi-Platform": "https://sourceforge.net/projects/jasperreports/files/jasperreports/JasperReports%25206.8.0/jasperreports-6.8.0-project.zip"
-                },
-                "Version": "6.8.0"
-            }
-        ],
         "Type": "Free Java Reporting Library",
         "Website": "https://community.jaspersoft.com/project/jasperreports-library"
-    },
-    "jasper_reports_studio": {
-        "Description": "TIBCO Jaspersoft® Studio is editing software for TIBCO JasperReports®. It will help you design and run report templates; build report queries; write complex expressions; layout visual components like 50+ types of charts, maps, tables, crosstabs, and custom visualizations; and much more. It integrates TIBCO JasperReports® Server to create powerful report publishing workflows. With Jaspersoft Studio you can build documents of any complexity from your data—from print-ready in PDFs to interactive masterpieces in dynamic HTML, with navigation to interactive components, like maps and charts that may be inside or outside the report. You can generate high quality OpenOffice, PowerPoint , RTF, Word, and spreadsheet documents or you can generate raw CSV, JSON, or XML  documents. It's not difficult to build your own custom exporter to suit any data need. Using Jaspersoft Studio, you can access different types of data sources, including big data, CSV, Hibernate, Jaspersoft Domain, JavaBeans, JDBC, JSON, NoSQL, TIBCO Spotfire® Information Links, XML, or your own custom data source.",
-        "Name": "JasperReports Studio",
-        "Platform": {
-            "Windows 64-bit": "Downloads Platform"
-        },
-        "Releases": "https://sourceforge.net/projects/jasperstudio/files/",
-        "Status": "Active",
-        "Versions": [
-            {
-                "Date":                 "2020-03-31",
-                "Downloads Platform": {
-                    "Windows 64-bit":   "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.12.2/TIB_js-studiocomm_6.12.2_windows_x86_64.zip"
-                },
-                "Version":              "6.12.2"
-            },
-            {
-                "Date":                 "2020-03-06",
-                "Downloads Platform": {
-                    "Windows 64-bit":   "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.12.0/TIB_js-studiocomm_6.12.0_windows_x86_64.zip"
-                },
-                "Version":              "6.12.0"
-            },
-            {
-                "Date":                 "2019-12-12",
-                "Downloads Platform": {
-                    "Windows 64-bit":   "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.11.0/TIB_js-studiocomm_6.11.0_windows_x86_64.zip"
-                },
-                "Version":              "6.11.0"
-            },
-            {
-                "Date":                 "2019-10-01",
-                "Downloads Platform": {
-                    "Windows 64-bit":   "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.10.0/TIB_js-studiocomm_6.10.0_windows_x86_64.zip"
-                },
-                "Version":              "6.10.0"
-            },
-            {
-                "Date": "2019-06-25",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.9.0/TIB_js-studiocomm_6.9.0_windows_x86_64.zip"
-                },
-                "Version": "6.9.0"
-            },
-            {
-                "Date": "2019-04-11",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://sourceforge.net/projects/jasperstudio/files/JaspersoftStudio-6.8.0/TIB_js-studiocomm_6.8.0_windows_x86_64.zip"
-                },
-                "Version": "6.8.0"
-            },
-            {
-                "Date": "2018-05-30",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https%3A%2F%2Fsourceforge.net%2Fprojects%2Fjasperstudio%2Ffiles%2FJaspersoftStudio-6.6.0%2FTIB_js-studiocomm_6.6.0_windows_x86_64.zip"
-                },
-                "Version": "6.6.0"
-            }
-        ],
-        "Type": "The Eclipse-based report development tool for JasperReports and JasperReports Server",
-        "Website": "https://community.jaspersoft.com/project/jaspersoft-studio"
     },
     "java": {
         "Branches": {
@@ -2236,6 +2576,13 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                 "2020-07-09",
+                        "Downloads Platform": {
+                                "Windows 64-bit":   "https://download.java.net/java/GA/jdk14.0.2/205943a0976c4ed48cb16f1043c5c647/12/GPL/openjdk-14.0.2_windows-x64_bin.zip"
+                        },
+                        "Version":              "14.0.2"
+                    },
+                    {
                         "Date":                 "2020-04-17",
                         "Downloads Platform": {
                                 "Windows 64-bit":   "https://download.java.net/java/GA/jdk14.0.1/664493ef4a6946b186ff29eb326336a2/7/GPL/openjdk-14.0.1_windows-x64_bin.zip"
@@ -2248,6 +2595,29 @@
                             "Windows 64-bit":   "https://download.java.net/java/GA/jdk14/076bab302c7b4508975440c56f6cc26a/36/GPL/openjdk-14_windows-x64_bin.zip"
                         },
                         "Version":              "14.0.0"
+                    }
+                ]
+            },
+            "Open Development Kit 15.x": {
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "http://jdk.java.net/15/",
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2020-10-20",
+                        "Downloads Platform": {
+                                "Windows 64-bit":   "https://download.java.net/java/GA/jdk15.0.1/51f4f36ad4ef43e39d0dfdbaf6549e32/9/GPL/openjdk-15.0.1_windows-x64_bin.zip"
+                        },
+                        "Version":              "15.0.1"
+                    },
+                    {
+                        "Date":                 "2020-09-15",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://download.java.net/java/GA/jdk15/779bf45e88a44cbd9ea6621d33e33db1/36/GPL/openjdk-15_windows-x64_bin.zip"
+                        },
+                        "Version":              "15.0.0"
                     }
                 ]
             },
@@ -2425,6 +2795,20 @@
         "Type": "MD editor",
         "Versions": [
             {
+                "Date":                         "2020-10-28",
+                "Downloads Platform": {
+                    "Windows 32-bit Portable":  "http://tomeko.net/software/JSONedit/bin/JSONedit_0_9_35.zip"
+                },
+                "Version":                      "0.9.35"
+            },
+            {
+                "Date":                         "2020-08-26",
+                "Downloads Platform": {
+                    "Windows 32-bit Portable":  "http://tomeko.net/software/JSONedit/bin/JSONedit_0_9_34.zip"
+                },
+                "Version":                      "0.9.34"
+            },
+            {
                 "Date":                         "2019-10-30",
                 "Downloads Platform": {
                     "Windows 32-bit Portable":  "http://tomeko.net/software/JSONedit/bin/JSONedit_0_9_33.zip"
@@ -2570,6 +2954,38 @@
                 },
                 "Versions": [
                     {
+                        "Date":                 "2020-11-11",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.17/win32-packages/mariadb-10.4.17-win32.zip",
+                            "Windows 64-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.17/winx64-packages/mariadb-10.4.17-winx64.zip"
+                        },
+                        "Version":              "10.4.17"
+                    },
+                    {
+                        "Date":                 "2020-11-04",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.16/win32-packages/mariadb-10.4.16-win32.zip",
+                            "Windows 64-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.16/winx64-packages/mariadb-10.4.16-winx64.zip"
+                        },
+                        "Version":              "10.4.16"
+                    },
+                    {
+                        "Date":                 "2020-10-07",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.15/win32-packages/mariadb-10.4.15-win32.zip",
+                            "Windows 64-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.15/winx64-packages/mariadb-10.4.15-winx64.zip"
+                        },
+                        "Version":              "10.4.15"
+                    },
+                    {
+                        "Date":                 "2020-08-10",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.14/win32-packages/mariadb-10.4.14-win32.zip",
+                            "Windows 64-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.14/winx64-packages/mariadb-10.4.14-winx64.zip"
+                        },
+                        "Version":              "10.4.14"
+                    },
+                    {
                         "Date":                 "2020-05-12",
                         "Downloads Platform": {
                             "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.4.13/win32-packages/mariadb-10.4.13-win32.zip",
@@ -2626,6 +3042,60 @@
                         "Version":              "10.4.6"
                     }
                 ]
+            },
+            "10.5.x": {
+                "Platform": {
+                    "Windows 32-bit": "Downloads Platform",
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases":     "https://downloads.mariadb.org/mariadb/+releases/",
+                "Status":       "Active support",
+                "Support Policy": {
+                    "First Date":   "2020-06-24",
+                    "Final Date":   "2025-06-24"
+                },
+                "Versions": [
+                    {
+                        "Date":                 "2020-11-11",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.5.8/win32-packages/mariadb-10.5.8-win32.zip",
+                            "Windows 64-bit":   "http://mariadb.petarmaric.com//mariadb-10.5.8/winx64-packages/mariadb-10.5.8-winx64.zip"
+                        },
+                        "Version":              "10.5.8"
+                    },
+                    {
+                        "Date":                 "2020-11-04",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.5.7/win32-packages/mariadb-10.5.7-win32.zip",
+                            "Windows 64-bit":   "http://mariadb.petarmaric.com//mariadb-10.5.7/winx64-packages/mariadb-10.5.7-winx64.zip"
+                        },
+                        "Version":              "10.5.7"
+                    },
+                    {
+                        "Date":                 "2020-10-07",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.5.6/win32-packages/mariadb-10.5.6-win32.zip",
+                            "Windows 64-bit":   "http://mariadb.petarmaric.com//mariadb-10.5.6/winx64-packages/mariadb-10.5.6-winx64.zip"
+                        },
+                        "Version":              "10.5.6"
+                    },
+                    {
+                        "Date":                 "2020-08-10",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.5.5/win32-packages/mariadb-10.5.5-win32.zip",
+                            "Windows 64-bit":   "http://mariadb.petarmaric.com//mariadb-10.5.5/winx64-packages/mariadb-10.5.5-winx64.zip"
+                        },
+                        "Version":              "10.5.5"
+                    },
+                    {
+                        "Date":                 "2020-06-24",
+                        "Downloads Platform": {
+                            "Windows 32-bit":   "http://mariadb.petarmaric.com//mariadb-10.5.4/win32-packages/mariadb-10.5.4-win32.zip",
+                            "Windows 64-bit":   "http://mariadb.petarmaric.com//mariadb-10.5.4/winx64-packages/mariadb-10.5.4-winx64.zip"
+                        },
+                        "Version":              "10.5.4"
+                    }
+                ]
             }
         },
         "Description":  "One of the most popular database servers. Made by the original developers of MySQL. Guaranteed to stay open source.",
@@ -2633,9 +3103,9 @@
         "Type":         "Database Management System (DBMS)",
         "Website":      "https://mariadb.org/"
     },
-    "microsoft_.net_core": {
+    "microsoft_.net": {
         "Branches": {
-            "1.0.x": {
+            "Core 1.0.x": {
                 "Platform": {
                     "Windows 32-bit Develop": "Downloads Platform",
                     "Windows 32-bit Runtime": "Downloads Platform",
@@ -2717,7 +3187,7 @@
                     }
                 ]
             },
-            "1.1.x": {
+            "Core 1.1.x": {
                 "Platform": {
                     "Windows 32-bit Develop": "Downloads Platform",
                     "Windows 32-bit Runtime": "Downloads Platform",
@@ -2807,7 +3277,7 @@
                     }
                 ]
             },
-            "2.0.x": {
+            "Core 2.0.x": {
                 "Platform": {
                     "Windows 32-bit Develop": "Downloads Platform",
                     "Windows 32-bit Runtime": "Downloads Platform",
@@ -2899,7 +3369,7 @@
                     }
                 ]
             },
-            "2.1.x": {
+            "Core 2.1.x": {
                 "Platform": {
                     "Windows 32-bit Develop": "Downloads Platform",
                     "Windows 32-bit Runtime": "Downloads Platform",
@@ -3001,7 +3471,7 @@
                     }
                 ]
             },
-            "2.2.x": {
+            "Core 2.2.x": {
                 "Platform": {
                     "Windows 32-bit Develop": "Downloads Platform",
                     "Windows 32-bit Runtime": "Downloads Platform",
@@ -3063,7 +3533,7 @@
                     }
                 ]
             },
-            "3.0.x": {
+            "Core 3.0.x": {
                 "Platform": {
                     "Windows 32-bit Develop":           "Downloads Platform",
                     "Windows 32-bit Runtime":           "Downloads Platform",
@@ -3115,13 +3585,25 @@
                     }
                 ]
             },
-            "3.1.x": {
+            "Core 3.1.x": {
                 "Platform": {
                     "Linux/MacOS/Windows":              "https://dotnet.microsoft.com/download/dotnet-core/3.1"
                 },
                 "Releases":                             "https://www.microsoft.com/net/download/dotnet-core/3.1",
                 "Status":                               "Active support",
                 "Versions": [
+                    {
+                        "Date":                         "2020-08-11",
+                        "Version":                      "3.1.7"
+                    },
+                    {
+                        "Date":                         "2020-07-14",
+                        "Version":                      "3.1.6"
+                    },
+                    {
+                        "Date":                         "2020-06-09",
+                        "Version":                      "3.1.5"
+                    },
                     {
                         "Date":                         "2020-05-29",
                         "Version":                      "3.1.4"
@@ -3167,6 +3649,138 @@
                         "Version":                      "3.1.0"
                     }
                 ]
+            },
+            "Framework": {
+                "Platform": {
+                    "Windows Develop": "Downloads Platform",
+                    "Windows Runtime": "Downloads Platform"
+                },
+                "Releases":                             "https://en.wikipedia.org/wiki/.NET_Framework_version_history",
+                "Status":                               "Security support",
+                "Versions": [
+                    {
+                        "Date": "2019-04-18",
+                        "Downloads Platform": {
+                            "Windows Develop": "https://dotnet.microsoft.com/download/thank-you/net48-developer-pack",
+                            "Windows Runtime": "https://dotnet.microsoft.com/download/thank-you/net48-offline"
+                        },
+                        "Version": "4.8.0",
+                        "Version CLR": "4"
+                    },
+                    {
+                        "Date": "2018-04-30",
+                        "Downloads Platform": {
+                            "Windows Develop": "https://www.microsoft.com/net/download/thank-you/net472-developer-pack",
+                            "Windows Runtime": "https://www.microsoft.com/net/download/thank-you/net472-offline"
+                        },
+                        "Version": "4.7.2",
+                        "Version CLR": "4"
+                    },
+                    {
+                        "Date": "2017-10-17",
+                        "Downloads Platform": {
+                            "Windows Develop": "https://www.microsoft.com/net/download/thank-you/net471-developer-pack",
+                            "Windows Runtime": "https://www.microsoft.com/net/download/thank-you/net471"
+                        },
+                        "Version": "4.7.1",
+                        "Version CLR": "4"
+                    },
+                    {
+                        "Date": "2017-04-05",
+                        "Downloads Platform": {
+                            "Windows Develop": "https://www.microsoft.com/net/download/thank-you/net47-developer-pack",
+                            "Windows Runtime": "https://www.microsoft.com/net/download/thank-you/net47"
+                        },
+                        "Version": "4.7",
+                        "Version CLR": "4"
+                    },
+                    {
+                        "Date": "2016-08-02",
+                        "Downloads Platform": {
+                            "Windows Develop": "https://www.microsoft.com/net/download/thank-you/net462-developer-pack",
+                            "Windows Runtime": "https://www.microsoft.com/net/download/thank-you/net462"
+                        },
+                        "Version": "4.6.2",
+                        "Version CLR": "4"
+                    },
+                    {
+                        "Date": "2015-11-30",
+                        "Downloads Platform": {
+                            "Windows Develop": "https://www.microsoft.com/net/download/thank-you/net461-developer-pack",
+                            "Windows Runtime": "https://www.microsoft.com/net/download/thank-you/net461"
+                        },
+                        "Version": "4.6.1",
+                        "Version CLR": "4"
+                    },
+                    {
+                        "Date": "2015-07-20",
+                        "Downloads Platform": {
+                            "Windows Develop": "https://www.microsoft.com/net/download/thank-you/net46-developer-pack",
+                            "Windows Runtime": "https://www.microsoft.com/net/download/thank-you/net46"
+                        },
+                        "Version": "4.6",
+                        "Version CLR": "4"
+                    },
+                    {
+                        "Date": "2014-05-05",
+                        "Downloads Platform": {
+                            "Windows Develop": "https://www.microsoft.com/net/download/thank-you/net452-developer-pack",
+                            "Windows Runtime": "https://www.microsoft.com/net/download/thank-you/net452"
+                        },
+                        "Version": "4.5.2",
+                        "Version CLR": "4"
+                    },
+                    {
+                        "Date": "2013-10-17",
+                        "Date End Of Support": "2016-01-12",
+                        "Version": "4.5.1",
+                        "Version CLR": "4"
+                    },
+                    {
+                        "Date": "2012-08-15",
+                        "Date End Of Support": "2016-01-12",
+                        "Version": "4.5",
+                        "Version CLR": "4"
+                    },
+                    {
+                        "Date": "2010-04-12",
+                        "Date End Of Support": "2016-01-12",
+                        "Version": "4.0",
+                        "Version CLR": "4"
+                    },
+                    {
+                        "Date": "2007-11-19",
+                        "Downloads Platform": {
+                            "Windows Runtime": "https://www.microsoft.com/net/download/thank-you/net35-sp1"
+                        },
+                        "Version": "3.5",
+                        "Version CLR": "2.0"
+                    },
+                    {
+                        "Date": "2006-11-06",
+                        "Date End Of Support": "2011-07-12",
+                        "Version": "3.0",
+                        "Version CLR": "2.0"
+                    },
+                    {
+                        "Date": "2005-11-07",
+                        "Date End Of Support": "2011-07-12",
+                        "Version": "2.0",
+                        "Version CLR": "2.0"
+                    },
+                    {
+                        "Date": "2003-04-24",
+                        "Date End Of Support": "2015-06-14",
+                        "Version": "1.1",
+                        "Version CLR": "1.1"
+                    },
+                    {
+                        "Date": "2002-02-13",
+                        "Date End Of Support": "2009-07-14",
+                        "Version": "1.0",
+                        "Version CLR": "1.0"
+                    }
+                ]
             }
         },
         "Description": "Free. Cross-platform. Open source. A developer platform for building all your apps.",
@@ -3174,144 +3788,104 @@
         "Type": "Software Framework",
         "Website": "https://www.microsoft.com/net"
     },
-    "microsoft_.net_framework": {
-        "Description": ".NET Framework is a Windows-only version of .NET for building any type of app that runs on Windows.",
-        "Name": "Microsoft .NET Framework",
-        "Platform": {
-            "Windows Develop": "Downloads Platform",
-            "Windows Runtime": "Downloads Platform"
-        },
-        "Releases": "https://en.wikipedia.org/wiki/.NET_Framework_version_history",
-        "Type": "Software Framework",
-        "Versions": [
-            {
-                "Date": "2019-04-18",
-                "Downloads Platform": {
-                    "Windows Develop": "https://dotnet.microsoft.com/download/thank-you/net48-developer-pack",
-                    "Windows Runtime": "https://dotnet.microsoft.com/download/thank-you/net48-offline"
-                },
-                "Version": "4.8.0",
-                "Version CLR": "4"
-            },
-            {
-                "Date": "2018-04-30",
-                "Downloads Platform": {
-                    "Windows Develop": "https://www.microsoft.com/net/download/thank-you/net472-developer-pack",
-                    "Windows Runtime": "https://www.microsoft.com/net/download/thank-you/net472-offline"
-                },
-                "Version": "4.7.2",
-                "Version CLR": "4"
-            },
-            {
-                "Date": "2017-10-17",
-                "Downloads Platform": {
-                    "Windows Develop": "https://www.microsoft.com/net/download/thank-you/net471-developer-pack",
-                    "Windows Runtime": "https://www.microsoft.com/net/download/thank-you/net471"
-                },
-                "Version": "4.7.1",
-                "Version CLR": "4"
-            },
-            {
-                "Date": "2017-04-05",
-                "Downloads Platform": {
-                    "Windows Develop": "https://www.microsoft.com/net/download/thank-you/net47-developer-pack",
-                    "Windows Runtime": "https://www.microsoft.com/net/download/thank-you/net47"
-                },
-                "Version": "4.7",
-                "Version CLR": "4"
-            },
-            {
-                "Date": "2016-08-02",
-                "Downloads Platform": {
-                    "Windows Develop": "https://www.microsoft.com/net/download/thank-you/net462-developer-pack",
-                    "Windows Runtime": "https://www.microsoft.com/net/download/thank-you/net462"
-                },
-                "Version": "4.6.2",
-                "Version CLR": "4"
-            },
-            {
-                "Date": "2015-11-30",
-                "Downloads Platform": {
-                    "Windows Develop": "https://www.microsoft.com/net/download/thank-you/net461-developer-pack",
-                    "Windows Runtime": "https://www.microsoft.com/net/download/thank-you/net461"
-                },
-                "Version": "4.6.1",
-                "Version CLR": "4"
-            },
-            {
-                "Date": "2015-07-20",
-                "Downloads Platform": {
-                    "Windows Develop": "https://www.microsoft.com/net/download/thank-you/net46-developer-pack",
-                    "Windows Runtime": "https://www.microsoft.com/net/download/thank-you/net46"
-                },
-                "Version": "4.6",
-                "Version CLR": "4"
-            },
-            {
-                "Date": "2014-05-05",
-                "Downloads Platform": {
-                    "Windows Develop": "https://www.microsoft.com/net/download/thank-you/net452-developer-pack",
-                    "Windows Runtime": "https://www.microsoft.com/net/download/thank-you/net452"
-                },
-                "Version": "4.5.2",
-                "Version CLR": "4"
-            },
-            {
-                "Date": "2013-10-17",
-                "Date End Of Support": "2016-01-12",
-                "Version": "4.5.1",
-                "Version CLR": "4"
-            },
-            {
-                "Date": "2012-08-15",
-                "Date End Of Support": "2016-01-12",
-                "Version": "4.5",
-                "Version CLR": "4"
-            },
-            {
-                "Date": "2010-04-12",
-                "Date End Of Support": "2016-01-12",
-                "Version": "4.0",
-                "Version CLR": "4"
-            },
-            {
-                "Date": "2007-11-19",
-                "Downloads Platform": {
-                    "Windows Runtime": "https://www.microsoft.com/net/download/thank-you/net35-sp1"
-                },
-                "Version": "3.5",
-                "Version CLR": "2.0"
-            },
-            {
-                "Date": "2006-11-06",
-                "Date End Of Support": "2011-07-12",
-                "Version": "3.0",
-                "Version CLR": "2.0"
-            },
-            {
-                "Date": "2005-11-07",
-                "Date End Of Support": "2011-07-12",
-                "Version": "2.0",
-                "Version CLR": "2.0"
-            },
-            {
-                "Date": "2003-04-24",
-                "Date End Of Support": "2015-06-14",
-                "Version": "1.1",
-                "Version CLR": "1.1"
-            },
-            {
-                "Date": "2002-02-13",
-                "Date End Of Support": "2009-07-14",
-                "Version": "1.0",
-                "Version CLR": "1.0"
-            }
-        ],
-        "Website": "https://www.microsoft.com/net"
-    },
-    "microsoft_sql_odbc_driver": {
+    "microsoft_sql": {
         "Branches": {
-            "v. 13.1.x": {
+            "Management Studio": {
+                "Description": "Microsoft SQL Server Management Studio provides a graphic user interface to allow user interaction with server",
+                "Platform": {
+                    "Windows 64-bit": "Downloads Platform"
+                },
+                "Releases": "https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-changelog-ssms?view=sql-server-2017",
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date":                 "2020-10-27",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://aka.ms/ssmsfullsetup"
+                        },
+                        "Version":              "18.7.1 build 15.0.18358.0"
+                    },
+                    {
+                        "Date":                 "2020-10-20",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://aka.ms/ssmsfullsetup"
+                        },
+                        "Version":              "18.7 build 15.0.18357.0"
+                    },
+                    {
+                        "Date":                 "2020-07-22",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://aka.ms/ssmsfullsetup"
+                        },
+                        "Version":              "18.6 build 15.0.18338.0"
+                    },
+                    {
+                        "Date":                 "2020-04-07",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://aka.ms/ssmsfullsetup"
+                        },
+                        "Version":              "18.5 build 15.0.18330.0"
+                    },
+                    {
+                        "Date":                 "2019-11-04",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://aka.ms/ssmsfullsetup"
+                        },
+                        "Version":              "18.4 build 15.0.18206.0"
+                    },
+                    {
+                        "Date":                 "2019-10-02",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://go.microsoft.com/fwlink/?linkid=2105412"
+                        },
+                        "Version":              "18.3.1 build 15.0.18183.0"
+                    },
+                    {
+                        "Date":                 "2019-09-23",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://go.microsoft.com/fwlink/?linkid=2104251"
+                        },
+                        "Version":              "18.3.0 build 15.0.18178.0"
+                    },
+                    {
+                        "Date": "2019-07-25",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://go.microsoft.com/fwlink/?linkid=2099720"
+                        },
+                        "Version": "18.2.0 build 15.0.18142.0"
+                    },
+                    {
+                        "Date": "2019-06-11",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://go.microsoft.com/fwlink/?linkid=2094583"
+                        },
+                        "Version": "18.1.0 build 15.0.18131.0"
+                    },
+                    {
+                        "Date": "2019-04-24",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://go.microsoft.com/fwlink/?linkid=2088649"
+                        },
+                        "Version": "18.0.0 build 15.0.18118.0"
+                    },
+                    {
+                        "Date": "2018-11-21",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://go.microsoft.com/fwlink/?linkid=2043154"
+                        },
+                        "Version": "17.9.1 build 14.0.17289.0"
+                    },
+                    {
+                        "Date": "2018-09-04",
+                        "Downloads Platform": {
+                            "Windows 64-bit": "https://go.microsoft.com/fwlink/?linkid=2014306"
+                        },
+                        "Version": "17.9 build 14.0.17285.0"
+                    }
+                ]
+            },
+            "ODBC Driver v. 13.1.x": {
+                "Description": "The Microsoft ODBC Drivers for SQL Server are stand-alone ODBC drivers which provide an application programming interface (API) implementing the standard ODBC interfaces to Microsoft SQL Server.",
                 "Platform": {
                     "Windows 32-bit": "https://www.microsoft.com/en-us/download/details.aspx?id=53339",
                     "Windows 64-bit": "https://www.microsoft.com/en-us/download/details.aspx?id=53339"
@@ -3325,7 +3899,8 @@
                     }
                 ]
             },
-            "v. 17.x": {
+            "ODBC Driver v. 17.x": {
+                "Description": "The Microsoft ODBC Drivers for SQL Server are stand-alone ODBC drivers which provide an application programming interface (API) implementing the standard ODBC interfaces to Microsoft SQL Server.",
                 "Platform": {
                     "Windows 32-bit": "https://www.microsoft.com/en-us/download/details.aspx?id=56567",
                     "Windows 64-bit": "https://www.microsoft.com/en-us/download/details.aspx?id=56567"
@@ -3333,6 +3908,10 @@
                 "Releases": "https://docs.microsoft.com/en-us/sql/connect/odbc/windows/release-notes-odbc-sql-server-windows?view=sql-server-2016",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2020-07-31",
+                        "Version":  "17.6.1.1"
+                    },
                     {
                         "Date":     "2020-03-06",
                         "Version":  "17.5.2.1"
@@ -3360,85 +3939,10 @@
                 ]
             }
         },
-        "Description": "The Microsoft ODBC Drivers for SQL Server are stand-alone ODBC drivers which provide an application programming interface (API) implementing the standard ODBC interfaces to Microsoft SQL Server.",
-        "Name": "Microsoft ODBC Driver for SQL Server",
+        "Description": "The Microsoft SQL Server",
+        "Name": "Microsoft SQL Server",
         "Type": "Driver",
         "Website": "https://docs.microsoft.com/en-us/sql/connect/odbc/windows/microsoft-odbc-driver-for-sql-server-on-windows?view=sql-server-2016"
-    },
-    "microsoft_sql_server_management_studio": {
-        "Description": "SQL Server Management Studio",
-        "Name": "Microsoft SQL Server Management Studio",
-        "Platform": {
-            "Windows 64-bit": "Downloads Platform"
-        },
-        "Releases": "https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-changelog-ssms?view=sql-server-2017",
-        "Type": "Database Management Tool",
-        "Versions": [
-            {
-                "Date":                 "2020-04-07",
-                "Downloads Platform": {
-                    "Windows 64-bit":   "https://aka.ms/ssmsfullsetup"
-                },
-                "Version":              "18.5 build 15.0.18330.0"
-            },
-            {
-                "Date":                 "2019-11-04",
-                "Downloads Platform": {
-                    "Windows 64-bit":   "https://aka.ms/ssmsfullsetup"
-                },
-                "Version":              "18.4 build 15.0.18206.0"
-            },
-            {
-                "Date":                 "2019-10-02",
-                "Downloads Platform": {
-                    "Windows 64-bit":   "https://go.microsoft.com/fwlink/?linkid=2105412"
-                },
-                "Version":              "18.3.1 build 15.0.18183.0"
-            },
-            {
-                "Date":                 "2019-09-23",
-                "Downloads Platform": {
-                    "Windows 64-bit":   "https://go.microsoft.com/fwlink/?linkid=2104251"
-                },
-                "Version":              "18.3.0 build 15.0.18178.0"
-            },
-            {
-                "Date": "2019-07-25",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://go.microsoft.com/fwlink/?linkid=2099720"
-                },
-                "Version": "18.2.0 build 15.0.18142.0"
-            },
-            {
-                "Date": "2019-06-11",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://go.microsoft.com/fwlink/?linkid=2094583"
-                },
-                "Version": "18.1.0 build 15.0.18131.0"
-            },
-            {
-                "Date": "2019-04-24",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://go.microsoft.com/fwlink/?linkid=2088649"
-                },
-                "Version": "18.0.0 build 15.0.18118.0"
-            },
-            {
-                "Date": "2018-11-21",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://go.microsoft.com/fwlink/?linkid=2043154"
-                },
-                "Version": "17.9.1 build 14.0.17289.0"
-            },
-            {
-                "Date": "2018-09-04",
-                "Downloads Platform": {
-                    "Windows 64-bit": "https://go.microsoft.com/fwlink/?linkid=2014306"
-                },
-                "Version": "17.9 build 14.0.17285.0"
-            }
-        ],
-        "Website": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017"
     },
     "microsoft_visio": {
         "Description": "Diagramming and vector graphics application",
@@ -3450,6 +3954,14 @@
         "Releases": "https://products.office.com/en/visio/",
         "Type": "Diagramming",
         "Versions": [
+            {
+                "Date": "2019-02-06",
+                "Downloads Platform": {
+                    "Windows 32-bit": "#",
+                    "Windows 64-bit": "#"
+                },
+                "Version": "2019"
+            },
             {
                 "Date": "2019-02-06",
                 "Downloads Platform": {
@@ -3474,7 +3986,143 @@
         "Type": "Developement IDE",
         "Versions": [
             {
-                "Date":                 "2020-05-14",
+                "Date":                 "2020-11-11",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.51.1/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.51.1/win32-x64-user/stable"
+                },
+                "Version":              "1.51.1"
+            },
+            {
+                "Date":                 "2020-11-06",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.51.0/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.51.0/win32-x64-user/stable"
+                },
+                "Version":              "1.51.0"
+            },
+            {
+                "Date":                 "2020-10-15",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.50.1/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.50.1/win32-x64-user/stable"
+                },
+                "Version":              "1.50.1"
+            },
+            {
+                "Date":                 "2020-10-08",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.50.0/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.50.0/win32-x64-user/stable"
+                },
+                "Version":              "1.50.0"
+            },
+            {
+                "Date":                 "2020-10-02",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.49.3/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.49.3/win32-x64-user/stable"
+                },
+                "Version":              "1.49.3"
+            },
+            {
+                "Date":                 "2020-09-25",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.49.2/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.49.2/win32-x64-user/stable"
+                },
+                "Version":              "1.49.2"
+            },
+            {
+                "Date":                 "2020-09-18",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.49.1/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.49.1/win32-x64-user/stable"
+                },
+                "Version":              "1.49.1"
+            },
+            {
+                "Date":                 "2020-09-10",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.49.0/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.49.0/win32-x64-user/stable"
+                },
+                "Version":              "1.49.0"
+            },
+            {
+                "Date":                 "2020-08-25",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.48.2/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.48.2/win32-x64-user/stable"
+                },
+                "Version":              "1.48.2"
+            },
+            {
+                "Date":                 "2020-08-20",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.48.1/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.48.1/win32-x64-user/stable"
+                },
+                "Version":              "1.48.1"
+            },
+            {
+                "Date":                 "2020-08-13",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.48.0/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.48.0/win32-x64-user/stable"
+                },
+                "Version":              "1.48.0"
+            },
+            {
+                "Date":                 "2020-07-27",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.47.3/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.47.3/win32-x64-user/stable"
+                },
+                "Version":              "1.47.3"
+            },
+            {
+                "Date":                 "2020-07-17",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.47.2/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.47.2/win32-x64-user/stable"
+                },
+                "Version":              "1.47.2"
+            },
+            {
+                "Date":                 "2020-07-14",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.47.1/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.47.1/win32-x64-user/stable"
+                },
+                "Version":              "1.47.1"
+            },
+            {
+                "Date":                 "2020-07-09",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.47.0/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.47.0/win32-x64-user/stable"
+                },
+                "Version":              "1.47.0"
+            },
+            {
+                "Date":                 "2020-06-18",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.46.1/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.46.1/win32-x64-user/stable"
+                },
+                "Version":              "1.46.1"
+            },
+            {
+                "Date":                 "2020-06-10",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.46.0/win32-user/stable",
+                    "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.46.0/win32-x64-user/stable"
+                },
+                "Version":              "1.46.0"
+            },
+            {
+                "Date":                 "2020-06-05",
                 "Downloads Platform": {
                     "Windows 32-bit":   "https://vscode-update.azurewebsites.net/1.45.1/win32-user/stable",
                     "Windows 64-bit":   "https://vscode-update.azurewebsites.net/1.45.1/win32-x64-user/stable"
@@ -3854,6 +4502,30 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":     "2020-11-19",
+                        "Version":  "15.9.29"
+                    },
+                    {
+                        "Date":     "2020-10-13",
+                        "Version":  "15.9.28"
+                    },
+                    {
+                        "Date":     "2020-09-08",
+                        "Version":  "15.9.27"
+                    },
+                    {
+                        "Date":     "2020-08-11",
+                        "Version":  "15.9.26"
+                    },
+                    {
+                        "Date":     "2020-07-14",
+                        "Version":  "15.9.25"
+                    },
+                    {
+                        "Date":     "2020-06-09",
+                        "Version":  "15.9.24"
+                    },
+                    {
                         "Date":     "2020-05-12",
                         "Version":  "15.9.23"
                     },
@@ -3998,6 +4670,62 @@
                 "Releases": "https://docs.microsoft.com/visualstudio/releases/2019/release-notes",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":     "2020-11-10",
+                        "Version":  "16.8.0"
+                    },
+                    {
+                        "Date":     "2020-11-10",
+                        "Version":  "16.7.8"
+                    },
+                    {
+                        "Date":     "2020-10-27",
+                        "Version":  "16.7.7"
+                    },
+                    {
+                        "Date":     "2020-10-13",
+                        "Version":  "16.7.6"
+                    },
+                    {
+                        "Date":     "2020-09-29",
+                        "Version":  "16.7.5"
+                    },
+                    {
+                        "Date":     "2020-09-21",
+                        "Version":  "16.7.4"
+                    },
+                    {
+                        "Date":     "2020-09-08",
+                        "Version":  "16.7.3"
+                    },
+                    {
+                        "Date":     "2020-08-18",
+                        "Version":  "16.7.2"
+                    },
+                    {
+                        "Date":     "2020-08-11",
+                        "Version":  "16.7.1"
+                    },
+                    {
+                        "Date":     "2020-08-05",
+                        "Version":  "16.7.0"
+                    },
+                    {
+                        "Date":     "2020-07-14",
+                        "Version":  "16.6.4"
+                    },
+                    {
+                        "Date":     "2020-06-30",
+                        "Version":  "16.6.3"
+                    },
+                    {
+                        "Date":     "2020-06-09",
+                        "Version":  "16.6.2"
+                    },
+                    {
+                        "Date":     "2020-06-01",
+                        "Version":  "16.6.1"
+                    },
                     {
                         "Date":     "2020-05-19",
                         "Version":  "16.6.0"
@@ -4230,8 +4958,12 @@
                 "Status": "Active support",
                 "Versions": [
                     {
-                        "Date":     "2020-03-16",
-                        "Version":  "14.25.28508.3"
+                        "Date":     "2020-10-02",
+                        "Version":  "14.27.29112.0"
+                    },
+                    {
+                        "Date":     "2020-07-20",
+                        "Version":  "14.26.28720.3"
                     },
                     {
                         "Date":     "2019-10-04",
@@ -4272,6 +5004,134 @@
         "Releases": "https://wiki.mozilla.org/Release_Management/Calendar",
         "Type": "Internet Browser",
         "Versions": [
+            {
+                "Date":                 "2020-11-09",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/82.0.3/win32-EME-free/en-US/Firefox%20Setup%2082.0.3.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/82.0.3/win64-EME-free/en-US/Firefox%20Setup%2082.0.3.exe"
+                },
+                "Version":              "82.0.3"
+            },
+            {
+                "Date":                 "2020-10-28",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/82.0.2/win32-EME-free/en-US/Firefox%20Setup%2082.0.2.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/82.0.2/win64-EME-free/en-US/Firefox%20Setup%2082.0.2.exe"
+                },
+                "Version":              "82.0.2"
+            },
+            {
+                "Date":                 "2020-10-27",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/82.0.1/win32-EME-free/en-US/Firefox%20Setup%2082.0.1.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/82.0.1/win64-EME-free/en-US/Firefox%20Setup%2082.0.1.exe"
+                },
+                "Version":              "82.0.1"
+            },
+            {
+                "Date":                 "2020-10-19",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/82.0/win32-EME-free/en-US/Firefox%20Setup%2082.0.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/82.0/win64-EME-free/en-US/Firefox%20Setup%2082.0.exe"
+                },
+                "Version":              "82.0.0"
+            },
+            {
+                "Date":                 "2020-10-12",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/81.0.2/win32-EME-free/en-US/Firefox%20Setup%2081.0.2.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/81.0.2/win64-EME-free/en-US/Firefox%20Setup%2081.0.2.exe"
+                },
+                "Version":              "81.0.2"
+            },
+            {
+                "Date":                 "2020-09-30",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/81.0.1/win32-EME-free/en-US/Firefox%20Setup%2081.0.1.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/81.0.1/win64-EME-free/en-US/Firefox%20Setup%2081.0.1.exe"
+                },
+                "Version":              "81.0.1"
+            },
+            {
+                "Date":                 "2020-09-21",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/81.0/win32-EME-free/en-US/Firefox%20Setup%2081.0.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/81.0/win64-EME-free/en-US/Firefox%20Setup%2081.0.exe"
+                },
+                "Version":              "81.0.0"
+            },
+            {
+                "Date":                 "2020-09-21",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/81.0/win32-EME-free/en-US/Firefox%20Setup%2081.0.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/81.0/win64-EME-free/en-US/Firefox%20Setup%2081.0.exe"
+                },
+                "Version":              "81.0.0"
+            },
+            {
+                "Date":                 "2020-08-31",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/80.0.1/win32-EME-free/en-US/Firefox%20Setup%2080.0.1.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/80.0.1/win64-EME-free/en-US/Firefox%20Setup%2080.0.1.exe"
+                },
+                "Version":              "80.0.1"
+            },
+            {
+                "Date":                 "2020-08-24",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/80.0/win32-EME-free/en-US/Firefox%20Setup%2080.0.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/80.0/win64-EME-free/en-US/Firefox%20Setup%2080.0.exe"
+                },
+                "Version":              "80.0"
+            },
+            {
+                "Date":                 "2020-07-27",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/79.0/win32-EME-free/en-US/Firefox%20Setup%2079.0.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/79.0/win64-EME-free/en-US/Firefox%20Setup%2079.0.exe"
+                },
+                "Version":              "79.0"
+            },
+            {
+                "Date":                 "2020-07-09",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/78.0.2/win32-EME-free/en-US/Firefox%20Setup%2078.0.2.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/78.0.2/win64-EME-free/en-US/Firefox%20Setup%2078.0.2.exe"
+                },
+                "Version":              "78.0.2"
+            },
+            {
+                "Date":                 "2020-07-01",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/78.0.1/win32-EME-free/en-US/Firefox%20Setup%2078.0.1.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/78.0.1/win64-EME-free/en-US/Firefox%20Setup%2078.0.1.exe"
+                },
+                "Version":              "78.0.1"
+            },
+            {
+                "Date":                 "2020-06-29",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/78.0/win32-EME-free/en-US/Firefox%20Setup%2078.0.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/78.0/win64-EME-free/en-US/Firefox%20Setup%2078.0.exe"
+                },
+                "Version":              "78.0"
+            },
+            {
+                "Date":                 "2020-06-03",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/77.0.1/win32-EME-free/en-US/Firefox%20Setup%2077.0.1.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/77.0.1/win64-EME-free/en-US/Firefox%20Setup%2077.0.1.exe"
+                },
+                "Version":              "77.0.1"
+            },
+            {
+                "Date":                 "2020-06-01",
+                "Downloads Platform": {
+                    "Windows 32-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/77.0/win32-EME-free/en-US/Firefox%20Setup%2077.0.exe",
+                    "Windows 64-bit":   "https://download-installer.cdn.mozilla.net/pub/firefox/releases/77.0/win64-EME-free/en-US/Firefox%20Setup%2077.0.exe"
+                },
+                "Version":              "77.0"
+            },
             {
                 "Date":                 "2020-05-08",
                 "Downloads Platform": {
@@ -4547,9 +5407,9 @@
         ],
         "Website": "https://www.mozilla.org/en-US/firefox/"
     },
-    "mysql_server_community": {
+    "mysql": {
         "Branches": {
-            "5.6.x": {
+            "Server Community Edition 5.6.x": {
                 "Platform": {
                     "Windows 32-bit": "Downloads Platform",
                     "Windows 64-bit": "Downloads Platform"
@@ -4623,7 +5483,7 @@
                     }
                 ]
             },
-            "5.7.x": {
+            "Server Community Edition 5.7.x": {
                 "Platform": {
                     "Windows 32-bit": "Downloads Platform",
                     "Windows 64-bit": "Downloads Platform"
@@ -4705,13 +5565,27 @@
                     }
                 ]
             },
-            "8.0.x": {
+            "Server Community Edition 8.0.x": {
                 "Platform": {
                     "Windows 64-bit": "Downloads Platform"
                 },
                 "Releases": "https://dev.mysql.com/doc/relnotes/mysql/8.0/en/",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2020-10-19",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.22-winx64.zip"
+                        },
+                        "Version":              "8.0.22"
+                    },
+                    {
+                        "Date":                 "2020-07-13",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.21-winx64.zip"
+                        },
+                        "Version":              "8.0.21"
+                    },
                     {
                         "Date":                 "2020-04-27",
                         "Downloads Platform": {
@@ -4783,16 +5657,9 @@
                         "Version": "6.3.10"
                     }
                 ]
-            }
-        },
-        "Description":  "MySQL Community Edition is the freely downloadable version of the world's most popular open source database. It is available under the GPL license and is supported by a huge and active community of open source developers.",
-        "Name":         "MySQL Server Community Edition",
-        "Type":         "Database Management System (DBMS)",
-        "Website":      "https://www.mysql.com/products/community/"
-    },
-    "mysql_workbench": {
-        "Branches": {
-            "6.3.x": {
+            },
+            "Workbench 6.3.x": {
+                "Description": "MySQL Workbench provides DBAs and developers an integrated tools environment for [Database Design & Modeling] and [SQL Development] and [Database Administration] and [Database Migration]",
                 "Platform": {
                     "Windows 64-bit": "Downloads Platform"
                 },
@@ -4808,13 +5675,28 @@
                     }
                 ]
             },
-            "8.0.x": {
+            "Workbench 8.0.x": {
+                "Description": "MySQL Workbench provides DBAs and developers an integrated tools environment for [Database Design & Modeling] and [SQL Development] and [Database Administration] and [Database Migration]",
                 "Platform": {
                     "Windows 64-bit": "Downloads Platform"
                 },
                 "Releases": "https://dev.mysql.com/doc/relnotes/workbench/en/news-8-0.html",
                 "Status": "Active support",
                 "Versions": [
+                    {
+                        "Date":                 "2020-10-19",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.22-winx64.msi"
+                        },
+                        "Version":              "8.0.22"
+                    },
+                    {
+                        "Date":                 "2020-07-13",
+                        "Downloads Platform": {
+                            "Windows 64-bit":   "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.21-winx64.msi"
+                        },
+                        "Version":              "8.0.21"
+                    },
                     {
                         "Date":                 "2020-04-27",
                         "Downloads Platform": {
@@ -4881,10 +5763,10 @@
                 ]
             }
         },
-        "Description": "MySQL Workbench provides DBAs and developers an integrated tools environment for [Database Design & Modeling] and [SQL Development] and [Database Administration] and [Database Migration]",
-        "Name": "MySQL Workbench",
-        "Type": "Relational Database Management",
-        "Website": "https://dev.mysql.com/downloads/workbench/"
+        "Description":  "MySQL Community Edition is the freely downloadable version of the world's most popular open source database. It is available under the GPL license and is supported by a huge and active community of open source developers.",
+        "Name":         "MySQL",
+        "Type":         "Database Management System (DBMS)",
+        "Website":      "https://www.mysql.com/products/community/"
     },
     "netbeans": {
         "Description": "NetBeans is an integrated development environment (IDE) for Java. NetBeans allows applications to be developed from a set of modular software components called modules. NetBeans runs on Microsoft Windows, macOS, Linux and Solaris. In addition to Java development, it has extensions for other languages like PHP, C, C++, HTML5, and Javascript. Applications based on NetBeans, including the NetBeans IDE, can be extended by third party developers.",
@@ -4895,6 +5777,20 @@
         "Releases": "https://netbeans.apache.org/download/index.html",
         "Type": "IDE",
         "Versions": [
+            {
+                "Date":                         "2020-09-01",
+                "Downloads Platform": {
+                    "Windows 32-bit/64-bit":    "https://www.apache.org/dyn/closer.cgi/netbeans/netbeans/12.1/netbeans-12.1-bin.zip"
+                },
+                "Version":                      "12.1"
+            },
+            {
+                "Date":                         "2020-06-04",
+                "Downloads Platform": {
+                    "Windows 32-bit/64-bit":    "https://www.apache.org/dyn/closer.cgi/netbeans/netbeans/12.0/netbeans-12.0-bin.zip"
+                },
+                "Version":                      "12.0"
+            },
             {
                 "Date":                         "2020-02-24",
                 "Downloads Platform": {
@@ -4942,6 +5838,109 @@
     },
     "nodeJS": {
         "Branches": {
+            "Current 15.x": {
+                "Platform": {
+                    "Windows 32-bit":           "Downloads Platform",
+                    "Windows 32-bit Portable":  "Downloads Platform",
+                    "Windows 64-bit":           "Downloads Platform",
+                    "Windows 64-bit Portable":  "Downloads Platform"
+                },
+                "Releases": "https://github.com/nodejs/node/blob/master/doc/changelogs/",
+                "Status": "Active support",
+                "Versions": [
+                    {
+                        "Date":                         "2020-11-10",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v15.2.0/node-v15.2.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v15.2.0/node-v15.2.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v15.2.0/node-v15.2.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v15.2.0/node-v15.2.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "7.0.8"
+                        },
+                        "Version":                      "15.2.0"
+                    },
+                    {
+                        "Date":                         "2020-11-04",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v15.1.0/node-v15.1.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v15.1.0/node-v15.1.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v15.1.0/node-v15.1.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v15.1.0/node-v15.1.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "7.0.8"
+                        },
+                        "Version":                      "15.1.0"
+                    },
+                    {
+                        "Date":                         "2020-10-21",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v15.0.1/node-v15.0.1-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v15.0.1/node-v15.0.1-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v15.0.1/node-v15.0.1-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v15.0.1/node-v15.0.1-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "7.0.8"
+                        },
+                        "Version":                      "15.0.1"
+                    },
+                    {
+                        "Date":                         "2020-10-20",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v15.0.0/node-v15.0.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v15.0.0/node-v15.0.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v15.0.0/node-v15.0.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v15.0.0/node-v15.0.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "7.0.8"
+                        },
+                        "Version":                      "15.0.0"
+                    },
+                    {
+                        "Date":                         "2020-05-05",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v14.2.0/node-v14.2.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v14.2.0/node-v14.2.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v14.2.0/node-v14.2.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v14.2.0/node-v14.2.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "6.14.4"
+                        },
+                        "Version":                      "14.2.0"
+                    },
+                    {
+                        "Date":                         "2020-04-29",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v14.1.0/node-v14.1.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v14.1.0/node-v14.1.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v14.1.0/node-v14.1.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v14.1.0/node-v14.1.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "6.14.4"
+                        },
+                        "Version":                      "14.1.0"
+                    },
+                    {
+                        "Date":                         "2020-04-21",
+                        "Downloads Platform": {
+                            "Windows 32-bit":           "https://nodejs.org/dist/v14.0.0/node-v14.0.0-x86.msi",
+                            "Windows 32-bit Portable":  "https://nodejs.org/dist/v14.0.0/node-v14.0.0-win-x86.zip",
+                            "Windows 64-bit":           "https://nodejs.org/dist/v14.0.0/node-v14.0.0-x64.msi",
+                            "Windows 64-bit Portable":  "https://nodejs.org/dist/v14.0.0/node-v14.0.0-win-x64.zip"
+                        },
+                        "Includes": {
+                            "npm":                      "6.14.4"
+                        },
+                        "Version":                      "14.0.0"
+                    }
+                ]
+            },
             "Current 14.x": {
                 "Platform": {
                     "Windows 32-bit":           "Downloads Platform",
@@ -5953,6 +6952,56 @@
         "Type": "Advanced Text Editor",
         "Versions": [
             {
+                "Date":                         "2020-11-02",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://notepad-plus-plus.org/repository/7.x/7.9.1/npp.7.9.1.Installer.exe",
+                    "Windows 32-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.9.1/npp.7.9.1.bin.7z",
+                    "Windows 64-bit":           "https://notepad-plus-plus.org/repository/7.x/7.9.1/npp.7.9.1.Installer.x64.exe",
+                    "Windows 64-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.9.1/npp.7.9.1.bin.x64.7z"
+                },
+                "Version":                      "7.9.1"
+            },
+            {
+                "Date":                         "2020-09-28",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://notepad-plus-plus.org/repository/7.x/7.9/npp.7.9.Installer.exe",
+                    "Windows 32-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.9/npp.7.9.bin.7z",
+                    "Windows 64-bit":           "https://notepad-plus-plus.org/repository/7.x/7.9/npp.7.9.Installer.x64.exe",
+                    "Windows 64-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.9/npp.7.9.bin.x64.7z"
+                },
+                "Version":                      "7.9"
+            },
+            {
+                "Date":                         "2020-07-16",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.9/npp.7.8.9.Installer.exe",
+                    "Windows 32-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.8.9/npp.7.8.9.bin.7z",
+                    "Windows 64-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.9/npp.7.8.9.Installer.x64.exe",
+                    "Windows 64-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.8.9/npp.7.8.9.bin.x64.7z"
+                },
+                "Version":                      "7.8.9"
+            },
+            {
+                "Date":                         "2020-06-28",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.8/npp.7.8.8.Installer.exe",
+                    "Windows 32-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.8.8/npp.7.8.8.bin.7z",
+                    "Windows 64-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.8/npp.7.8.8.Installer.x64.exe",
+                    "Windows 64-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.8.8/npp.7.8.8.bin.x64.7z"
+                },
+                "Version":                      "7.8.8"
+            },
+            {
+                "Date":                         "2020-06-08",
+                "Downloads Platform": {
+                    "Windows 32-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.7/npp.7.8.7.Installer.exe",
+                    "Windows 32-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.8.7/npp.7.8.7.bin.7z",
+                    "Windows 64-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.7/npp.7.8.7.Installer.x64.exe",
+                    "Windows 64-bit Portable":  "https://notepad-plus-plus.org/repository/7.x/7.8.7/npp.7.8.7.bin.x64.7z"
+                },
+                "Version":                      "7.8.7"
+            },
+            {
                 "Date":                         "2020-04-20",
                 "Downloads Platform": {
                     "Windows 32-bit":           "https://notepad-plus-plus.org/repository/7.x/7.8.6/npp.7.8.6.Installer.exe",
@@ -6205,6 +7254,14 @@
                 "Releases": "https://github.com/openssl/openssl/releases",
                 "Status":   "Active Support",
                 "Versions": [
+                    {
+                        "Date":    "2020-09-29",
+                        "Downloads Platform": {
+                            "Windows 32-bit": "https://windows.php.net/downloads/php-sdk/deps/vs16/x86/openssl-1.1.1h-vs16-x86.zip",
+                            "Windows 64-bit": "https://windows.php.net/downloads/php-sdk/deps/vs16/x64/openssl-1.1.1h-vs16-x64.zip"
+                        },
+                        "Version": "1.1.1h"
+                    },
                     {
                         "Date":    "2020-04-21",
                         "Downloads Platform": {
@@ -7403,12 +8460,62 @@
                 "Status": "Active support",
                 "Versions": [
                     {
+                        "Date":                                     "2020-10-01",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.11-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.11-ts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.11-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.11-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.4.11"
+                    },
+                    {
+                        "Date":                                     "2020-09-03",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.10-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.10-ts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.10-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.10-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.4.10"
+                    },
+                    {
+                        "Date":                                     "2020-08-06",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.9-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.9-ts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.9-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.9-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.4.9"
+                    },
+                    {
+                        "Date":                                     "2020-07-09",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.8-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.8-ts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.8-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.8-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.4.8"
+                    },
+                    {
+                        "Date":                                     "2020-06-11",
+                        "Downloads Platform": {
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.7-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.7-ts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.7-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.7-nts-Win32-VC15-x64.zip"
+                        },
+                        "Version":                                  "7.4.7"
+                    },
+                    {
                         "Date":                                     "2020-05-14",
                         "Downloads Platform": {
-                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.6-nts-Win32-VC15-x86.zip",
-                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.6-ts-Win32-VC15-x86.zip",
-                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/php-7.4.6-nts-Win32-VC15-x64.zip",
-                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/php-7.4.6-nts-Win32-VC15-x64.zip"
+                            "Windows 32-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.6-nts-Win32-VC15-x86.zip",
+                            "Windows 32-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.6-ts-Win32-VC15-x86.zip",
+                            "Windows 64-bit: VC15 Non Thread Safe": "https://windows.php.net/downloads/releases/archives/php-7.4.6-nts-Win32-VC15-x64.zip",
+                            "Windows 64-bit: VC15 Thread Safe":     "https://windows.php.net/downloads/releases/archives/php-7.4.6-nts-Win32-VC15-x64.zip"
                         },
                         "Version":                                  "7.4.6"
                     },
